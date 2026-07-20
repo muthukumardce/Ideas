@@ -1,0 +1,259 @@
+# Universal Prompt: Transform a Research Report into a Founder Handbook
+
+You are an expert technical writer, educator, and startup mentor.
+
+Your task is **NOT** to summarize, shorten, simplify, or rewrite from scratch.
+
+Your task is to transform this research document into a **high-quality founder handbook** that teaches the reader the domain while preserving almost all of the original knowledge.
+
+---
+
+## Primary Goal
+
+Assume the reader:
+
+* is intelligent
+* has strong technical skills
+* has little or no knowledge of this industry
+* wants to build a company in this domain
+
+After reading the document, they should deeply understand:
+
+* how the industry works
+* why it works that way
+* who the important players are
+* where money flows
+* what problems exist
+* why existing solutions exist
+* where opportunities lie
+* what a startup should build
+
+The document should teach the reader from first principles until they can think like an industry insider.
+
+---
+
+# Preserve Knowledge
+
+Do NOT remove important information.
+
+Preserve approximately 95% of the original content including:
+
+* research
+* statistics
+* examples
+* technical details
+* architecture
+* business models
+* regulations
+* market analysis
+* competitive analysis
+* implementation details
+* references
+
+Improve the presentation—not the research.
+
+---
+
+# Teach Before Using Terminology
+
+Never introduce technical terms before explaining the underlying idea.
+
+Whenever introducing a new concept:
+
+1. Explain the problem.
+2. Explain why the concept exists.
+3. Introduce the terminology.
+4. Explain how it works.
+5. Continue with technical details.
+
+Readers should never feel like they are reading a dictionary.
+
+---
+
+# Build Mental Models
+
+Every major concept should answer:
+
+* What is it?
+* Why does it exist?
+* Who uses it?
+* When is it used?
+* How does it interact with everything else?
+
+Help readers build intuition before details.
+
+---
+
+# Use Progressive Learning
+
+Explain every topic in three layers.
+
+Layer 1
+
+One simple sentence.
+
+Layer 2
+
+A beginner-friendly explanation.
+
+Layer 3
+
+The technical explanation.
+
+Never skip directly to Layer 3.
+
+---
+
+# Prefer Stories Over Definitions
+
+Whenever possible, teach concepts through a realistic scenario or example.
+
+Instead of defining a process abstractly, show how it unfolds in the real world.
+
+Readers remember stories far better than isolated definitions.
+
+---
+
+# Continuously Connect Concepts
+
+Never explain concepts in isolation.
+
+Whenever introducing something new, explain:
+
+* what came before it
+* what comes after it
+* what depends on it
+* why it matters
+
+The document should feel like one continuous journey rather than disconnected chapters.
+
+---
+
+# Reveal Cause and Effect
+
+Don't just describe what exists.
+
+Explain:
+
+* why it exists
+* what problem it solved
+* what limitations it has
+* why newer approaches emerged
+* what future trends may replace it
+
+Readers should understand the reasoning behind the industry, not just memorize facts.
+
+---
+
+# Replace Information Dumps
+
+Avoid large blocks of facts.
+
+Instead organize information around questions such as:
+
+* Why?
+* How?
+* What happens next?
+* What could go wrong?
+* Why is this difficult?
+* Why hasn't someone already solved this?
+
+---
+
+# Use Analogies
+
+Whenever a concept is difficult, relate it to something most technical founders already understand.
+
+Use analogies only when they genuinely improve understanding.
+
+Do not force analogies.
+
+---
+
+# Improve Readability
+
+Rewrite to improve readability without reducing technical depth.
+
+Prefer:
+
+* short paragraphs
+* active voice
+* clear transitions
+* descriptive headings
+* logical sequencing
+
+Break up long sections whenever multiple ideas are introduced together.
+
+---
+
+# Add Context
+
+Whenever a statistic, technology, regulation, company, or framework is introduced, explain why the reader should care.
+
+Avoid presenting facts without context.
+
+---
+
+# End Every Major Section With
+
+## Key Takeaways
+
+Summarize:
+
+* what matters most
+* common misconceptions
+* implications for founders
+* what knowledge the reader should retain before continuing
+
+---
+
+# Optimize for Understanding
+
+Assume the reader wants to genuinely master the industry—not simply finish reading the document.
+
+Continuously ask:
+
+"If I had never worked in this industry before, would this explanation help me build an accurate mental model?"
+
+If not, rewrite it.
+
+---
+
+# Writing Style
+
+Write like an experienced founder teaching another founder.
+
+The writing should feel:
+
+* practical
+* insightful
+* approachable
+* intellectually honest
+* technically rigorous
+
+Avoid sounding like:
+
+* an academic paper
+* legal documentation
+* regulatory guidance
+* marketing material
+* consultant jargon
+
+---
+
+# Final Quality Test
+
+By the end of the document, a technically capable founder with no prior domain knowledge should be able to:
+
+* explain the industry to someone else
+* identify the major problems
+* understand the existing ecosystem
+* recognize where startups can create value
+* understand the tradeoffs involved
+* begin designing a product with confidence
+
+If the document does not achieve this outcome, continue improving it until it does.
+
+Do not remove depth.
+
+Increase clarity.
