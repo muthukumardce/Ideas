@@ -1,8 +1,28 @@
 # Venture budget and capital requirement
 
-*Companion budget to the report “Competing in U.S. Healthcare RCM” (`competing-in-us-healthcare-rcm.md`). Section references such as §5.6, §11.4, or §15 point to that report; §18.x references are within this document. Figures are illustrative as of mid-2026, on a Chennai cost base at about ₹95/USD (verified: ₹95 was the June 2026 monthly average; spot ~₹96.4 in July 2026, 2026 range roughly ₹90–97 — further INR weakness cuts India-side costs in USD terms). Revised July 2026 after a fact-audit and CFO-style arithmetic review; see the Addendum in the main report. A note on phase labels: this budget's Phase 1/2/3 (mo 0–3 / 3–9 / 12–18+) map to the main report's §15 Phase 0–1 / 1–2 / 3 — the labels here track spend stages, not §15's numbering.*
+*Companion budget to **The Healthcare Billing Handbook for Software Founders** (`competing-in-us-healthcare-rcm.md`). Chapter references point to that book; §18.x references are internal to this document. Figures are illustrative as of mid-2026, on a Chennai cost base at about ₹95/USD (verified: ₹95 was the June 2026 monthly average; spot ~₹96.4 in July 2026, 2026 range roughly ₹90–97 — further INR weakness cuts India-side costs in USD terms). Revised July 2026 after a fact-audit and CFO-style arithmetic review; see Appendix C of the handbook.*
 
-This document sets out the capital requirement: how much the venture needs, what it funds, and what each tranche buys. It opens with the raise and the use of funds, then backs them with the underlying cost detail (staff, software, hardware, compliance) and the staged burn. Figures are illustrative as of June 2026, on a Chennai cost base at about ₹95/USD, and should be re-checked against live vendor pricing. Costs fall into three buckets: one-time setup, fixed monthly run-rate (mostly staff and tooling), and usage-based costs that scale with claim/call volume. The staged burn reconciles to §11.4 and the per-transaction economics in §5.6 and §7.2.1. The largest line by far is staff; software and infrastructure are a distant second; hardware is minor because almost all compute is cloud-hosted.
+*A note on phase labels, because the two documents number them differently. This budget's **Phase 1 / 2 / 3** (months 0–3 / 3–9 / 12–18+) map to the handbook's Chapter 19 **Phase 0–1 / 1–2 / 3**. The labels here track spend stages; Chapter 19's track roadmap milestones.*
+
+---
+
+## Canonical figures
+
+These are the numbers of record. Where any older figure appears in either document, this block governs. They are reproduced in Chapter 15 of the handbook under "Capital required to reach each gate."
+
+| Quantity | Canonical value | What it means |
+|---|---|---|
+| **Lean wedge-proof** | **~\$150–200K** | Two people, engineers and human review deferred. Buys a demo, a labeled golden set, and a signed LOI. Does **not** reach the month-12 gate. |
+| **Cost to the month-12 gate** | **~\$285–420K** | The plan as written, Phases 1–2 staffed, including the months 9–12 bridge. Buys two paying, in-production, ROI-documented billers. |
+| **Base-case pre-seed to raise** | **~\$250–350K** | The number to put in front of an angel. Not the comfort option — the honest one. |
+| **Seed** | **\$1.5–3M** | At ~\$300–500K ARR plus design-partner validation. |
+| **Series A** | **~\$10–20M** | At \$2–3M ARR. |
+| **All-in burn** | **Y1 ~\$280–400K · Y2 ~\$600–850K · Y3 ~\$1.0–1.4M** | India payroll plus the U.S., compliance, and go-to-market stack. |
+| **Planning FX rate** | **₹95/USD** | June 2026 monthly average. Re-check; INR weakness cuts India costs in USD terms. |
+
+**The one distinction that causes the most confusion:** the payroll-only burn and the all-in burn differ by roughly 2–3×. The India salaries are a *third to a half* of what it costs to run this company. Fund on the all-in figure, always.
+
+This document sets out the capital requirement: how much the venture needs, what it funds, and what each tranche buys. It opens with the raise and the use of funds, then backs them with the underlying cost detail (staff, software, hardware, compliance) and the staged burn. Figures are illustrative as of June 2026, on a Chennai cost base at about ₹95/USD, and should be re-checked against live vendor pricing. Costs fall into three buckets: one-time setup, fixed monthly run-rate (mostly staff and tooling), and usage-based costs that scale with claim/call volume. The staged burn reconciles to Chapter 15 (the all-in burn) and the per-transaction economics in Chapter 9 (per-transaction unit economics) and Chapter 5 (clearinghouse pricing and enrollment). The largest line by far is staff; software and infrastructure are a distant second; hardware is minor because almost all compute is cloud-hosted.
 
 ## Contents
 
@@ -11,7 +31,7 @@ This document sets out the capital requirement: how much the venture needs, what
 - [18.3 Phase 2 (mo 3–9): design partners live](#183-phase-2-mo-39-design-partners-live)
 - [18.4 Phase 3 (mo 12–18+): productized and scaling](#184-phase-3-mo-1218-productized-and-scaling)
 - [18.5 Unit-cost reference (software, infrastructure, and compliance)](#185-unit-cost-reference-software-infrastructure-and-compliance)
-- [18.6 All-in roll-up (calendar-year, reconciles to §11.4)](#186-all-in-roll-up-calendar-year-reconciles-to-114)
+- [18.6 All-in roll-up (calendar-year)](#186-all-in-roll-up-calendar-year)
 - [18.7 The minimum viable budget](#187-the-minimum-viable-budget)
 
 ## 18.1 The capital requirement (what it funds and what it buys)
@@ -20,9 +40,9 @@ The venture is deliberately capital-light, so the raise is staged: a small pre-s
 
 | Round | Amount | When / trigger | What it funds | Milestone it buys |
 |---|---|---|---|---|
-| Pre-seed / angel | **\$150–250K** | Now (pre-revenue) | Founder + domain co-founder for ~9–12 months, SOC 2 Type II + entity/legal setup, core tooling | First paid pilot in production, 1–2 design partners, a labeled golden set, and the security packet (Phase 1 into early Phase 2, §15.2) |
-| Seed | **\$1.5–3M** | ~Month 12–18, at ~\$300–500K ARR plus design-partner validation (the 2026 seed bar, §9, §15.3) | Scaling engineering, the U.S. GTM team (sales + customer success), HITRUST, and the HITL pool as volume grows | A credible path to the \$2–3M ARR Series A bar (Phase 3, §15) |
-| Series A | **~\$10–20M** | At \$2–3M ARR | Multi-specialty expansion, enterprise GTM, category build | Scale (comparable to the \$8–21M Series A rounds peers raised, §9) |
+| Pre-seed / angel | **\$150–250K** | Now (pre-revenue) | Founder + domain co-founder for ~9–12 months, SOC 2 Type II + entity/legal setup, core tooling | First paid pilot in production, 1–2 design partners, a labeled golden set, and the security packet (Phase 1 into early Phase 2, Chapter 19 (Phase 0–1)) |
+| Seed | **\$1.5–3M** | ~Month 12–18, at ~\$300–500K ARR plus design-partner validation (the 2026 seed bar, Chapter 19 (the financing gates)) | Scaling engineering, the U.S. GTM team (sales + customer success), HITRUST, and the HITL pool as volume grows | A credible path to the \$2–3M ARR Series A bar (Phase 3, Chapter 19 (the roadmap phases)) |
+| Series A | **~\$10–20M** | At \$2–3M ARR | Multi-specialty expansion, enterprise GTM, category build | Scale (comparable to the \$8–21M Series A rounds peers raised, Chapter 11) |
 
 Use of the pre-seed / angel tranche (the first round only), approximately (recomputed against the phase detail):
 - ~40–50%: people — founder draw, domain co-founder, and the fractional U.S. GTM contact (staff is detailed per phase, §18.2–§18.4).
@@ -55,7 +75,7 @@ Two people, no revenue. The goal is a first paid pilot, one or two design partne
 | SOC 2 Type II readiness + first audit kickoff (3–12 mo observation — 3–6 common for a first report; start now) | ~\$15,000–40,000 audit-side (realistic first-year all-in incl. compliance platform + readiness is ~\$30–60K; the delta sits in the monthly compliance line) |
 | Domain, branding, basic website | ~\$1,000–3,000 |
 
-**Compliance & insurance (~\$2–3K/mo):** SOC 2 tooling and readiness, plus E&O and cyber insurance started early (a revenue gate, §12).
+**Compliance & insurance (~\$2–3K/mo):** SOC 2 tooling and readiness, plus E&O and cyber insurance started early (a revenue gate, Chapter 10, the security review).
 
 **Phase 1 total:** ~\$11–14K/mo run-rate (the top of the range assumes usage-based LLM/clearinghouse spend plus ~10% contingency above the itemized lines); about \$33–42K over three months, plus ~\$25–55K one-time setup, so the Phase 1 cash need is roughly **\$60–95K**. The full pre-revenue requirement to a first pilot, which runs into Phase 2, is in §18.7.
 
@@ -100,7 +120,7 @@ The team and the HITL pool scale with claim volume, and the U.S. GTM org is buil
 
 **Software & infrastructure (~\$6–10K/mo):** production cloud, LLM and clearinghouse at volume, and 8–14 VDI seats. Unit prices are in §18.5.
 
-**Compliance + one-time (~\$4–5K/mo):** SOC 2 annual re-attestation, annual pen test, and insurance; HITRUST r2 (~\$60K+ one-time) when pursued as a differentiator.
+**Compliance + one-time (~\$4–5K/mo):** SOC 2 annual re-attestation, annual pen test, and insurance; HITRUST when pursued as a differentiator — budget **e1 at ~\$35–90K** as the realistic Year-1–2 milestone, not r2 (see §18.5 for the full ladder; r2 first-cycle totals commonly run \$200–500K+).
 
 **U.S. GTM (~\$10–40K/mo, scaling):** U.S. sales plus customer success, built out as ARR grows.
 
@@ -108,26 +128,28 @@ The team and the HITL pool scale with claim volume, and the U.S. GTM org is buil
 
 ## 18.5 Unit-cost reference (software, infrastructure, and compliance)
 
-The per-item prices the phase figures above draw from. Usage-based lines (LLM, clearinghouse, telephony) are modeled per-transaction in §5.6 and §7.2.1; the monthly figures are typical at early-pilot volume and scale with claims.
+The per-item prices the phase figures above draw from. Usage-based lines (LLM, clearinghouse, telephony) are modeled per-transaction in Chapter 9 (per-transaction unit economics) and Chapter 5 (clearinghouse pricing and enrollment); the monthly figures are typical at early-pilot volume and scale with claims.
 
 | Item | What it covers | Typical monthly (early → scaling) |
 |---|---|---|
 | Cloud (AWS/Azure/GCP, BAA region) | Compute, Postgres, object storage, networking; PHI at rest in a U.S. region | ~\$300–1,500 |
-| VDI / DaaS (Amazon WorkSpaces / Azure Virtual Desktop) | Zero-local-data access for offshore staff (§6.6.1), per seat | ~\$25–40 per seat |
+| VDI / DaaS (Amazon WorkSpaces / Azure Virtual Desktop) | Zero-local-data access for offshore staff (Chapter 6 (the offshore PHI architecture)), per seat | ~\$25–40 per seat |
 | LLM API (Claude or equivalent) | Per-claim reasoning; ~\$0.02–0.05 per claim with caching | ~\$200–2,000 |
-| Clearinghouse (Stedi, then Availity) | EDI transactions; 837 alone ~\$0.30 low-volume → ~\$0.10 at scale; full claim cycle (270/271 + 837 + 276/277 + 835) ~\$0.34–1.10 (§7.2.1) | ~\$100–1,500 |
-| Voice stack, all-in — telephony + STT + TTS + LLM + platform fee (voice wedge only) | ~\$0.13–0.33 per call-minute (§8.6) | ~\$0–2,000 |
+| Clearinghouse (Stedi, then Availity) | EDI transactions; 837 alone ~\$0.30 low-volume → ~\$0.10 at scale; full claim cycle (270/271 + 837 + 276/277 + 835) ~\$0.34–1.10 (Chapter 5 (clearinghouse pricing and enrollment)) | ~\$100–1,500 |
+| Voice stack, all-in — telephony + STT + TTS + LLM + platform fee (voice wedge only) | ~\$0.13–0.33 per call-minute (Chapter 12 (the voice-agent cost model)) | ~\$0–2,000 |
 | Document AI / OCR | Parsing EOBs and denial letters | ~\$50–300 |
 | Compliance automation (Vanta / Drata) | SOC 2 evidence collection and monitoring | ~\$700–2,000 (≈\$8–25K/yr) |
 | Observability, logging, error tracking | Audit trail, drift alarms | ~\$100–500 |
 | Source control + CI (GitHub or equivalent) | Build/test pipeline | ~\$50–300 |
 | Email, productivity, CRM | Google Workspace, a lightweight CRM | ~\$150–600 |
 
-**Compliance and insurance run-rate (annual):** SOC 2 Type II ~\$15–40K/yr audit-side (~\$30–60K first-year all-in with platform + readiness; renewals ~60–80% of year one); penetration test ~\$5–15K/yr (recurs annually, additive to SOC 2); E&O + cyber insurance ~\$3–15K/yr, weighted toward \$6–15K once clients mandate \$2–5M limits (a revenue gate, §12); **HITRUST — budget e1 (~\$35–90K) as the realistic year-1–2 milestone; i1 (~\$80–220K) and r2 (first-cycle total commonly \$200–500K+, a 2-year certification with interim assessment) are later-stage differentiators — the earlier "~\$60K+" line understated r2 by 3–5x**; per-payer EDI/ERA enrollment is mostly staff time, but budget for occasional per-form or wet-signature handling (the long pole, §7.2.1).
+**Compliance and insurance run-rate (annual):** SOC 2 Type II ~\$15–40K/yr audit-side (~\$30–60K first-year all-in with platform + readiness; renewals ~60–80% of year one); penetration test ~\$5–15K/yr (recurs annually, additive to SOC 2); E&O + cyber insurance ~\$3–15K/yr, weighted toward \$6–15K once clients mandate \$2–5M limits (a revenue gate, Chapter 10, the security review); **HITRUST — budget e1 (~\$35–90K) as the realistic year-1–2 milestone; i1 (~\$80–220K) and r2 (first-cycle total commonly \$200–500K+, a 2-year certification with interim assessment) are later-stage differentiators — the earlier "~\$60K+" line understated r2 by 3–5x**; per-payer EDI/ERA enrollment is mostly staff time, but budget for occasional per-form or wet-signature handling (the long pole, Chapter 5 (clearinghouse pricing and enrollment)).
 
 **Previously missing line items (added July 2026):** U.S. travel — HBMA/HFMA conferences, design-partner and security-review visits — ~\$12–20K/yr from Phase 2; U.S. contract/legal run-rate for MSA/BAA negotiation ~\$10–25K/yr from the first enterprise deal; India entity statutory/accounting (CA, GST/TDS filings, EPF administration) ~₹25–40K/mo (~\$260–420); recruiting ~1 month's salary per engineering hire.
 
-## 18.6 All-in roll-up (calendar-year, reconciles to §11.4)
+## 18.6 All-in roll-up (calendar-year)
+
+_Reconciles to the all-in burn table in Chapter 15 of the handbook._
 
 All-in burn is the India payroll core plus the U.S.-facing sales/advisor, compliance, and tooling stack. The U.S./compliance layer is priced in USD and grows fastest: offshore payroll is roughly a third to a half of the all-in, so the all-in runs well above the payroll line.
 
@@ -147,4 +169,4 @@ Two honest versions of the minimum, because the arithmetic must reconcile (the e
 - **Lean wedge-proof (2 people, engineers deferred):** ~\$11–14K/month all-in for nine months ≈ **\$99–126K** operating burn, plus ~\$25–55K one-time working capital (SOC 2, insurance, entity/legal) ≈ **~\$125–180K pre-revenue**. This buys a demo, a labeled golden set, and a signed LOI — *not* two paying in-production billers: it defers the Phase-2 engineers and HITL and pushes "design partners live" past month 9. A friends-and-angel note of \$150–200K covers this scenario.
 - **The plan as written (Phases 1–2 staffed):** \$33–42K (Phase 1) + \$150–205K (Phase 2) + \$25–55K one-time ≈ **~\$210–300K to month 9**, plus ~\$75–120K for the months-9–12 bridge during which pilots convert to paid — so the true cost of reaching the month-12 two-paying-billers gate is **~\$285–420K**. This is why **\$250–350K is the base-case pre-seed** and \$150–200K is strictly the wedge-proof scenario (§18.1).
 
-After that, the venture is designed to fund itself from paying billers and to raise institutional capital only to accelerate (§15.5).
+After that, the venture is designed to fund itself from paying billers and to raise institutional capital only to accelerate (Chapter 19 (the financing gates)).

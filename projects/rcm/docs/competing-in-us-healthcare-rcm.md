@@ -39,6 +39,100 @@ One honest limit up front. This book can close most of the **explicit** knowledg
 
 The cost figures and founder profile in Part IV are written for a **Chennai / India base**. The strategy is a general low-cost-offshore playbook. Read the India-specific numbers as one instantiation. The Philippines, Vietnam, or Eastern Europe substitute cleanly with different inputs and identical logic.
 
+### A note on the recurring devices
+
+Three patterns repeat throughout the book. Recognizing them will make it read faster.
+
+- **Level 1 / Level 2 / Level 3.** Hard concepts are explained three times: one sentence, then a plain-English version, then the technical version. Read to the depth you need and move on. Coming back for Level 3 later is the intended use.
+- **Chapter-opening boxes.** Every chapter starts with what it teaches, why you should care, and an analogy aimed at someone with a software background.
+- **Founder Takeaways.** Every chapter ends with what matters, what you can safely ignore for now, and what it means for building a company. If you are skimming, read these first and then go back for the chapters that matter to your wedge.
+
+---
+
+## Contents
+
+**Front matter**
+
+- [How to use this book](#how-to-use-this-book)
+- [The five words this book uses constantly](#the-five-words-this-book-uses-constantly) — read this before the answer sheet
+- [The answer sheet](#the-answer-sheet) — the whole strategy, the go/no-go tree, and the first 90 days
+
+**[Part I — The Machine](#part-i--the-machine)** · _How U.S. healthcare actually gets paid. Zero prior knowledge assumed._
+
+| # | Chapter | What it teaches |
+|---|---|---|
+| 1 | [Why Getting Paid Is the Hard Part](#chapter-1--why-getting-paid-is-the-hard-part) | Why a doctor cannot simply send you a bill, and why that one fact created an industry |
+| 2 | [Follow the Money: One Patient, One Claim, 147 Days](#chapter-2--follow-the-money-one-patient-one-claim-147-days) | The complete revenue cycle, stage by stage, followed through one real patient |
+| 3 | [Where the Money Leaks](#chapter-3--where-the-money-leaks-denials-appeals-and-underpayments) | The three ways providers lose money: denied, never fought, and paid too little |
+| 4 | [Five Worlds of Billing, and the Patient Who Pays](#chapter-4--five-worlds-of-billing-and-the-patient-who-pays) | Why "AI for medical billing" is not a product, and how the patient became a payer |
+| 5 | [The Plumbing: EDI, Clearinghouses, FHIR, and the EHR](#chapter-5--the-plumbing-edi-clearinghouses-fhir-and-the-ehr) | The actual wires. Formats, routing, costs, lead times, and which integration is the moat |
+| 6 | [The Rules: HIPAA, Audits, and the Laws Reshaping Billing](#chapter-6--the-rules-hipaa-audits-and-the-laws-reshaping-billing) | What binds you the moment you touch one claim, and which new laws create your market |
+
+**[Part II — The Industry](#part-ii--the-industry)** · _Who makes money doing this work, how much, and how buyers decide._
+
+| # | Chapter | What it teaches |
+|---|---|---|
+| 7 | [The Market: How Big, Growing How Fast, and Why Now](#chapter-7--the-market-how-big-growing-how-fast-and-why-now) | Size and shape of the market, the five demand drivers, and who is already here |
+| 8 | [Anatomy of the Incumbent, and the Consolidation Squeeze](#chapter-8--anatomy-of-the-incumbent-and-the-consolidation-squeeze) | What a mid-sized outsourcer looks like inside, and how private equity is rebuilding the category |
+| 9 | [The Economics: Pricing, Margins, and the Labor-Arbitrage Math](#chapter-9--the-economics-pricing-margins-and-the-labor-arbitrage-math) | How the industry charges, what delivery costs, and what your own unit economics look like |
+| 10 | [How Buying Decisions Actually Get Made](#chapter-10--how-buying-decisions-actually-get-made) | Who can veto you, why 70% of healthcare AI pilots die, and the qualifying question nobody asks |
+| 11 | [The Competitive Landscape (with Funding)](#chapter-11--the-competitive-landscape-with-funding) | Who is already building what you might build, and which lanes are genuinely still open |
+
+**[Part III — The Disruption](#part-iii--the-disruption)** · _What AI is actually doing here, and what is marketing._
+
+| # | Chapter | What it teaches |
+|---|---|---|
+| 12 | [The AI Wave: From Generative to Agentic](#chapter-12--the-ai-wave-from-generative-to-agentic) | What is production-ready versus marketing, demonstrated results, and how to evaluate an RCM agent |
+| 13 | [When the Model Is Free: Where the Moat Actually Is](#chapter-13--when-the-model-is-free-where-the-moat-actually-is) | The stress test for every roadmap decision: assume the model is free, then ask what survives |
+
+**[Part IV — Your Move](#part-iv--your-move)** · _Three ways in, the one this book recommends, and when to quit._
+
+| # | Chapter | What it teaches |
+|---|---|---|
+| 14 | [Three Ways to Compete](#chapter-14--three-ways-to-compete) | The three distinct businesses hiding inside "compete with RCM companies," and which fits you |
+| 15 | [The India-Based Founder's Angle](#chapter-15--the-india-based-founders-angle) | An honest re-rating of your advantages, the one gap that gates everything, and what it costs |
+| 16 | [Choosing Your Wedge](#chapter-16--choosing-your-wedge) | A scored map of every realistic option, and the test you must pass before writing code |
+| 17 | [Distribution: How the First Customer Actually Arrives](#chapter-17--distribution-how-the-first-customer-actually-arrives) | The channels that work from a standing start, and a playbook for the first three partners |
+| 18 | [The Build: Architecture, Guardrails, and the Code](#chapter-18--the-build-architecture-guardrails-and-the-code) | Reference architecture, component choices, a working agentic loop, and the guardrail layers |
+| 19 | [The Roadmap: 90 Days, 24 Months, and the Kill Switches](#chapter-19--the-roadmap-90-days-24-months-and-the-kill-switches) | Week by week, then phase by phase. What traction unlocks which financing gate |
+| 20 | [Risks, Failure Modes, and the Honest Verdict](#chapter-20--risks-failure-modes-and-the-honest-verdict) | Everything that can kill this, the founder-specific risks the standard register misses, and the verdict |
+
+**[Appendices](#appendices)**
+
+- [Appendix A: Glossary](#appendix-a-glossary) — every term, with the chapter that teaches it
+- [Appendix B: Company directory](#appendix-b-company-directory) — who everyone is, and what they are *to you*
+- [Appendix C: The July 2026 fact-audit and reviewer's assessment](#appendix-c-the-july-2026-fact-audit-market-refresh-and-reviewers-assessment) — **the adversarial audit. Several of its findings argue against the body of this book.** Read it; it is the most useful stress test here
+- [Appendix D: References](#appendix-d-references) — 200+ sources
+- [Appendix E: The Artifacts](#appendix-e-the-artifacts) — an annotated claim, an annotated remittance, the acknowledgment ladder, and an appeal packet
+- Companion document: **`rcm-venture-budget.md`** — the line-by-line capital plan behind Chapters 15 and 19
+
+### Three ways to read this
+
+**You have an hour and want to know if this industry is worth your time.**
+Chapter 1 → the [answer sheet](#the-answer-sheet) → Chapter 16 (the wedge map) → Chapter 20's honest verdict → Appendix C.3. That is the whole argument, compressed.
+
+**You are deciding whether to enter.**
+Part I in full — it is the part that closes the knowledge gap and it is the best-taught part of the book. Then Chapters 9, 10, 16, and 20. Then Appendix C, which is where the book argues with itself.
+
+**You have decided and you are building.**
+Chapters 5, 6, 16, 17, 18, 19, plus Appendix E for the artifacts and the companion budget document. Keep Chapter 13's stress test open while you plan the roadmap.
+
+---
+
+## The five words this book uses constantly
+
+Five terms carry most of the argument. They are defined properly later, in the chapters that earn them. But the answer sheet on the next page uses all five, so here they are at one-sentence depth — enough to read on.
+
+| Term | One sentence | Taught properly in |
+|---|---|---|
+| **Wedge** | The single specific workflow you automate first — not a product category, but one narrow, repeated job you do better than anyone, chosen because it is the only realistic way a small team beats a funded incumbent. | [Chapter 16](#chapter-16--choosing-your-wedge) |
+| **Design partner** | An early customer who gives you real data, real feedback, and real workflow access in exchange for building the thing around their problem — the first one is a prerequisite, not a milestone. | [Chapter 17](#chapter-17--distribution-how-the-first-customer-actually-arrives) |
+| **Domain ground-truth** | Access to someone who knows what a correct answer actually looks like in this industry — because you cannot check your own work in a domain you have never worked in, and being confidently wrong here costs a customer their money. | [Chapter 15](#chapter-15--the-india-based-founders-angle) |
+| **Golden set** | A curated collection of real, correctly-labeled examples you measure every version of your system against — the difference between "it seems to work" and knowing your accuracy to two decimal places. | [Chapter 18](#chapter-18--the-build-architecture-guardrails-and-the-code) |
+| **Payer mix** | The proportion of a practice's revenue coming from each type of insurer — Medicare, Medicaid, commercial — which turns out to determine whether some of the best product ideas in this book work at all at a given customer. | [Chapter 4](#chapter-4--five-worlds-of-billing-and-the-patient-who-pays) |
+
+One more that is worth having early, because the book uses it 60+ times: a **BPO** is a *business process outsourcer* — a company you pay to run an entire back-office function with their staff instead of yours. In this industry that usually means a few thousand people, often in India or the Philippines, doing medical billing work for American healthcare providers. Chapter 8 takes one apart.
+
 ---
 
 ## The answer sheet
@@ -50,7 +144,7 @@ Everything in this book supports the five sentences, the decision tree, and the 
 **The whole strategy in five sentences.**
 
 - **Domain ground-truth and proprietary workflow access are mandatory.** Secure them within ~6 months or do not start. A U.S. domain co-founder is _one_ way to get them — and the one that also buys buyer trust and distribution — not the goal itself. A deeply embedded, data-sharing design partner plus a senior domain hire is a valid substitute. Optimize for the access, not the title.
-- **Pick one painful, recurring workflow inside one under-served specialty** that an incumbent could not ship in 6 months (Chapter 16). Lead with _recovered-dollars_ wedges — denials, underpayments — that grow your customer's revenue, not the now-funded AR-voice and appeal lanes.
+- **Pick one painful, recurring workflow inside one under-served specialty** that an incumbent could not ship in 6 months _and_ that the buyer's own practice-management vendor will not bundle away for free (Chapter 16). **Commit to one cell of the wedge × pricing-model matrix** — the wedge and the buyer are a single decision. This book's call: 835 denial-triage sold to cross-PM fixed-fee billers first; underpayment recovery second, once a partner shares contract data. Not the now-funded AR-voice and appeal lanes.
 - **Land a local billing company as design partner #1** for labeled data, speed, and a clean reference. Treat getting customers as a separate discipline (Chapter 17) from building the machine.
 - **Aim first at a bootstrapped, profitable niche ($0.5–3M ARR)** as the primary, expected-value-maximizing goal (Chapter 19). Treat the low-probability venture outcome as a free option your low burn preserves, not the target.
 - **Get two paying, in-production, ROI-documented customers by month 12, or stop.** Treat the India cost base as runway, not a moat.
@@ -67,10 +161,19 @@ Can you commit ~2–3 years AND secure domain ground-truth
 
 Can you say WHY an incumbent couldn't ship this in 6 months —
 with something other than "I'm cheaper"?
-(Name all three tests: a partner's labeled data + a payer nuance
- generalists get wrong + a distribution path incumbents aren't on)
+(Name all four tests: a partner's labeled data + a payer nuance
+ generalists get wrong + a distribution path incumbents aren't on
+ + a reason the buyer's PM system won't bundle it free in 12 months)
 │
 ├── No ──► Keep searching. Don't build.
+│
+└── Yes ▼
+
+Can you name ONE cell of the wedge x pricing-model matrix?
+(Which wedge, sold to which biller pricing model, and who
+ actually pockets the money your product creates)
+│
+├── No ──► You have two strategies wearing one coat. Pick one.
 │
 └── Yes ▼
 
@@ -109,9 +212,9 @@ By month 12: two paying, in-production customers with documented ROI?
 
 - Secure domain ground-truth and workflow access. Line up a data-sharing design partner first. Pursue a U.S. domain co-founder as one route to it. A senior U.S.-experienced domain hire is the substitute. Optimize for the access, not the title.
 - Stand up the compliance spine: HIPAA risk analysis, contract templates, MFA, and a SOC 2 Type II kickoff with the India delivery center _in scope_.
-- Pick and pressure-test the wedge against the three-part test in Chapter 16.
+- Pick and pressure-test the wedge against the four-part test in Chapter 16.
 - Sign one local design partner and start labeling a golden set from their real adjudicated claims.
-- Start per-payer electronic enrollments. This is the long pole — weeks per insurance company.
+- Start per-payer electronic enrollments **the day your design partner signs** — the provider signs these forms, not you, so this cannot begin earlier. It is the long pole: weeks per insurance company, and Chapter 5's ERA-redirect hazard makes rushing it dangerous.
 
 **Build the plan around the bootstrapped profitable niche as the primary goal.** It is the expected-value-maximizing outcome for a low-burn founder, and the low burn keeps the venture-scale outcome alive as a free option rather than a target you optimize for. The venture swing is a low-probability, high-asymmetry bet. Do not let it set the plan.
 
@@ -426,6 +529,31 @@ The "why" is encoded in standardized adjustment codes called **CARC** and **RARC
 
 Payments are then posted and reconciled against what was billed. Note the implication: reconciliation only catches _missing_ money. It does not, by default, catch money that arrived but was **too little**. Hold that thought for Chapter 3.
 
+#### The four numbers on every claim line
+
+Before going further you need four words, because almost everything confusing about healthcare money comes from mixing them up — including, routinely, inside the industry itself.
+
+Take one line from Maria's visit. Lakeside Cardiology bills **$4,200** for the catheterization.
+
+| # | The number | Maria's line | What it actually is |
+|---|---|---|---|
+| 1 | **Charge** | **$4,200** | What the provider *asks for*. Comes from a price list called the **charge master**, is essentially fictional, and is **identical regardless of which payer is billed** — the same procedure is billed at the same charge to every insurer on earth |
+| 2 | **Allowed amount** | **$2,310** | What the contract says the service is actually *worth*. The real number. Negotiated in advance between this payer and this provider |
+| 3 | **Contractual adjustment** | **$1,890** | The gap. Arrives as `CO-45` on the remittance. **Never collectible. Correctly written off. NOT a denial** |
+| 4 | **Patient responsibility** | **$462** | Maria's coinsurance, arriving as `PR-2`. The payer pays $1,848; this part becomes her bill |
+
+**Three of those four numbers are decided by a contract you never see.** The provider chose exactly one of them — the charge — and it is the one that matters least.
+
+Now the three mistakes that follow from confusing them, in order of how expensive they are:
+
+**1. Counting contractual adjustments as denials.** That $1,890 write-off is the system working correctly. Organizations that count CO-45 as a denial report spectacular fictional denial rates, and vendors quoting "we cut denials by 60%" are sometimes just recategorizing these. When you build a denial metric, exclude CO-45 explicitly.
+
+**2. Believing the charge means anything.** It is why a hospital bill says $80,000 and the insurer pays $12,000, and why "we bill $4,200" tells you nothing about revenue. **But it is not entirely inert, which is the subtle part** — Chapter 3 shows how a charge set *too low* silently caps your revenue forever, with no denial and nothing in any work queue.
+
+**3. Confusing "allowed" with "paid."** Allowed is the total the contract permits. Paid is the payer's share of it. Patient responsibility is the rest. A practice whose net collection rate looks poor sometimes just has a patient-balance collection problem rather than a payer problem — a completely different fix, and Chapter 4 is about it.
+
+**One line to carry forward.** Chapter 3's third leak — the invisible one — is what happens when **the payer gets number 2 wrong.** Not a denial, not an adjustment: a contract that says $2,310 and a payment computed from $1,980. Nothing announces it. You only find it by computing what you were owed and comparing.
+
 ---
 
 ### Stage 11–12: Denials, appeals, and AR follow-up — _"Fighting for it"_
@@ -472,7 +600,7 @@ The single "837" format hides **two largely separate disciplines.**
 | ------------------- | --------------------------------------------------- | --------------------------------------------------------------------------------------- |
 | Format              | 837**P** → CMS-1500 form, **33 fields**             | 837**I** → UB-04 / CMS-1450 form, **81 "Form Locators"**                                |
 | Who bills this way  | Physicians, physician groups, non-facility services | Hospitals, skilled nursing facilities, ambulatory surgery centers, home health          |
-| Driven by           | CPT/HCPCS + ICD-10                                  | Revenue codes, condition/occurrence codes, and for inpatient stays, **MS-DRG** grouping |
+| Driven by           | CPT/HCPCS + ICD-10                                  | Revenue codes, condition/occurrence codes, and for inpatient stays, **MS-DRG** grouping (Medicare Severity Diagnosis Related Groups — a scheme that collapses an entire hospital stay into one payment category, so the hospital is paid a fixed amount for the admission rather than per item) |
 | Coder certification | CPC                                                 | CIC / CCS                                                                               |
 
 They diverge at **every** layer: code sets, fields, adjudication logic, denial patterns, and even which professional certification the coder holds. A single hospital encounter often generates _both_ claims — one from the facility, one from the physician who treated you inside it.
@@ -544,7 +672,7 @@ Here is the recurring cast. Learn to read this table; it is the vocabulary of th
 | **CO-16**              | Missing/incomplete information (member ID, NPI, modifier) | Technical/registration | Soft — correct & resubmit                                 |
 | **CO-197 / CO-15**     | Prior authorization or referral absent or invalid         | Authorization          | Often hard; appeal with retro-auth                        |
 | **CO-50 / CO-55**      | Not medically necessary / experimental                    | Clinical               | Appeal with records & medical-necessity letter            |
-| **CO-97**              | Service bundled into another paid service (NCCI edit)     | Coding/bundling        | Appeal with modifier (e.g. 25/59) if separable            |
+| **CO-97**              | Service bundled into another paid service (NCCI edit)     | Coding/bundling        | Appeal with modifier (e.g. 25/59) if separable — **⚠ never automate this; see Chapter 18** |
 | **CO-45**              | Charge exceeds fee-schedule allowed amount                | Contractual            | Usually a write-off — **but flag for underpayment audit** |
 | **CO-22 / CO-109**     | Coordination-of-benefits / wrong payer                    | Eligibility            | Soft — rebill correct payer                               |
 | **CO-29**              | Timely-filing limit exceeded                              | Administrative         | Usually hard write-off — the costliest avoidable loss     |
@@ -563,9 +691,34 @@ This is the single most important operational distinction in the back end.
 
 **A product that automatically classifies a remittance line into this taxonomy and routes it — auto-correct / auto-appeal / write-off — is the heart of any denial wedge.** That single sentence describes a large fraction of the venture-funded companies in Chapter 11.
 
+#### CO-29 deserves its own section, because it is the one loss that is pure arithmetic
+
+The table above calls timely filing "the costliest avoidable loss" and then says nothing else about it. That is a strange omission, because **it is the only denial category where the failure is entirely computable in advance** — no clinical judgment, no payer discretion, no persuasion. A date passed. The money is gone, and it is gone permanently: CMS is explicit that a timely-filing denial "does not constitute an 'initial determination'" and **is therefore not subject to appeal.** There is no ladder to climb.
+
+**Level 1.** Every claim has an expiry date, and after it the money cannot be recovered by any means.
+
+**Level 2.** The deadline varies by payer and is set by contract or statute. The clock usually starts at the date of service — but for a *secondary* claim it starts at the date of the primary payer's remittance, which is a completely different date and a common source of surprise losses. Two more traps: a corrected claim generally does **not** get a fresh window, and a front-end rejection (Appendix E.3) never stopped the clock at all — so a claim you thought was pending for four months may have been expiring the whole time.
+
+**Level 3.** The anchor you can rely on: **Medicare fee-for-service is one calendar year from the date of service**, set by §6404 of the ACA. Commercial windows are contractual and vary widely — some substantially shorter. **This book deliberately does not print a table of commercial windows**, because those numbers change, differ between a payer's published default and your specific contract, and a stale table would be worse than none. Pull them from each payer's provider manual *and* from the contract, and store them as data with effective dates (Chapter 18's rule store has a `timely_filing` rule type for exactly this).
+
+#### Why this is the cleanest starter wedge in the book
+
+Look at what timely filing actually is from an engineering standpoint: **a computable field on a record you already hold.** You do not need a model. You do not need clinical understanding. You need the date of service, the payer, the window, and today's date.
+
+That turns worklist prioritization from a sorting problem into an expected-value problem. Chapter 9's cost-to-rework section says to score claims on `dollar value × overturn probability × proximity to deadline`. Make that concrete:
+
+| Claim | Balance | Overturn probability | Days left | Expected value if worked **now** | If it expires |
+|---|---|---|---|---|---|
+| **A** | $400 | 60% | **10** | $240 | **$0, permanently** |
+| **B** | $1,200 | 60% | 240 | $720 | $720, next month or the month after |
+
+**A worklist sorted by dollar value works claim B first.** Every AR queue in the country is sorted that way, because "biggest balance first" is the obvious heuristic. But claim A is the one with a cliff under it: work it today and you keep $240; work it in two weeks and you keep nothing, forever. Claim B's $720 is not going anywhere.
+
+**The product observation:** this is *alerting over a queue your customer already has.* No new data, no integration beyond the one you already need, no model risk, no FCA exposure, and a demo that shows a biller money they were about to lose this week. As a first conversation with a design partner, that is very hard to beat — and it is a natural on-ramp to the denial-triage wedge Chapter 16 recommends, because it consumes the same 835 feed.
+
 ### The prize, in three numbers
 
-- Roughly **65% of denied claims are never resubmitted at all.** (An industry estimate traced to a 2017 Change Healthcare study; ranges of 50–65% also circulate, sometimes attributed to MGMA.)
+- Roughly **65% of denied claims are never resubmitted at all.** (An industry estimate traced to a 2017 Change Healthcare study; ranges of 50–65% also circulate, sometimes attributed to MGMA — the Medical Group Management Association, the main professional body for medical-practice administrators and the source most often cited for practice benchmarks.)
 - Roughly **86% of denials are considered potentially avoidable** (Change Healthcare 2020 Revenue Cycle Denials Index). Optum's 2024 successor edition puts it at **84% on 2023 data**.
 - Therefore: most of this loss is **a workflow failure, not a true coverage decision.**
 
@@ -662,6 +815,21 @@ It surfaces only when **expected reimbursement — modeled from the payer contra
 - Analyses find roughly **2.5–3% of billed line items are underpaid**, at an average shortfall of about **$38 per line**.
 - For a hospital with $500M in net revenue, that is roughly **$15–25M recoverable annually.**
 
+**⚠ Now run that math for the customer this book actually tells you to sell to, because the hospital number is misleading for your purposes.** Chapter 4 and Chapter 10 both steer you away from health systems and toward small billing companies. So:
+
+| | Hospital | **A billing company with ~100K claims/yr** |
+|---|---|---|
+| Underpaid lines | 2.5–3% | 2.5–3% |
+| Average shortfall | ~$38 | ~$38 |
+| **Gross annual variance** | **$15–25M** | **~$100–115K** |
+| Recoverable in practice | A fraction | A fraction |
+
+**That is an order of magnitude less headline-worthy, and you should internalize it now rather than in a pitch meeting.** A single small practice is smaller still — a few thousand dollars a year, which does not support a software contract at all.
+
+**And that gap is precisely the argument for the business model this book recommends.** One practice cannot justify an underpayment product. A billing company with forty practice clients **aggregates forty of those small pools into one number worth chasing** — and holds, in one place, the payer relationships and often the contracts that make the computation possible.
+
+So when Chapter 17 says "land a local billing company as design partner #1," read it as a **business-model necessity, not a data-access convenience.** The biller is not just a faster route to labeled data. For a recovered-dollars wedge, the biller is the only customer shape at which the arithmetic works at all.
+
 **The recovery discipline has three phases:**
 
 1. **Identify** — contract modeling plus variance detection.
@@ -671,6 +839,142 @@ It surfaces only when **expected reimbursement — modeled from the payer contra
 **Why this matters more than it looks.** Underpayment detection is **data-and-rules-heavy rather than labor-heavy**. It is far less crowded than the denial or coding wedges. It is an excellent fit for an engineering-led founder. And it **composes naturally with a denial product**, because both consume the same input file — the 835.
 
 Flag this. It returns as a top-tier recommendation in Chapter 16.
+
+---
+
+### How an expected payment is actually computed
+
+Everything above rests on one phrase — *"expected reimbursement, modeled from the payer contract"* — and the book has so far left it as an incantation. **If you cannot compute that number to the cent, you do not have an underpayment program. You have a feeling.** So here is the arithmetic.
+
+**Level 1.** For physician claims, the expected payment is a multiplication using numbers the government publishes for free.
+
+**Level 2.** Medicare prices every procedure by assigning it three "relative value" scores — one for the physician's work, one for practice overhead, one for malpractice risk — adjusting each for local costs, and multiplying by a single national dollar figure. **And commercial contracts are overwhelmingly written as a percentage of that Medicare number**, because it is the industry's common denominator: a contract says "140% of the Medicare fee schedule" rather than listing ten thousand prices. So Medicare's formula is the substrate underneath commercial work too, which is why an engineer can compute expected pay for a commercial claim from public data plus one contract term.
+
+**Level 3.** CMS states it verbatim in the Claims Processing Manual:
+
+> **MPFS Amount = [(RVUw × GPCIw) + (RVUpe × GPCIpe) + (RVUm × GPCIm)] × CF**
+
+Three relative value units (work, practice expense, malpractice), each multiplied by **its own** geographic index for the payment locality, summed, then multiplied by the national conversion factor.
+
+**The most common implementation error is computing `Total RVU × CF` and skipping geography.** That is only correct where all three indices happen to be exactly 1.000, which is essentially nowhere. Each index attaches to its own component *before* you sum.
+
+#### Where the inputs come from, and how often they move
+
+The RVUs and geographic indices ship in the **CMS PFS Relative Value Files**, free to download. They update **quarterly** — RVU26A (January), RVU26B (April), RVU26C (July), RVU26D (October) — not annually. **The operational rule: price by date of service against the file in effect on that date.** "This year's file" is not a thing.
+
+**⚠ And 2026 broke the assumption every older pricing engine makes.** Since January 1, 2026 there are **two conversion factors, not one.** MACRA requires a separate factor for Qualifying APM Participants:
+
+| Effective CY2026 | Qualifying APM | Non-qualifying |
+|---|---|---|
+| Conversion factor | **$33.5675** | **$33.4009** |
+
+CMS ships two RVU files to match. **If your system stores one conversion factor per year, it is now structurally wrong on every line, forever** — and wrong in a direction that produces a stream of small false positives, which is the worst possible failure mode for a variance tool.
+
+_Two corrections while we are here, in this book's usual spirit. "The 2026 conversion factor is $33.57" is wrong twice — there is no single 2026 CF, and $33.57 rounds the QP figure that most physicians do **not** get. And the widely-repeated claim that the American Relief Act gave physicians a 2025 update is false: P.L. 118-158 contains no fee-schedule update; the 2.5% was stripped from the December 2024 draft before passage, and 2025 ran the entire year at $32.3465. The 2.5% people are thinking of is a different law and a different year — §71202 of P.L. 119-21, a temporary bump for CY2026 only, which is precisely why the proposed CY2027 factors are lower._
+
+#### The four things that will manufacture false positives
+
+Model these *before* you model variance. They are not exceptions to expected pay; **they are expected pay.**
+
+**1. Facility vs. non-facility, and it is not a rounding detail.** When a physician works in a hospital, the hospital is paid separately for the room and equipment, so Medicare pays the physician a lower practice-expense component. Every code carries two PE values, and in 2026 the gap widened sharply:
+
+| CPT 99213, national | Non-facility | Facility | Gap |
+|---|---|---|---|
+| 2025 | $88.95 | $63.72 | 28.4% |
+| **2026** | **$95.19** | **$57.45** | **39.6%** |
+
+**A place-of-service coding error is therefore a ~40% payment error that looks like a cleanly paid claim.** And place of service drives it, not where the physician physically stood. One exception to hard-code: for the **professional component of a diagnostic test**, facility and non-facility rates are identical. Apply POS logic to a `-26` line and you will manufacture false alerts on correctly paid reads.
+
+**2. Multiple-procedure reductions.** The fee-schedule database carries an indicator telling you which reduction applies:
+
+| Indicator | Reduction |
+|---|---|
+| 0 | None |
+| 2 | Standard surgical: 100%, then **50%** for the 2nd–5th highest-valued |
+| 4 | Diagnostic imaging: **50% of the technical component; 5% of the professional** |
+| 5 | Therapy: **50% of the PE component** |
+| 6 | Diagnostic **cardiovascular: 25% of the technical component** |
+| 7 | Diagnostic **ophthalmology: 20% of the technical component** |
+
+**"MPPR is 50%" is the most repeated error in this field.** Fifty percent is the surgical rule and the imaging-TC rule only. And the imaging *professional* reduction dropped from 25% to **5%** in 2017 — a spreadsheet still carrying 25% will under-predict imaging revenue by twenty points and bury your team in false positives.
+
+**3. Bilateral procedures** pay the lesser of billed charges or **150%** of the fee-schedule amount — and Medicare wants modifier 50 on a *single* line, which explicitly differs from CPT's own guidance to bill two lines.
+
+**4. The `-26` / `-TC` split.** A diagnostic test has a professional component (reading it) and a technical component (performing it). Bill the wrong one and the expected amount is wrong by most of the value.
+
+#### ⚠ The rule that quietly caps you forever
+
+This one is statutory, and it is the reason a healthy-looking practice can leak money for a decade without a single denial:
+
+> "payment under this part shall instead be based on the lesser of — (A) the actual charge for the service, or (B) … the fee schedule amount." — **42 U.S.C. §1395w-4(a)(1)**
+
+Read it again. **If your charge is below the allowed amount, you are paid your charge.**
+
+Here is why it is invisible. There is no denial, no adjustment code, no appeal right, nothing in a queue. The payer paid exactly what it owed. **And your paid-vs-expected report — the report every underpayment tool on the market runs — shows zero variance, because the expected amount *was* your charge.**
+
+The only way to find it is a completely different report: **charge vs. allowed, by code.** Almost no practice runs it. If a charge master has not been repriced since someone set it "a little above what Medicare pays," it is almost certainly capping something right now. *(For commercial payers the lesser-of language is contractual rather than statutory. It is near-universal — confirm it per contract rather than assuming.)*
+
+**This is a product observation, not a trivia item.** Charge-vs-allowed is a report you can run from data your design partner already has, it needs no contract modeling, and it finds money that is structurally invisible to every competitor's variance engine. If you want a way into this wedge before you have contract data, **that is the way in.**
+
+#### One worked example, end to end
+
+**CPT 93306** — a complete transthoracic echocardiogram with Doppler. Maria had one in Chapter 2. Here the cardiologist reads it for a hospital patient, so the practice bills **93306-26** (professional component only) and the hospital bills the technical side.
+
+**Verified inputs** (CMS RVU26C, July 2026 release; Ohio locality 00):
+
+- 93306-26: work RVU **1.42**, PE RVU **0.55**, MP RVU **0.05**
+- Ohio GPCIs: work **1.000**, PE **0.913**, MP **1.008**
+- Non-qualifying APM conversion factor: **$33.4009**
+
+**Step 1 — geographically adjust each component, then sum:**
+
+```
+work   1.42 × 1.000 = 1.42000
+PE     0.55 × 0.913 = 0.50215
+malp   0.05 × 1.008 = 0.05040
+                      -------
+                      1.97255
+```
+
+**Step 2 — the Medicare allowed amount:**
+
+```
+1.97255 × $33.4009 = $65.88
+```
+
+**Step 3 — the commercial expected rate.** _Assume_ a contract at **140% of the current-year MPFS** — this is a stated assumption for the worked example, not a market benchmark:
+
+```
+$65.88 × 1.40 = $92.23
+```
+
+**Step 4 — the variance.** _Assume_ the payer remits **$79.06** — exactly 120% of Medicare, which is the classic signature of a stale or mis-tiered fee-schedule load rather than a random error:
+
+| | Per claim |
+|---|---|
+| Expected @ 140% | $92.23 |
+| Actual remit | $79.06 |
+| **Variance** | **$13.17 (14.3%)** |
+
+At an assumed 1,200 reads a year, that is **~$15,800 annually — on one CPT code, from one payer, with zero denials and nothing in any work queue.** That is what "the silent leak" means concretely.
+
+**Step 5 — the silent cap, on the very same code.** Now assume the charge master lists 93306-26 at **$85.00**. Under lesser-of you are paid $85.00, not $92.23 — **$7.23 per claim, about $8,700 a year at the same volume — and it produces no variance at all** in a paid-vs-expected report, because the payer did nothing wrong.
+
+**Step 6 — a reduction that is *not* an underpayment.** 93306 carries multiple-procedure indicator **6**. If it is the second-ranked diagnostic cardiovascular service that day, its technical component takes a 25% cut while the professional component is untouched. Flag that as an underpayment and you have just spent your team's week arguing a rule with a payer who is right.
+
+**Notice where the ~$38-per-line average from earlier comes from.** It is not a magic constant; it is the output of exactly this computation, run across a book of business. Once you can compute the number, the statistic stops being a claim you repeat and becomes a result you produce.
+
+#### If you cannot get contract data: the Transparency-in-Coverage substitute
+
+Everything above assumes you know the contract term — the "140% of Medicare." Chapter 16 flags that as the wedge's binding constraint, because contracts live with the *provider*, not the biller, and small practices frequently cannot produce current ones.
+
+There is a partial way around it. Federal price-transparency rules require health plans to publish machine-readable files of their **in-network negotiated rates**. In principle you can look up what a payer has agreed to pay a given provider for a given code without ever seeing the contract.
+
+**In practice, treat this as a lead generator rather than a source of truth**, for four honest reasons: the corpus is enormous (tens of gigabytes per payer, and far more across the market); implementation varies wildly between payers; matching a rate to a *specific* provider through tax IDs and NPIs is genuinely hard; and published files contain "ghost" rates for provider-code combinations that never actually occur. A rate in a transparency file is evidence about what a contract probably says — not the contract.
+
+**The realistic use:** prospecting and sizing. Estimate a variance before you have a signed data-sharing agreement, walk into the conversation with a number, and use that number to earn the contract access that makes the real engine possible. Several companies (Turquoise Health, Serif Health, Payerset) sell cleaned versions of this data — for a capital-light founder, buying it is almost certainly cheaper than parsing it.
+
+_CMS figures in this section were verified against the Federal Register and CMS source data files in July 2026. Because CMS.gov blocks automated retrieval, the code-level RVU values were obtained through a proxy and cross-checked against independently-sourced conversion factors — **re-download RVU26C from cms.gov directly before shipping any code-level number in a product.** Contract percentages, charge-master amounts, and claim volumes in the worked example are labeled assumptions, not benchmarks._
 
 ---
 
@@ -714,11 +1018,51 @@ Flag this. It returns as a top-tier recommendation in Chapter 16.
 
 ## Chapter 4 — Five Worlds of Billing, and the Patient Who Pays
 
-> **What this chapter teaches:** Why "AI for medical billing" is not a product — because a cardiology bill, an anesthesia bill, and a lab bill obey completely different rules. Then: why the patient has quietly become the third-largest payer, and why collecting from them is a different business entirely.
+> **What this chapter teaches:** Who the payers actually are — seven kinds, not one. Then why "AI for medical billing" is not a product, because a cardiology bill, an anesthesia bill, and a lab bill obey completely different rules. Then why the patient has quietly become the third-largest payer.
 >
-> **Why you should care:** Two of the most common ways founders waste a year in this industry are (a) building generic tooling that produces confidently wrong claims in every specialty, and (b) ignoring the patient balance because it looks small. Both mistakes are avoidable in one chapter.
+> **Why you should care:** Three of the most common ways founders waste a year in this industry are (a) treating "the payer" as one thing, (b) building generic tooling that produces confidently wrong claims in every specialty, and (c) ignoring the patient balance because it looks small. All three are avoidable in one chapter.
 >
 > **The analogy:** "Healthcare billing" is like saying "financial software." Payroll, trading, and tax filing are all financial software. They share almost no rules.
+
+---
+
+### Part 0 — Who the payers actually are
+
+Chapter 1 told you to ignore the distinction between Medicare, Medicaid, and commercial insurance until now. Here is the bill for that deferral, and it is worth paying carefully, because **one line in this section determines whether the wedge this book recommends works at all at a given customer.**
+
+**Level 1.** "The payer" is not one thing. It is at least seven, and they behave differently in ways that change what you can build.
+
+**Level 2.** The word "payer" collapses several genuinely different animals. Some pay from a published formula with no contract at all. Some pay from a negotiated contract. Some are private companies administering a government program under government rules. And one large category — self-funded employer plans — looks exactly like commercial insurance from the outside while being regulated by an entirely different agency under an entirely different body of law. **You cannot reason about denials, appeals, or underpayments without knowing which one you are looking at**, because each has its own deadlines, its own appeal path, and its own answer to the question "is there even a contract to underpay against?"
+
+**Level 3.**
+
+| Payer type | Who actually pays | How rates are set | Who regulates appeals | Appeal window |
+|---|---|---|---|---|
+| **Medicare FFS** | CMS, via regional contractors (MACs) | **A statutory formula, not a contract** — 42 U.S.C. §1395w-4(b)(1): RVU × conversion factor × geographic adjustment | CMS / OMHA / DAB — federal | 5 levels: 120d → 180d → 60d → 60d → 60d |
+| **Medicare Advantage** | A private MA plan | **In-network: negotiated.** Out-of-network: pinned to the Original Medicare amount by 42 CFR §422.214 | CMS, 42 CFR Part 422 Subpart M | Its own process — *not* the FFS ladder |
+| **Medicaid FFS** | State Medicaid agency | State plan fee schedule, CMS-approved | State agency; state fair hearing | State-specific |
+| **Medicaid MCO** | A private managed-care org under state contract | Negotiated within state-contract floors | State agency + contract terms | State-specific, layered |
+| **Commercial fully-insured** | The insurer bears the risk | Negotiated contract | **State insurance department** + ACA external review | State prompt-pay laws apply |
+| **Commercial SELF-FUNDED (ERISA)** | **The employer bears the risk;** a TPA administers | Negotiated via network contract | **U.S. Department of Labor / EBSA — federal.** State insurance regulation is preempted | 29 CFR §2560.503-1 — see below |
+| **ACA exchange** | The issuer (fully-insured) | Negotiated | State DOI + CMS | State external review |
+
+#### Three things in that table that will cost you money if you miss them
+
+**1. Self-funded ERISA plans are most of the commercial market, and your state-level levers do not reach them.** Per the **KFF 2025 Employer Health Benefits Survey, 67% of covered workers are in self-funded plans** — 27% at firms with 10–199 workers, 80% at firms with 200+. When an employer self-funds, ERISA preempts state law; state insurance laws are then "saved" from preemption, *but* the deemer clause forbids a state from treating the plan as an insurer (*FMC Corp. v. Holliday*, 498 U.S. 52 (1990)). Practically: your state prompt-pay statute, your state DOI complaint, and your state external-review path all vanish. The regulator is federal.
+
+_Read that 67% precisely, because it is widely misquoted: it is **covered workers**, not employers. Most employers are small and fully-insured, so the employer-weighted number is far lower. Stale figures (61%, 63%, 65%) also circulate without dates. And KFF reports **level-funded** plans separately — 37% of covered workers at firms with 10–199 — which people silently fold into whichever bucket suits their argument._
+
+**2. The ERISA appeal window everyone quotes is wrong for your use case.** The familiar **60 days** comes from 29 CFR §2560.503-1(h)(2)(i) — the *general* rule. **Group health plans have their own paragraph.** Under **(h)(3)(i), a group health plan must allow at least 180 days to appeal.** Group health is essentially all a billing product ever touches. Building your worklist to a 60-day window is not conservative — it abandons live appeals four months early. (Plan *decision* deadlines are separate and tight: 72 hours urgent, 15 days pre-service, 30 days post-service.)
+
+**3. ⚠ The line that decides whether the underpayment wedge exists at all.** Look again at the Medicare FFS row. Payment is a *multiplication*, not a negotiation: 42 U.S.C. §1395w-4(a)(1) says Medicare pays the **lesser of** the actual charge or the fee-schedule amount, and §1395w-4(b)(1) defines that amount as RVU × conversion factor × geographic adjustment. All three inputs are published and downloadable.
+
+**There is no contract. So there is nothing to underpay against.** "The payer paid less than we agreed" is not a coherent claim in Medicare FFS — Medicare FFS denials turn on coverage, medical necessity, documentation, and edits, which are real problems but a completely different product.
+
+> **Underpayment and contract-variance detection is fundamentally a commercial-payer product.** A practice with a Medicare-dominated book is a poor first customer for it no matter how good your engine is. **Ask a candidate design partner for their payer mix before you ask them anything else** — Chapter 16 makes this a diligence question.
+
+One refinement worth building around: **Medicare Advantage splits.** In-network MA rates *are* negotiated and can vary from contract, so that is genuine product surface. Out-of-network MA is pinned to the Original Medicare amount by regulation, so it is not. "Medicare Advantage" is not one answer to the underpayment question.
+
+_Legal and regulatory citations in this section were verified against primary sources (Cornell LII for statutory and CFR text, KFF for survey data, and the Supreme Court opinion) in July 2026. The Medicare appeal-level deadlines are long-standing and uncontroversial but were taken from secondary sources — CMS.gov blocked direct retrieval — so re-check them against the CMS appeals pages before relying on them operationally._
 
 ---
 
@@ -780,6 +1124,23 @@ Specialty nuance cuts both ways, and you need to hold both edges at once:
 
 This is precisely why "one workflow, one specialty" appears in the answer sheet.
 
+#### So how do you actually choose one?
+
+This book says "choose deliberately, and choose one" repeatedly. Here is what deliberate means, scored on the five properties that decide whether a specialty is a good first target. **Chapter 16 scores the workflow; this table scores the specialty.** They are different questions and you have to answer both.
+
+| Specialty | Rules density<br>_(depth = moat)_ | Dollars per claim<br>_(error tolerance)_ | Variance surface<br>_(underpayment upside)_ | Payer mix<br>_(commercial = opportunity)_ | Read |
+|---|---|---|---|---|---|
+| **Anesthesia** | High — formula-priced on time units and base units defined by contract | Medium | **Strong** — a formula plus contracted time units is exactly what a variance engine can recompute | Mixed | **Good fit.** Formula pricing means expected payment is *computable*, which is rare and valuable |
+| **Orthopedics / surgery** | **Very high** — global surgical package, modifier-dense (24, 25, 57, 58, 78, 79) | **High** | **Strongest** — bundling and modifier interactions are where payers underpay quietly | Commercial-heavy in many practices | **Strongest overall fit** for a rules-depth moat, if you can get the domain knowledge |
+| **Cardiology** | High — device, imaging, and procedure interactions | High | Good | Medicare-heavy in many practices | Good, but **check payer mix first** — see the qualifier below |
+| **Emergency medicine** | High — E/M level assignment, prudent-layperson standard | Medium–high | Medium | Very mixed; high self-pay and bad debt | **Downcoding battleground.** Real problem, but you are fighting payer algorithms directly |
+| **Behavioral health** | Medium, but **state-varying** — rules differ by state and change often | Low–medium | Medium | Medicaid-heavy in many practices | High rule volatility. Volatility is a moat *if* you can keep up and a liability if you cannot |
+| **Lab / pathology** | Medium — NCD/LCD, CLIA, panel-unbundling edits | **~$18** | Low | Mixed | **Worst human-in-the-loop economics in this list.** At $18/claim there is no room for a person to review anything, so your accuracy bar is brutal from day one |
+
+**How to score a sixth one yourself.** Ask, in order: (1) Is there a *formula or rule set* that makes correct payment computable, or is it all judgment? (2) What is the dollar per claim, and therefore how much human review can the economics support? (3) Do payers have a systematic way to underpay here — bundling, modifiers, time units — or is it flat fee-for-service? (4) What is the typical payer mix, and how much of it is commercial? (5) Can you get a domain expert in this specialty, or are you guessing?
+
+**The qualifier that overrides all five, and it comes from Chapter 4's payer taxonomy: check the payer mix before anything else if you are pursuing underpayment recovery.** Medicare pays its published fee schedule essentially exactly. There is very little contractual variance to find in a Medicare-dominated book, because there is barely a contract to vary from. **Underpayment and contract-variance detection is fundamentally a commercial-payer product.** A cardiology practice at 70% Medicare is a poor first customer for that wedge no matter how good your engine is — and a specialty that looks attractive on rules density can be worthless on payer mix. **Ask a candidate design partner for their payer mix by specialty during diligence. If commercial is under roughly 40%, the wedge does not exist at that account.**
+
 ---
 
 ### Part 2 — The patient became a payer
@@ -831,7 +1192,7 @@ But raise your reliability bar before you enter it. This work is **empathy-sensi
 
 ### Back to Maria
 
-Her catheterization claim is eventually paid — after an appeal you'll see the mechanics of in Chapter 12.
+Her catheterization claim is eventually paid — after the appeal whose mechanics you met in Chapter 3, and whose actual paperwork is reproduced in [Appendix E](#appendix-e-the-artifacts).
 
 But her plan carries a $3,000 deductible, of which she had met $1,600. So after the insurer pays its share, Lakeside Cardiology sends Maria a bill for **$1,400**.
 
@@ -902,6 +1263,29 @@ Map that onto Chapter 2 and the whole pipeline becomes concrete:
  Payment / denial detail ... 835  (with CARC/RARC inside)
 ```
 
+#### Maria's claim, as messages
+
+Abstract transaction numbers become concrete the moment you attach them to a story you already know. So here is Chapter 2's 147 days, rewritten as the traffic actually crossing the wire.
+
+| Day | What happens in the office | What crosses the wire |
+|---|---|---|
+| 0 | Front desk verifies Maria's coverage before she is seen | **270** out → **271** back. Real-time, seconds. Active, $3,000 deductible, $1,600 met |
+| ~5 | The cardiologist wants a catheterization; the plan requires permission | **278** out → **278** response. Approved — **and this is where the seed of the denial is planted:** the auth is issued against one procedure code, and a different one ends up on the claim |
+| 15 | Procedure performed, coded, scrubbed, dropped | **837P** out (the file in [Appendix E.1](#appendix-e-the-artifacts)) |
+| 15 | *(minutes later)* Nothing visible in the office | **TA1** and **999** back. Envelope and syntax are clean — these are engineering gates and nobody in billing ever sees them |
+| 16 | Still nothing visible | **277CA** back. Accepted. **Had this been a reject, the claim would not exist at the payer — and the timely-filing clock would still be running.** Chapter 2 called these Maria's "rejections"; [Appendix E.3](#appendix-e-the-artifacts) explains why they are not denials |
+| 30 | Biller notices nothing has posted | **276** out → **277** back: "pending" |
+| 40 | Money arrives; so does the explanation, separately | **835** in — with `CAS*CO*197*1200` on the echo line. Simultaneously, an **ACH deposit** lands in a different department, and someone has to marry the two using the TRN trace number |
+| 45 | Biller opens the payer portal, finds the auth, spots the code mismatch | **No transaction exists for this.** This is the portal work Chapter 5 discusses below, and the labor Chapter 9 prices |
+| 60 | Corrected claim refiled | **837P** out again, with the frequency code changed to indicate a replacement |
+| 147 | Paid | **835** in |
+
+**Two things to take from that table.**
+
+First, **the transactions are not the hard part.** Every row with a transaction number is a solved problem you can buy from a clearinghouse for cents. Look at day 45: the one step with *no transaction* — a human in a browser, reconciling two systems that were never designed to talk — is the step that consumed most of the elapsed time and nearly all of the labor cost. **The gaps between the standards are where the industry's money is spent, and therefore where a product lives.**
+
+Second, notice how much traffic is invisible to the people doing the work. The TA1, the 999, the 277CA, the ACH addenda record — four separate signals that fail silently by default. Chapter 20 lists "instrument everything upstream of the 835" as unglamorous advice. This table is why.
+
 ### Implementation notes that will save you weeks
 
 - **Do not hand-roll regex.** Use a real parser: `pyx12` or Stedi's JSON API in Python; Smooks or edi-tools on the JVM. Validate against the 5010 implementation guides.
@@ -950,7 +1334,34 @@ Consequences for your plan:
 
 - Real-time eligibility and status can be live in **days**.
 - Full claim submission plus remittance across a payer panel is a **multi-week effort**.
-- **Start enrollments on day one, in parallel with the build.** Not after the demo works.
+- **Start enrollments as early as you possibly can** — but read the next section before you write "day one" on a Gantt chart, because there is a dependency that makes day one impossible.
+
+#### What an enrollment actually consists of
+
+The book has now called this the long pole six times without once saying what is in it. Here is the substance, because two details in it will reshape your plan.
+
+**The artifacts you assemble per payer:**
+
+| Item | What it is | Where it comes from |
+|---|---|---|
+| **Type 1 NPI** | The individual clinician's national provider identifier | The provider |
+| **Type 2 NPI** | The organization's NPI — the billing entity | The provider |
+| **Tax ID (EIN)** | The billing entity's federal tax number | The provider |
+| **PTAN / payer-specific provider number** | Legacy identifiers some payers still key on | The provider, from that payer |
+| **Submitter ID** | Identifies *you* as the entity transmitting | Your clearinghouse |
+| **Trading partner agreement** | The contract permitting EDI exchange with that payer | Signed by **the provider**, not you |
+| **ERA (835) enrollment** | A *separate* form, per payer, to receive remittances electronically | Signed by the provider |
+| **EFT enrollment** | A *separate again* form, with bank details, to receive payments electronically | Signed by the provider |
+
+**⚠ Detail one: the provider signs, not you.** Look down that "where it comes from" column. Almost everything is the provider's, and the signatures are the provider's. **Which means enrollment cannot start on day one — it starts on the day you have a signed design partner willing to put their credentials and their signature behind your submitter ID.** Any plan that shows enrollment beginning before partner signature is fictional, and this book has said "start on day one" in several places without acknowledging that dependency. Read it as: *start the moment the partner signs, and make enrollment the very first thing you do after signature — before you write integration code.*
+
+**⚠ Detail two: the ERA-redirect hazard, which nobody warns founders about.** ERA enrollment tells the payer where to send the 835s for that provider. **A payer typically sends them to one place.** So enrolling your design partner's ERAs to your receiver ID can *redirect their existing remittance stream away from wherever it currently goes* — their PM system, their old clearinghouse, their posting team.
+
+The failure mode is quiet and ugly: remittances stop arriving in the system their staff actually use, payments stop auto-posting, and their AR silently degrades for weeks before anyone connects it to your onboarding. **You will have broken your only reference customer's cash posting, in your first month, with paperwork.**
+
+That is a poisoned-reference event of exactly the type Chapter 20 names as a fast-death tripwire — and it is caused by a step this book previously told you to rush.
+
+**The mitigation is procedural, not technical.** Before submitting any ERA enrollment: ask where that payer's 835s currently go; confirm in writing with the partner's operations lead, not just the owner who signed the deal; check whether the clearinghouse supports duplicate or split ERA delivery (some do); and enroll **one low-volume payer first**, verify both streams for a full remittance cycle, and only then proceed. Budget weeks, not days, and do it before you have volume riding on it.
 
 **Redundancy pattern:** abstract your code behind one internal transaction interface, then run at least two clearinghouses — for example Stedi for development and the long tail, Availity for production breadth.
 
@@ -1021,7 +1432,7 @@ But stress-test the edge before you bet on it.
 
 **2. Anti-bot defenses are rising** — CAPTCHA, fingerprinting, rate limiting, MFA. Your background is the relevant counter. But treat **MFA as a feature to integrate**, not a wall to evade: consented service-account credentials, OTP relay, agreed with the customer.
 
-**3. The omitted risk: ToS and CFAA exposure.** Some payer and vendor agreements explicitly prohibit _"bypassing the user interface by means of automation... unless you have entered into a separate written agreement."_ Mitigations, in strict order of preference:
+**3. The omitted risk: ToS and CFAA exposure.** ToS is the site's terms of service; the CFAA is the **Computer Fraud and Abuse Act**, the U.S. federal anti-hacking statute that makes unauthorized access to a computer system a crime as well as a civil wrong. The relevant question for you is whether automating a login you were *given* counts as authorized — and the answer depends on what the agreement says. Some payer and vendor agreements explicitly prohibit _"bypassing the user interface by means of automation... unless you have entered into a separate written agreement."_ Mitigations, in strict order of preference:
 
 1. **Use the sanctioned path wherever it exists** — 270/271, 276/277, 278, clearinghouse APIs, and the now-mandated FHIR prior-auth APIs.
 2. Where you must use a portal, **operate as the provider's authorized agent under the BAA**, and prefer ToS-permissive portals.
@@ -1172,7 +1583,7 @@ Requires hospitals to publish machine-readable files of standard charges plus co
 
 Enforcement intensified sharply under **Executive Order 14221 (Feb 2025)**. CMS issued **10 civil monetary penalties in 2025** — more than double the prior pace — and committed to earlier and automatic penalties, maximum roughly **$5,500/day**.
 
-New **CY2026 OPPS** requirements (effective Jan 1, 2026, enforced from April 1, 2026) require encoding median and 10th/90th-percentile allowed amounts in actual dollars, plus Type 2 NPIs.
+New **CY2026 OPPS** requirements — OPPS is the Outpatient Prospective Payment System, the Medicare rule set governing how hospitals are paid for outpatient care, and the vehicle CMS uses to attach price-transparency obligations to hospitals — (effective Jan 1, 2026, enforced from April 1, 2026) require encoding median and 10th/90th-percentile allowed amounts in actual dollars, plus Type 2 NPIs.
 
 #### The CMS prior-authorization wave (2026–27) — read this one closely
 
@@ -1181,7 +1592,7 @@ This is the single most consequential regulatory cluster for a founder choosing 
 - **WISeR Model.** CMS's AI/ML-assisted Medicare prior-authorization pilot went live **January 1, 2026** across six states (NJ, OH, OK, TX, AZ, WA), with a **72-hour electronic turnaround standard**, running through 2031. In April 2026 CMS indefinitely delayed two covered services — deep brain stimulation for essential tremor/Parkinson's, and percutaneous image-guided lumbar decompression.
 - **CMS-0057-F (Interoperability and Prior Authorization final rule).** Requires Medicare Advantage, Medicaid, and CHIP payers to implement **FHIR-based prior-authorization APIs by January 2027** — unchanged as of July 2026. The rule's 72-hour/7-day decision timelines and denial-reason requirements took force in 2026, with the first public prior-auth metrics report due March 31, 2026.
 - **CMS-0062-P (proposed, April 2026).** Would extend electronic prior auth to **drugs**, and proposes adopting FHIR as a HIPAA standard for referral/authorization and eligibility transactions.
-- **CMS-0053-F (HIPAA claims-attachments final rule, March 2026).** Adopts the **X12 275/277** attachment transactions, C-CDA templates, and an electronic-signature standard, with compliance required by **May 26, 2028**. This ends fax and portal attachment workflows as the default and creates a brand-new RCM integration workstream.
+- **CMS-0053-F (HIPAA claims-attachments final rule, March 2026).** Adopts the **X12 275/277** attachment transactions, C-CDA templates (Consolidated Clinical Document Architecture — the HL7 standard XML format for a clinical document, which is what a payer means when it asks you to "send the chart notes" electronically), and an electronic-signature standard, with compliance required by **May 26, 2028**. This ends fax and portal attachment workflows as the default and creates a brand-new RCM integration workstream.
 
 Read those four together and the conclusion writes itself: they directly accelerate both the **prior-auth automation wedge** and the **EDI→FHIR bridge opportunity**.
 
@@ -1208,7 +1619,7 @@ Design and document these answers _before your first sales call_.
 > The single sentence that answers the most common objection:
 > _"PHI is stored and processed in [U.S. region]; offshore staff access it remotely under controls X, Y, and Z."_
 
-**2. Zero-local-data access via VDI/DaaS.** Offshore reviewers work inside a U.S.-hosted virtual desktop (Amazon WorkSpaces, Azure Virtual Desktop) with local drive mapping, clipboard, USB, screenshot, and print **disabled**. Only pixels cross the wire.
+**2. Zero-local-data access via VDI/DaaS.** VDI is a *virtual desktop infrastructure* — the offshore reviewer's screen is a video stream of a computer that is physically in the United States, so the patient data never actually lands on the machine in Chennai. DaaS is the same thing bought as a cloud service (desktop-as-a-service). Offshore reviewers work inside a U.S.-hosted virtual desktop (Amazon WorkSpaces, Azure Virtual Desktop) with local drive mapping, clipboard, USB, screenshot, and print **disabled**. Only pixels cross the wire.
 
 Critically: this is the industry-standard control large offshore RCM BPOs already run. That makes it a **known-acceptable** answer rather than something you have to defend from first principles.
 
@@ -1499,7 +1910,7 @@ The market is consolidating, with private-equity firms driving roll-ups.
 
 Here is the uncomfortable part, stated plainly.
 
-The premise "small billing companies need AI but cannot build it themselves" holds **only** for small and mid-sized billers below an engineering-capability threshold. That is precisely the **low-ACV, high-churn cohort being consolidated.**
+The premise "small billing companies need AI but cannot build it themselves" holds **only** for small and mid-sized billers below an engineering-capability threshold. That is precisely the **low-ACV, high-churn cohort being consolidated** — _ACV_ being annual contract value, what one customer pays you per year, and the number that decides whether a sales motion can ever pay for itself.
 
 And **both ends** of that buyer base are shrinking at once:
 
@@ -1510,7 +1921,7 @@ A go-to-market predicated on _"move before your customers disappear"_ is fragile
 
 **The honest conclusion.** Treat the accessible small-biller segment as a **fast-cash, data-and-references bridge** — not a destination. Name the real destination explicitly as either:
 
-- **(a) selling to the consolidators and MSO platforms** — one decision, many sites (Chapter 17), or
+- **(a) selling to the consolidators and MSO platforms** — an _MSO_ is a management services organization, the corporate entity that owns the business side of many medical practices at once and runs their billing centrally; sell once, land many sites (Chapter 17) — or
 - **(b) the U.S. mid-market**, once references exist.
 
 Building distribution to a channel being vacuumed up by consolidators who then build or buy AI in-house **cannot be the endpoint of the strategy.**
@@ -1591,8 +2002,37 @@ The 2026 trend runs decisively away from pure per-seat toward usage, outcome, an
 | Per-seat / per-biller license       | Easy to sell; predictable                                                                                                                | **Caps your upside exactly as your AI removes seats.** Use only as a floor fee       |
 | Per-call / per-task (per-execution) | Natural for a voice/AR agent; aligns price with work                                                                                     | One workflow can be many billable "runs" — buyers feel surprise bills. Cap or bundle |
 | Per-claim / per-resolved-claim      | Clean for denial resolution or scrubbing                                                                                                 | Define "resolved" precisely; price below their per-claim labor cost                  |
-| Outcome / % of recovered dollars    | **Best alignment.** The biller already earns a fixed % of collections, so sharing upside on recovered/underpaid dollars is friction-free | Buyer needs cost predictability; attribution disputes; you carry collection risk     |
+| Outcome / % of recovered dollars    | **Best commercial alignment.** The biller already earns a fixed % of collections, so sharing upside on recovered/underpaid dollars is friction-free | Buyer needs cost predictability; attribution disputes; you carry collection risk — **and a legal watch-out, below** |
 | **Hybrid (recommended)**            | **Platform fee + per-claim/per-call usage + outcome kicker on recovered dollars.** Sticky, multi-year                                    | Most complex to administer                                                           |
+
+#### ⚠ Before you price on a percentage, know which of two problems you have
+
+Percentage-of-recovery is commercially the cleanest pitch in this business, and it carries a regulatory question most founders discover late. Keep the model — but understand the question, because **it decides which controls you need, and the wrong controls are worthless.**
+
+**Nothing about a percentage is inherently illegal.** The federal Anti-Kickback Statute (42 U.S.C. §1320a-7b(b)) is an *intent* statute — it prohibits paying or receiving value to induce referrals of federally reimbursable services. What a percentage does is create an incentive, and incentives are evidence of intent. So the question is never "is percentage pricing legal." It is: **a percentage of what, paid to someone doing what?**
+
+OIG wrote the distinction down in 1998, and almost nobody quotes it correctly. Footnote 40 of the Compliance Program Guidance for Third-Party Medical Billing Companies (63 FR 70138) contains **two separate worries that are not the same worry**:
+
+1. **Kickback risk is conditioned on marketing.** "For billing companies that provide marketing services, percentage arrangements may implicate the anti-kickback statute." If you are paid a percentage *and* part of what you do drives patients or referrals, you are in AKS territory.
+2. **Upcoding risk is a second, unconditioned sentence.** If you are paid a percentage *and* you influence what code goes on the claim, your economics reward the higher code. **That is a False Claims Act problem, not a kickback problem** — see Chapter 18's fifth guardrail.
+
+Vendor commentary mashes these into one mushy warning that "percentage billing is a kickback risk." That imprecision will cause you to build the wrong controls: if your exposure is #2, a kickback compliance policy does nothing for you, and vice versa. **An RCM automation tool that touches code selection and does no marketing has problem #2, not problem #1.**
+
+**And your lawyer may be citing a dead regulation.** The safe harbor everyone reaches for is personal services and management contracts, 42 CFR §1001.952(d). The 1991 text required that *"the aggregate amount of compensation"* be *"fixed in advance"* — which no percentage arrangement can ever satisfy, which is why a generation of memos concluded percentage pricing was categorically outside the safe harbor. **OIG amended that provision in its November 2020 final rule, effective January 2021.** The current text requires the compensation *methodology* to be set in advance, consistent with fair market value, and not determined in a way that takes into account the volume or value of referrals. **The structural-impossibility argument is gone.** The FMV and volume-or-value tests remain, and those are the hard part. If a memo you are handed says "aggregate compensation fixed in advance," it is at least five years stale.
+
+_(While we are correcting citations: **OIG Advisory Opinion 98-4** is the most-cited and least-read document in this area. It concluded an arrangement "may constitute prohibited remuneration" — it did not find a violation, and said a definitive conclusion "requires a determination of the parties' intent, which... is beyond the scope of the advisory opinion process." The arrangement it reviewed was a management company that also did marketing, built specialist networks, and could **require** referrals into them. That is a very different animal from software that reads a remittance file.)_
+
+**Structures counsel commonly recommends** — flat platform fee; per-transaction or per-claim fee; a capped, non-percentage performance bonus; or subcontracting inside a billing company's existing arrangement. **Presented honestly: this list is practitioner consensus, not anything a regulator has blessed** — no government source endorses it. What *is* verifiable is why each tends to survive: a flat or per-transaction fee makes the methodology trivially "set in advance" and severs the link to the value of what is collected; a cap bounds the incentive; subcontracting puts you inside a relationship your client already papered.
+
+**Two more things worth knowing.** State law runs on two axes people constantly conflate — *corporate practice of medicine* (who may employ a physician) and *fee splitting* (who may share a professional fee) — and a state can be strict on one and permissive on the other. California is the proof: strict on CPOM, yet Business & Professions Code §650(b) **expressly permits** percentage-of-gross-revenue compensation for services other than patient referral, subject to a value test. New York is the hard case, because Education Law §6531 prohibits fee splitting with narrow enumerated exceptions and **contains no billing-company exception** — note that the difficulty is the *absence* of a carve-out, not any affirmative prohibition, and the commonly repeated claim that New York "expressly prohibits" percentage billing-company compensation traces to regulatory interpretation this book could not verify. Have New York counsel produce the actual guidance rather than repeating the folklore.
+
+And one almost everyone misses: **42 CFR §424.80**, Medicare's payment-to-agent rule, permits direct payment to a billing agent only where the agent's compensation is *not related in any way to the dollar amounts billed or collected*. That is a condition on money flowing to the agent under the reassignment rules — the lockbox pattern. The ordinary structure, where the provider is paid and separately pays its biller, is generally understood not to trigger it. **If you go anywhere near holding or routing payments, your cash-flow design can drift across that line without anyone noticing.**
+
+**The question to take to counsel:** *"Given our exact fee structure and our exact cash flow — (a) do we satisfy the FMV and volume-or-value conditions in the current 42 CFR §1001.952(d)(1); (b) do we do anything characterizable as marketing or referral generation; (c) does 42 CFR §424.80 apply to how funds move; and (d) what is the position in each state we operate in?"* That is a $2,000 conversation. "Is percentage pricing legal?" is an $8,000 memo that says "it depends."
+
+_Citations verified against primary sources (Cornell LII, OIG.hhs.gov, California and New York statutory text) in July 2026. The 2020 amendment history is secondary-sourced from concurring law-firm analyses; have counsel confirm it against 85 FR 77684. Orientation, not legal advice._
+
+---
 
 **Protect your margin.** LLM inference at scale runs roughly **$5K–$25K/month**. Never sell a flat, all-you-can-use price on a token-heavy workflow. Meter it, cap it, or pass it through.
 
@@ -1602,13 +2042,17 @@ For a white-label or reseller motion (Chapter 17), price wholesale so the biller
 
 ### The metric everything is judged on: cost-to-collect
 
-**Definition.** Cost-to-collect is the share of revenue a provider spends in order to collect that revenue. Total RCM cost ÷ collections.
+**Level 1.** Cost-to-collect is how many cents a provider spends to collect a dollar.
+
+**Level 2.** It is the single number this industry is judged on, the way SaaS is judged on gross margin. Total revenue-cycle cost divided by total collections, expressed as a percentage. A well-run physician practice runs around 3.5–4%; an automated one meaningfully lower. Every buyer you meet knows their number, is measured on it by someone above them, and will translate whatever you are selling into its effect on that number — whether or not you do it for them. **Do it for them.**
+
+**Level 3.** Total RCM cost ÷ collections, where "cost" properly includes staff and benefits, vendor and clearinghouse fees, software, and an allocation of overhead — the boundary is inconsistently drawn in practice, which is why cross-organization comparisons need care. Denominators vary too (net patient revenue vs. cash collected), so ask which one a quoted figure uses before you build a pitch on it.
 
 **The prize.** McKinsey's _"Agentic AI: the race to a touchless revenue cycle"_ (January 2026) estimates automation can move cost-to-collect from roughly **3.5–4.0% down by one to two percentage points** — a **25–57% reduction**.
 
 For a health system with $6 billion in patient revenue, that is **$60–120 million in annual savings**.
 
-Earlier evidence points the same way: AKASA's 2022 HFMA Pulse survey found automated providers already ran cost-to-collect about **0.23 percentage points** lower than non-automated peers — **3.51% vs 3.74%**. That gap is expected to widen as agentic AI replaces first-generation automation.
+Earlier evidence points the same way: AKASA's 2022 survey with HFMA — the Healthcare Financial Management Association, the professional body for hospital and health-system finance staff, and the organization whose benchmarks buyers in this industry quote at each other — found automated providers already ran cost-to-collect about **0.23 percentage points** lower than non-automated peers — **3.51% vs 3.74%**. That gap is expected to widen as agentic AI replaces first-generation automation.
 
 ### The KPI panel buyers actually run on
 
@@ -1655,7 +2099,11 @@ So offshoring alone already cuts labor cost by **well over half**. 2026 India-vs
 
 ### The single number that governs the back end: cost-to-rework
 
-Reworking one denied claim costs an estimated **$25 in direct labor, up to ~$118 fully loaded** (MGMA / Change Healthcare).
+**Level 1.** It costs real money — tens of dollars — for a human to fix and resubmit one denied claim.
+
+**Level 2.** And that cost is the hidden rule governing which denials get fought and which get quietly abandoned. If chasing a claim costs $40 of staff time and the claim is worth $60 with a coin-flip chance of being overturned, the expected value of fighting is negative. So nobody fights it. Multiply that decision across every small-balance denial in the country and you have located one of the largest pools of simply-abandoned money in U.S. healthcare. **This single number is why the long tail exists, and collapsing it is the clearest AI wedge in this book.**
+
+**Level 3.** Reworking one denied claim costs an estimated **$25 in direct labor, up to ~$118 fully loaded** (MGMA / Change Healthcare).
 
 That one figure explains two behaviours you must understand:
 
@@ -1766,6 +2214,20 @@ For an offshore-leveraged buyer, the pitch therefore **cannot rest on raw cost d
 | **Price to biller**                                  | **$3–6 / appeal** (vs. $25–118 manual rework) |
 | **Gross margin**                                     | **~88–94%**                                   |
 
+#### Run it on Maria's claim, so the numbers stop being abstract
+
+Take the denial we have been following since Chapter 1: Maria's cardiac catheterization, denied **CO-197** because the prior authorization referenced a different procedure code than the one billed.
+
+**What it costs Lakeside Cardiology today.** A biller pulls the denial off the 835 worklist, opens the payer portal, finds the original auth, confirms the mismatch, corrects the code, and resubmits. Call it 25–40 minutes end to end including the wait. At the cost-to-rework figures above, that is **$25 direct, up to ~$118 fully loaded** — for one claim.
+
+**What it costs your system.** Read the 835, match CO-197 to the auth-mismatch pattern in the rules store, pull the auth record, verify the correct code, generate the corrected claim, and route it to a human for a ten-second approval because it is a resubmission — an irreversible action. **~$0.35 of COGS**, most of it the human's ten seconds.
+
+**What you charge.** $3–6. Lakeside's biller saves $20–110 per claim and gets it back the same day instead of next week.
+
+**Now the part that matters more than the margin.** Maria's claim was worth several thousand dollars, so it was always going to get worked. The interesting claims are the ones underneath it. A $180 echocardiogram denied CO-197 for exactly the same reason has an expected recovery — say $180 at a 60% overturn rate, about $108 — that does not clear a $118 fully-loaded rework cost. **So nobody touches it. It ages out and is written off**, and the write-off looks like normal shrinkage rather than a decision.
+
+At $0.35, that same claim is worth working roughly three hundred times over. **This is the entire long-tail argument in one example**, and it is why Chapter 9 keeps insisting the pitch to an offshore-leveraged biller is recovered dollars rather than cost displacement. You are not doing their work cheaper. You are doing work they had rationally decided not to do at all.
+
 #### Two LLM cost levers that change the math ~10×
 
 1. **Prompt caching.** Cached reads cost roughly 0.1× base input. Put the stable payer-rules and system prefix _before_ the per-claim suffix, and a claim's context costs **~$0.01 instead of ~$0.10**.
@@ -1779,9 +2241,13 @@ Blended LLM cost per claim processed lands **well under $0.10**, often **$0.02�
 
 ### ⚠ Launch vs. mature: the caveat to read before trusting any margin above
 
-This is the most important paragraph in the chapter. The report it is drawn from flags it as a correction to its own earlier optimism.
+This is the most important paragraph in the chapter, and it is a correction to this book's own earlier optimism.
 
-**The ~80–94% gross margins above price the mature-leader automation rate** — roughly 80%+ containment, ~20% human review. **They are a Year-2/Year-3 destination, not a starting condition.**
+**Level 1.** Those 80–90% margins are where you end up, not where you start.
+
+**Level 2.** Every margin figure above assumes the system handles most work by itself, with a person checking only the hard cases. That is what a mature operation looks like after two or three years of grinding the error rate down. On day one it is the reverse: your system handles maybe half, a person checks nearly everything, and you pay again for the calls and claims that fail and must be redone. Model your first eighteen months on the launch numbers. **A plan built on mature-state margins does not run out of ambition — it runs out of cash, quietly, around month nine.**
+
+**Level 3.** The ~80–94% gross margins above price the mature-leader automation rate — roughly 80%+ containment, ~20% human review. They are a Year-2/Year-3 destination, not a starting condition.
 
 A new entrant should **launch at 40–60% automation**, with heavy human review, QA on automated outputs, and a **1.3–1.6× gross-up for failed-call retries and rework.**
 
@@ -1849,12 +2315,22 @@ At ~$2/claim with ~$0.40 non-labor COGS, covering a realistic all-in burn of **~
 
 ### ACV benchmarks for a sell-to-billers motion
 
-| Customer type                         | Volume                      | Illustrative ACV                                         |
-| ------------------------------------- | --------------------------- | -------------------------------------------------------- |
-| Small biller (10–25 provider clients) | ~50–150K calls or claims/yr | **$25K–60K**                                             |
-| Mid-size biller (a few hundred staff) | 0.5–2M transactions/yr      | **$120K–400K**                                           |
-| Small provider group, direct          | 5–15K claims/yr             | **$15K–45K**                                             |
-| Enterprise BPO (land-and-expand)      | multi-million transactions  | **$250K–1M+** _(but likely builds in-house — see below)_ |
+Read this table with the previous section's warning applied, because it is the step most plans skip. A customer's **total** volume is not your volume. A specialty-narrow wedge touches only the slice of their book that runs through your specialty and your workflow, so the arithmetic has to run through a routed-share assumption before it reaches a contract value. The two middle columns below are that assumption made visible — change them and the ACV changes with them.
+
+| Customer type | Their total annual volume | Share routed to you | Unit price applied | **Implied ACV** |
+| --- | --- | --- | --- | --- |
+| Small biller (10–25 provider clients) | ~50–150K claims/yr | ~20–30% (one specialty's slice) | $1.25–2.00/call | **$25K–60K** |
+| Mid-size biller (a few hundred staff) | 0.5–2M transactions/yr | ~10–20% (more diversified book) | $1.25–2.00/call | **$120K–400K** |
+| Small provider group, direct | 5–15K claims/yr | ~100% — a single-specialty group's whole book *is* your specialty | $2–4/claim | **$15K–45K** |
+| Enterprise BPO (land-and-expand) | multi-million transactions | — | — | **$250K–1M+** _(but likely builds in-house — see below)_ |
+
+**Three things to take from the middle columns.**
+
+First, the direct-to-provider row is the only one at full capture, and that is not a coincidence — a six-physician cardiology group has no other specialty to route elsewhere. This is the quiet argument for selling direct to *single-specialty* groups even though the book's main recommendation is to sell to billers: the capture rate is 3–5× better, which partly offsets the smaller book.
+
+Second, if you win the whole book at a small biller rather than one specialty's slice, that row's ACV roughly triples. Land narrow, expand across specialties — that expansion, not new logos, is where net revenue retention above 110% actually comes from.
+
+Third, and least comfortable: the routed-share column is the number you will be most tempted to inflate in a model, and the one a design partner will correct within a month of going live. Ask a candidate partner for their claim counts *by specialty* during diligence, not their total. The total flatters everyone.
 
 **The caveat on that last row, and it's a big one.** The largest BPOs are the **least** likely buyers. AGS Health runs 500+ in-house digital agents. Omega has deployed 20+ Microsoft AI solutions. **They build; they don't buy.**
 
@@ -1912,6 +2388,8 @@ Do not blend these two implicitly. They imply completely different companies.
 ---
 
 ### Who is in the room, and who signs
+
+Four buyer shapes recur, and the vocabulary is worth pinning down before the table, because the middle two sound similar and behave very differently. An **MSO** (management services organization) or **DSO** (dental service organization) is a company that has bought the business side of many independent practices and now runs their billing, staffing, and contracts centrally — one signature, many sites, usually with a private-equity sponsor behind it. An **IDN** (integrated delivery network) is a full health system: hospitals plus employed physician groups plus outpatient sites under one corporate roof. The pattern to notice is that as you move down this table the deal gets larger and the number of people who can kill it grows faster than the money does.
 
 | Buyer                                     | Champion (recommends)                    | Final signer                      | Gatekeepers who can veto                                                | Committee size |
 | ----------------------------------------- | ---------------------------------------- | --------------------------------- | ----------------------------------------------------------------------- | -------------- |
@@ -2002,6 +2480,8 @@ This is subtle, structural, and it fails silently. Read it carefully.
 
 ### Designing pilots that convert (instead of dying in POC purgatory)
 
+_POC is a proof of concept — a small, time-boxed trial a buyer runs to see whether your thing works. "POC purgatory" is the industry's name for the failure mode where the trial technically succeeds, everyone is pleased, and it never becomes a contract._
+
 **The brutal baseline.** Roughly **70% of healthcare AI pilots fail to reach production.** Only ~30% of completed proofs-of-concept convert — ~46% at large providers (Bessemer / Bain / AWS Healthcare AI Adoption Index, April 2025).
 
 **And here is the important part:** they almost always fail on **integration, compliance, security, or workflow fit — not model accuracy.**
@@ -2067,7 +2547,7 @@ They will resist. When they do adopt, it is _defensively_ — to protect margin 
 
 These sellers earn the same revenue whether the work takes two people or zero. **Labor is pure cost.** Automation drops their cost to serve, and that drops straight to margin.
 
-**This is the aligned core of your ICP.** Every dollar of labor you remove is a dollar they keep. **Lead here.**
+**This is the aligned core of your ICP** — your _ideal customer profile_, the precise description of the buyer whose incentives point the same way yours do. Every dollar of labor you remove is a dollar they keep. **Lead here.**
 
 #### Percent-of-collections billers — mixed, and the wedge decides
 
@@ -2208,6 +2688,23 @@ Here is the honest synthesis.
 
 That fourth one has now appeared three times in this book from three independent directions: as a leak (Chapter 3), as a technical fit for an engineering-led founder, and now as the least-crowded lane on the map. Pay attention to that convergence.
 
+#### The underpayment lane, since this map points you at it
+
+"Under-built" does not mean empty, and a map that steers you somewhere without naming who is already there is doing you a disservice. The first question any investor or design partner will ask about this wedge is *"how is this different from Rivet?"* — so here is the answer set. Crowding here is best read as **moderate and rising**, not open.
+
+| Company | What it sells | To whom | Note |
+|---|---|---|---|
+| **Rivet** | Underpayment detection plus patient cost estimation, built on modeled contracts | Small and mid-size practices | The name you will be compared to. Runs an implementation team — contract loading is a services task, not a signup flow |
+| **MD Clarity** | Contract management and underpayment recovery | Small practices and groups | Same shape, same services gravity |
+| **Aspirion ContractIQ** | Contract-variance analytics as part of a broader recovery service | Hospitals and health systems | Enterprise-tier; not your segment, but sets buyer expectations |
+| **R1 (underpayment recovery module)** | Variance recovery inside the full-platform suite | Enterprise | The bundling risk, in this lane specifically |
+| **Anomaly Insights** | Payment-accuracy ML | Payers and providers | Doubled its round to $34M (May 2026) — capital arriving in this lane |
+| **Turquoise Health** | Price-transparency data pivoting toward contract intelligence | Payers, providers, and vendors | Raised $40M (March 2026). Watch this one: they are coming at the same problem from the data side rather than the workflow side |
+| **Serif Health, Payerset** | Transparency-in-Coverage data infrastructure | Vendors and analysts | Not competitors so much as potential suppliers — see the expected-rate substitute in Chapter 3 |
+| Bundled modules in **Waystar, Experian Health**, and major PM systems | Contract management as a platform feature | Existing platform customers | The zero-incremental-price competitor from risk #0 |
+
+**Read this table for what it says about positioning, not just about competition.** Nearly everyone above sells to *providers* and carries a heavy contract-loading services burden. That is the shape of the lane, and it is why the wedge is contract-data-gated. The gap a capital-light founder can actually enter is narrower and more specific: **a single specialty, sold through a billing company that already holds the contracts for many practices at once** — which spreads the loading cost across a book rather than paying it per logo. If your plan does not solve the contract-loading problem structurally, you are entering the same fight as Rivet with less capital.
+
 **The four companies worth studying closely** as models for a capital-light founder: **SuperDial, Cair Health, LunaBill, and Procode AI.**
 
 ---
@@ -2218,7 +2715,7 @@ That fourth one has now appeared three times in this book from three independent
 
 _(A caution on numbers you'll see quoted: "B2B raised 4× consumer," "+85% to healthcare/B2B," "−60% consumer," "~92% of investors more interested" are **classification-dependent directional illustrations, not single-sourced statistics.** Treat them as shape, not number.)_
 
-**Healthcare-AI investors now expect net revenue retention >110% and CAC payback under 12 months.**
+**Healthcare-AI investors now expect net revenue retention >110% and CAC payback under 12 months.** Two pieces of investor vocabulary worth owning: _net revenue retention_ (NRR) is what last year's customers pay you this year, expressed as a percentage — above 100% means your existing base grows on its own, through expansion, faster than churn shrinks it. _CAC payback_ is how many months of gross profit it takes to earn back what you spent acquiring a customer (CAC = customer acquisition cost). Together they answer one question: does growth here fund itself, or does it need permanent outside money?
 
 #### Round sizes (2026 medians)
 
@@ -2268,7 +2765,7 @@ Against an all-in burn of ~$0.28–0.40M in Year 1 rising to ~$1.0–1.4M by Yea
 
 - **The obvious lanes are funded.** Autonomous coding, payer voice, denial management, and eligibility all have capitalized players as of mid-2026.
 - **Amperos already occupies the denial-recovery wedge** (~$700M/yr recovered). **LunaBill and SuperDial** occupy sell-voice-to-billers. **Cair Health** is the closest analog to a sell-to-the-industry strategy.
-- **Underpayment / contractual-variance recovery remains notably under-built** — the standout gap on this map.
+- **Underpayment / contractual-variance recovery is the least-crowded lane on this map — but "least crowded" is not "empty."** Rivet, MD Clarity, Aspirion, and R1 are already there; Anomaly and Turquoise both raised in 2026. Crowding is **moderate and rising.** The specific gap is a single specialty sold through billing companies that hold contracts for many practices at once — which is the only way a capital-light founder solves the contract-loading problem.
 - **Olive AI is the cautionary case:** enormous funding, broad promise, wound down in 2023.
 - To be valued as AI (15–30×) rather than services (5–8×), you need **>70% GM, NRR >110%, and diversified logos.**
 
@@ -2378,14 +2875,11 @@ _A note on how these numbers get restated over time:_ CodaMetrix's own earlier f
 
 ### How to evaluate an RCM agent — the discipline that makes you fundable
 
-Every vendor quotes two headline metrics, and **they are in direct tension:**
+**Level 1.** Any single accuracy number a vendor quotes you — including your own — is meaningless without knowing how much work it refused to touch.
 
-- **Automation rate** — % handled with no human touch.
-- **Accuracy** — % of automated items that are correct.
+**Level 2.** There are two numbers, and they trade against each other. **Automation rate** is the share of work the system handles with no human involved. **Accuracy** is how often it was right on the work it did handle. You can make either one look spectacular by sacrificing the other: automate only the easiest third of claims and accuracy approaches perfection; automate nearly everything and accuracy collapses on the hard cases. Vendors quote whichever number flatters them. Investors who know this industry ask for both, and then ask for the curve between them. **Your real product is not a point on that curve — it is the ability to know where you are on it, prove it, and move along it deliberately.**
 
-You can hit 99% accuracy by automating only the trivially easy 30% of claims. Or 95% automation by acting on cases you should have escalated. **Either number alone is meaningless.**
-
-**The product is the _curve_ between them.** Your evaluation method is how you find and defend your operating point on that curve.
+**Level 3.** Formally, you are choosing an operating point on an automation–accuracy frontier, where the decision variable is a confidence threshold: above it, act; below it, escalate to a human. Raising the threshold moves you up-and-left (higher accuracy, lower automation) and down-and-right in the other direction. The economically correct threshold is not the highest-accuracy one — it is the point where the marginal cost of one more human review equals the expected cost of one more automated error, and that error cost is asymmetric in ways Chapter 18's guardrails section makes explicit. Your evaluation method is how you locate that point and defend it in a diligence conversation.
 
 #### 1. Build a golden dataset
 
@@ -2485,13 +2979,22 @@ This is deterministic engineering _around_ the LLM:
 
 **Check the compliance fine print rather than assuming.** Vapi charges a published HIPAA add-on (~$2,000/month flat). Retell's standard BAA is self-signable at no fee on all plans, including pay-as-you-go — only custom BAA/SLA/RBAC terms are Enterprise-gated. _(Pricing here is volatile and tier-dependent. Verify current.)_
 
-**All-in cost lands around $0.13–0.33 per call-minute** (approximate; varies widely with model, provider, and hold time). A multi-minute AR call including hold runs **~$1–3, versus a human caller's loaded per-call cost.** That is the wedge, in numbers.
+**All-in cost lands around $0.13–0.33 per call-minute** (approximate; varies widely with model, provider, and hold time). A multi-minute AR call including hold runs **~$1–3**.
+
+**Now compare that against the labor it displaces, and be careful which labor you mean.** Chapter 9 put a U.S.-onshore caller at roughly **$3–6 per completed call** and an offshore caller at roughly **$0.50–1.50**. So:
+
+- Against **onshore** labor, a $1–3 AI call is a decisive cost win. This is a real wedge, in numbers.
+- Against **offshore** labor — which is exactly what this book's recommended buyer already runs — a $1–3 AI call **matches or exceeds** the cost of the human it replaces.
+
+That second line is uncomfortable and it is the correct read. If you sell to an offshore-leveraged biller, do not lead with cost. Lead with what the human cannot do: **capacity that appears without a hiring cycle, 24/7 coverage across time zones, uniform documentation of every call, and the long-tail claims nobody had hours to chase.** Chapter 9's long-tail-recovery argument is the strongest version of this pitch.
+
+**And note the one lever that moves this number most: hold time.** A large share of a seven-minute AR call is silence on hold, and naive implementations meter speech-to-text, text-to-speech, and the model straight through it. Detecting hold and suspending the expensive components until a human picks up is the difference between the top and the bottom of that $0.13–0.33/minute band. Build the hold detector before you optimize anything else in the voice path.
 
 #### Compliance to bake in from day one — not later
 
 - **Eleven strictly all-party-consent states** (CA, DE, FL, IL, MD, MA, MT, NV, NH, PA, WA) require a recording disclosure before recording a call. _(Vendor counts of 12–13 add mixed jurisdictions like CT, MI, OR.)_ **In practice: disclose at call start everywhere.** It is simpler and safer.
 - **California's AB 2905** (effective Jan 1, 2025) requires disclosure of an artificial voice in _prerecorded_ robocalls placed via automatic dialing-announcing devices. Note carefully: it targets prerecorded ADAD messages, **not** live conversational AI agents. But it signals regulatory direction, and several states are drafting live-AI-voice disclosure rules.
-- **The federal TCPA carries $500–$1,500 per-call statutory damages** for non-consented autodialed or prerecorded calls. **This is the real penalty exposure for any patient-facing outbound use.**
+- **The federal TCPA — the Telephone Consumer Protection Act, the U.S. law governing automated calling — carries $500–$1,500 per-call statutory damages** for non-consented autodialed or prerecorded calls. Note the unit: *per call*, not per campaign, which is what makes a bug in an outbound dialer an existential rather than an operational event. **This is the real penalty exposure for any patient-facing outbound use.**
 
 Design in an opening recording/AI disclosure, per-state consent logic, and TCPA-aware calling windows. **Not as an afterthought.** At $500–1,500 per call, a bug in your dialer is a company-ending event.
 
@@ -2568,11 +3071,28 @@ This deserves its own section because it is the single most common wrong answer 
 
 You will not out-collect them. Do not build the pitch on it.
 
+#### Whose data is Maria's denial, anyway?
+
+Make this concrete with the claim we have been following since Chapter 1. Maria's catheterization came back denied with **CO-197** — prior authorization referenced the wrong procedure code. Suppose your system reads that denial, works out the fix, and gets the claim paid. What, exactly, do you now own?
+
+Walk the layers honestly:
+
+- **The claim and the remittance** are Lakeside Cardiology's business records, containing Maria's protected health information. They are not yours. You are holding them as a Business Associate, for the purpose of doing the work you were hired to do.
+- **The fact that this payer issues CO-197 when the auth code doesn't match the billed code** is a public rule in a payer manual, plus a pattern any competitor with a hundred cardiology denials would notice within a month. Not proprietary.
+- **The specific mapping** — this payer, this specialty, this auth-code mismatch, this correction, this overturn rate, measured across thousands of claims — is genuinely valuable. **And you have to negotiate the right to keep it**, because your customer has a perfectly reasonable claim to it too.
+- **The workflow you built around it** — the state machine, the guardrails, the review queue Lakeside's staff now depend on — is the part nobody can take, and it is the only layer where ownership was never in doubt.
+
+Notice the shape of that. Value increases as you move down the list, and so does the difficulty of holding on to it. Most founders in this space believe they own layer three and discover, during a contract renewal, that they never negotiated for it. **Read the derived-intelligence terms below before your first data-sharing agreement, not after.** And settle them in the same conversation as the lawful-acquisition question in Chapter 19 — they are two halves of one negotiation about what you get to keep.
+
 ---
 
 ### The four things that actually survive
 
-Notice that **none of them is the model.**
+**Level 1.** What protects you is the boring work nobody wants to redo — not the AI.
+
+**Level 2.** Run the thought experiment honestly and most claimed moats evaporate. Your model? Rented, and next year's free one is better. Your prompts? Copyable in an afternoon. Your data? Decaying quarterly, and your competitors' incumbents have far more of it. What is left is unglamorous and genuinely durable: being wired into how a customer works, holding integrations and enrollments that took months of paperwork, having earned reliability people trust with money, and knowing one narrow domain better than a generalist ever will. **A moat in this industry is an accumulation of friction you have already paid for and your rival has not.**
+
+**Level 3.** Formally: your defensibility is the switching cost you have imposed on the customer, plus the fixed rebuild cost imposed on any entrant, plus a reliability record that cannot be asserted and must be accrued, plus depth in a segment too small to attract a well-capitalized generalist. Notice that **none of the four is the model.**
 
 #### 1. Proprietary workflow embedding and switching cost inside a specific customer
 
@@ -3013,7 +3533,7 @@ You cannot bootstrap this by trying harder. The chain must run in order:
 
 Given this profile, the cleanest entry is:
 
-**Path C with a _specialty-narrow_ wedge** that passes the three-part test in Chapter 16 — **not** the now-contested AR-voice or denial-appeal lanes by default.
+**Path C with a _specialty-narrow_ wedge** that passes the four-part test in Chapter 16 — **not** the now-contested AR-voice or denial-appeal lanes by default.
 
 Concretely:
 
@@ -3050,7 +3570,7 @@ _(The founder draw is set conservatively — below a ~₹600–800K/month market
 
 | Stage                                              | Team                                          | Monthly burn              | Annualized           | Coverage                                                                                                                                         |
 | -------------------------------------------------- | --------------------------------------------- | ------------------------- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **1 — Prove the wedge (mo 0–3)**                   | 2 (founder + domain)                          | ~₹650K / **~$6,840**      | ~$82K                | ~22–29 months runway on a $150–200K angel note _payroll-only_ (~11–18 months **all-in** — fund on the all-in figure). Effectively bootstrappable |
+| **1 — Prove the wedge (mo 0–3)**                   | 2 (founder + domain)                          | ~₹650K / **~$6,840**      | ~$82K                | ~22–29 months runway on a $150–200K angel note _payroll-only_ — but only **~5–8 months all-in** once compliance, the U.S. layer, and tooling are counted. **Fund on the all-in figure.** |
 | **2 — Design partners live (mo 3–9)**              | ~6 (2 eng, 1 domain, 2 human review)          | ~₹1.26M / **~$13,260**    | ~$159K               | 3–6 paying billers at $2–4K MRR, or a small seed                                                                                                 |
 | **3 — Productized (mo 12–18, scales with volume)** | ~10–14 (4–5 eng, domain/CS, 4–8 human review) | ~₹1.9–2.4M / **~$20–25K** | ~$240–300K (payroll) | Revenue-funded at ~0.7–1.0M billed claims/yr once the **all-in** ~$1.0–1.4M burn is covered — not at the payroll-only figure                     |
 
@@ -3060,7 +3580,7 @@ The table above is **India payroll only.** It omits the U.S.-facing and complian
 
 - A **U.S. entity** plus a fractional U.S. sales/advisor (~**$60–150K/yr from Year 2**) — the trust-scaffolding step
 - A **compliance run-rate**: SOC 2 Type II ~$30–60K first-year all-in; HITRUST e1 ~$40–70K, r2 well into six figures; pen tests; compliance-automation tooling
-- **E&O and cyber insurance** (~$5–15K/yr)
+- **E&O and cyber insurance** (~$5–15K/yr) — E&O is *errors and omissions* cover, which pays out when your software gets something wrong and the customer loses money as a result. Enterprise buyers routinely require both before signing, so this is a gate, not a prudence measure.
 - A **customer-success hire** by Year 2
 - **Per-logo onboarding and enrollment labor** (~$5–20K loaded, folded into CAC)
 
@@ -3075,6 +3595,24 @@ The table above is **India payroll only.** It omits the U.S.-facing and complian
 **The U.S. sales, compliance, and go-to-market layer — priced in USD — roughly doubles to triples the India-payroll core.** The offshore salaries themselves are a small share of the all-in.
 
 **And one cash-flow trap:** SOC 2 Type II, insurance, and per-payer enrollments are **working-capital spend that precedes revenue.** The SOC 2 needs a 3–12 month observation window _before_ the seed gate even asks for it.
+
+#### Capital required to reach each gate — the table to actually raise against
+
+The two tables above answer "what does a month cost." This one answers the question a funder will ask, which is different: **what does it cost to reach the next decision point?** These are the canonical figures for this book; wherever an older number appears elsewhere, this table governs.
+
+| What you are buying | All-in cost | What it gets you | What it explicitly does *not* get you |
+| --- | --- | --- | --- |
+| **The lean wedge-proof** (2 people, mo 0–3) | **~$150–200K** | A working demo on one workflow and one specialty, a labeled golden set, and a signed LOI. Engineers and human review deferred. | Anything in production. No paying customer, no SOC 2 Type II report, no second logo. |
+| **The month-12 gate** (the real pre-seed) | **~$285–420K** | Two paying, in-production, ROI-documented billers — the kill-criterion that decides whether this company continues. | Scale. This buys proof, not growth. |
+| **Base-case pre-seed to raise** | **~$250–350K** | The month-12 gate with a modest buffer, assuming the domain lead takes equity rather than cash. | Slack for a failed first wedge. If you have to reset the wedge at month 5, you need the top of the band or a bridge. |
+| **Seed** | **$1.5–3M** at ~$300–500K ARR | The U.S. go-to-market team, HITRUST, and a scaled human-review pool. | — |
+| **Series A** | **~$10–20M** at $2–3M ARR | Multi-specialty expansion and enterprise go-to-market. | — |
+
+**Read the first two rows together, because the gap between them is where plans die.** A $150–200K raise is frequently described — including in earlier drafts of this material — as funding "the first year." It does not. It funds the two-person proof and then stops, roughly five to eight months in, at precisely the moment the plan calls for engineers and a human-review layer. The honest number to reach the month-12 kill-criterion is **$285–420K**, which is why the base-case pre-seed is **$250–350K and not the comfortable $150K**.
+
+If you can only raise $150–200K, that is not fatal — but it changes the plan rather than compressing it. It means: no engineering hires, the domain lead on equity, a wedge narrow enough for one person to build, and an explicit decision to stop at the demo-plus-LOI milestone and raise again from there. Choose that deliberately. Do not arrive at it in month six by surprise.
+
+_The line-by-line derivation of every figure here — staff, software, compliance, hardware, and the months 9–12 bridge — is in the companion document **`rcm-venture-budget.md`**._
 
 ### The honest asymmetry
 
@@ -3111,7 +3649,7 @@ The company can plausibly reach **$1M+ ARR before needing institutional capital*
 
 ## Chapter 16 — Choosing Your Wedge
 
-> **What this chapter teaches:** How to evaluate candidate workflows, a scored map of every realistic option as of mid-2026, and a three-part test you must pass before writing any code.
+> **What this chapter teaches:** How to evaluate candidate workflows, a scored map of every realistic option as of mid-2026, and a four-part test you must pass before writing any code.
 >
 > **Why you should care:** This is the single highest-leverage decision in the entire venture. A great team executing a wedge that an incumbent can ship in six months loses. A modest team on a defensible wedge wins.
 >
@@ -3166,9 +3704,9 @@ Before any wedge, ask this and answer it out loud:
 - If the honest answer is **"because I'm cheaper"** → **do not build.**
 - If it is **"because I have unique specialty data, unique workflow access, or unique distribution"** → you may have something.
 
-### Operationalize it: the three-part day-one test
+### Operationalize it: the four-part day-one test
 
-**If you cannot name all three, do not pick the wedge.**
+**If you cannot name all four, do not pick the wedge.**
 
 ```
  ① A design partner who will give you LABELED DATA
@@ -3179,9 +3717,28 @@ Before any wedge, ask this and answer it out loud:
     (a specialty rule; a downcoding pattern)
 
  ③ A DISTRIBUTION PATH the incumbent isn't already on
+
+ ④ A REASON THE BUYER'S PM SYSTEM OR CLEARINGHOUSE
+    WON'T SHIP A GOOD-ENOUGH VERSION, FREE,
+    WITHIN 12 MONTHS
 ```
 
-Three for three. Not two.
+Four for four. Not three.
+
+**The fourth test is new, and it is the one most likely to fail.** It was added after athenahealth and Epic began shipping AI revenue-cycle features as bundled parts of the practice-management systems your buyers already pay for (Chapter 20 covers the specifics). The question it forces is uncomfortable: your buyer is not choosing between you and nothing. They are choosing between you and a mediocre version of you that costs zero incremental dollars and is already inside the software they open every morning. "Ours is better" loses that argument more often than founders expect, because the bar is not *good* — it is *good enough that switching isn't worth a procurement conversation.*
+
+Which wedges pass it? Roughly:
+
+| Fails the PM-bundling test | Passes it more often |
+|---|---|
+| Eligibility verification, basic denial triage, claim scrubbing — table stakes the PM vendor has every reason to bundle | **Deep specialty rules** the PM vendor won't build for 2% of its book |
+| Anything a single major PM could ship for its whole base at once | **Cross-PM billers** — a biller running four different PM systems for forty practices cannot use any one vendor's bundled feature |
+| Generic AR follow-up | **Underpayment and contract intelligence** — needs contract data the PM system does not hold |
+| | **Workflows needing payer-side data** the PM system has no access to |
+
+Note the second row especially, because it points somewhere counterintuitive: **the buyer's own fragmentation is your moat.** A billing company juggling athenahealth, eClinicalWorks, NextGen, and two homegrown systems has a problem no PM vendor will ever solve for them, because solving it means solving it across competitors' products. That is a durable structural gap, and it is exactly the buyer this book keeps pointing you toward.
+
+_This test comes directly from the adversarial audit in [Appendix C](#appendix-c-the-july-2026-fact-audit-market-refresh-and-reviewers-assessment). Read finding 4 there before you commit to a wedge._
 
 ### The two most defensible expressions of that test
 
@@ -3199,6 +3756,33 @@ Why the second one keeps winning on this framework:
 Its one real constraint: it is **contract-data-gated.** You need each payer's modeled contract terms, which is a deep-trust share. So it must be paired with a partner willing to share modeled contract terms.
 
 **Sell to aligned billing companies** (Chapter 10's pricing-model test) rather than head-on to providers.
+
+---
+
+### ⚠ The matrix, and the one cell to commit to
+
+Here is a mistake this book made in an earlier draft, and it is worth walking through because it is easy to repeat.
+
+Two of its recommendations sounded compatible and are not. "**Lead with recovered-dollars wedges**" (underpayments, denials — grow the customer's revenue rather than cut their staff) and "**sell to growing fixed-fee billers**" (the segment whose incentives align with automation). Both individually defensible. Put them together and Chapter 10's own table breaks the pairing: **for a fixed-fee biller, recovered dollars accrue to their _client_, not to them.** You would be pitching top-line growth to the one buyer who does not capture it.
+
+The wedge and the buyer are not independent choices. They form a matrix, and only some cells hold together:
+
+| | **%-of-collections biller** | **Fixed-fee / per-claim biller** | **Per-FTE biller** |
+|---|---|---|---|
+| **Recovered-dollars wedge**<br>(underpayment, contract variance) | ✅ **Coherent.** They earn a cut of a bigger total — a direct top-line pitch | ⚠️ Indirect. Benefits their client; sell it as retention and differentiation | ❌ No mechanism. They bill for hours, not outcomes |
+| **Labor-capacity wedge**<br>(835 denial triage, auto-correct routing) | ⚠️ Works, but competes with their existing margin logic | ✅ **Coherent.** Removes cost from a fixed revenue line — pure margin | ❌ Structurally hostile. You are shrinking what they sell |
+
+**Pick one cell before you write code, and say which one out loud.** Two cells are genuinely viable:
+
+> **(a) Underpayment / downcoding-variance detection → sold to %-of-collections billers**, as a top-line revenue pitch. Highest ROI clarity, cleanest sales conversation. Gated on getting modeled contract data.
+>
+> **(b) 835 denial-triage and auto-correct routing → sold to fixed-fee billers**, as labor-plus-capacity automation. Lower data barrier, faster to first value. Gated on passing the fourth test — sell it to **cross-PM billers**, not to practices sitting inside one major PM system that will bundle it.
+
+**This book's recommendation: start at (b), and treat (a) as the second wedge.** The reasoning is sequencing, not preference. Cell (a) has a better pitch but a harder gate — contract data lives with the *provider*, not the biller, small practices frequently cannot produce current contracts, and loading them is a heavy services task (it is why Rivet and MD Clarity run implementation teams). Cell (b) runs on the 835s your design partner already receives, which means you can be live in weeks rather than quarters. Prove the machine on (b), earn the trust that unlocks contract data, then add (a) — where the money and the defensibility actually are.
+
+**What this changes elsewhere in the book.** Chapter 15's ICP, Chapter 19's roadmap, and Chapter 20's verdict were written before this matrix and describe the incoherent pairing. Read them with this correction applied. And note the honest cost of committing: naming a cell means giving up the comfortable ambiguity of "recovered-dollars wedges sold to aligned billers," which sounded like a strategy and was really two strategies wearing one coat.
+
+_This section resolves finding 2 of [Appendix C](#appendix-c-the-july-2026-fact-audit-market-refresh-and-reviewers-assessment), which called it "the single highest-value strategic edit a next draft should make."_
 
 ### And a specific "don't"
 
@@ -3224,7 +3808,8 @@ That sentence is arguably the strategic core of this entire book. Own the intell
 - **AR-voice and denial-appeal are contested.** Enter only with a pre-existing unfair advantage.
 - **Coding and EDI infrastructure are the two worst structural fits** — one is saturated by better-funded specialists, the other is winner-take-most.
 - **Underpayment / contractual-variance recovery is the standout wedge:** high value, dollar-denominated ROI, data-driven, low regulatory exposure, moderately crowded. Its gate is contract-data access.
-- **The three-part test is mandatory.** Labeled data + a payer nuance generalists miss + a distribution path incumbents aren't on.
+- **The four-part test is mandatory.** Labeled data + a payer nuance generalists miss + a distribution path incumbents aren't on + a reason the buyer's PM system won't bundle it away for free within a year.
+- **The wedge and the buyer are one decision, not two.** Recovered-dollars wedges pay a %-of-collections biller directly and a fixed-fee biller only indirectly. Pick a coherent cell of the matrix and name it.
 
 **What you can ignore for now:**
 
@@ -3233,7 +3818,7 @@ That sentence is arguably the strategic core of this entire book. Own the intell
 
 **Why this chapter matters for building a startup:**
 
-- **Write your three-part test answers down before you write code.** If you can't fill all three lines, keep searching — that is a legitimate use of month two.
+- **Write your four-part test answers down before you write code**, along with the matrix cell you are committing to. If you can't fill all four lines and name the cell, keep searching — that is a legitimate use of month two.
 - **Own the intelligence layer, rent the plumbing.** Build a specialty rules engine and payer-behavior graph on top of Stedi rather than trying to replace it.
 - Re-run the crowding column before you commit. It moved substantially in twelve months and will move again.
 
@@ -3349,6 +3934,41 @@ Getting onto a GPO or MSO preferred-vendor list is slower but durable — it **p
 
 ---
 
+### The funnel, in numbers — because a plan without them is a wish
+
+Every other chapter in this book puts numbers on things. This one has been telling you distribution kills more healthcare startups than bad products do, and then leaving the actual arithmetic as an exercise. Here it is.
+
+**Treat every figure below as illustrative and replace it with your own within sixty days.** These are structurally plausible starting assumptions for a no-brand founder selling to billing companies, not measured benchmarks — the book has no primary customer data behind them, which Appendix C correctly names as its largest epistemic hole. The point of the table is the *shape* of the funnel and the hours it demands, both of which hold even when your conversion rates differ.
+
+| Stage | Assumption | Result |
+|---|---|---|
+| Addressable list, India-based billers serving U.S. providers | ~120 findable via HBMA-adjacent networks, LinkedIn, local industry contacts | **120** |
+| Addressable list, small U.S. billers (10–25 practice clients) | ~250 reachable through HBMA membership, conference lists, targeted outbound | **250** |
+| Reply rate, warm intro or local/in-person | ~25–35% | |
+| Reply rate, cold outbound with a specific, specialty-relevant hook | ~5–8% | |
+| Blended replies | | **~30–45** |
+| Convert to a real conversation | ~70% of replies | **~25–30** |
+| Qualified after discovery (right pricing model, right specialty mix, real volume, willing to share data) | ~25–30% | **~7–9** |
+| Convert to a paid pilot | ~30% of qualified | **~2–3** |
+
+**Two to three paid pilots from a ~370-name list.** That is the honest shape of it, and it is why the day-90 gate asks for *one* signed partner rather than five.
+
+**Now the part that actually binds, which is not the list size.**
+
+| Input | Weekly cost |
+|---|---|
+| Building and researching the list (specialty mix, PM system, pricing model) | ~3–4 hrs |
+| Outbound and follow-up sequences | ~2–3 hrs |
+| Discovery calls, mostly in U.S. evening hours from India | ~4–5 hrs |
+| Follow-ups, security questions, pilot scoping | ~2 hrs |
+| **Total** | **~11–14 hrs/week, sustained** |
+
+Cash cost is small — a sales-navigator seat, a sequencing tool, one or two conference trips, call it **$8–15K/year** before travel, which the Chapter 15 budget already carries. **The binding constraint is your hours, not your money**, and those 11–14 hours land on the same person doing the build, the compliance program, and the human review. That collision is the single most common way this plan fails in month five, and it is exactly why Chapter 20 lists founder-hour saturation as a fast-death tripwire rather than a risk.
+
+**The operational conclusion:** run the funnel as a *scheduled* commitment — specific blocked hours, a target of **≥8 qualified first meetings per month by month 6** (the month-6 kill criterion in Chapter 19) — or it silently loses every week to whatever is on fire in the product. Instrument it from week one: list size, reply rate, qualified rate, pilot conversion. When your real numbers arrive, they will be different from these, and *that* table is the one to plan on.
+
+---
+
 ### The playbook: landing your first three design partners from India
 
 **The goal of the first three partners is not revenue.** It is:
@@ -3411,7 +4031,7 @@ Not a free trial:
 | #     | Partner archetype                                                     | What it gives you                             |
 | ----- | --------------------------------------------------------------------- | --------------------------------------------- |
 | **1** | A local Chennai biller                                                | Data + speed + references                     |
-| **2** | A small/mid U.S. biller found via LinkedIn, HBMA, or HFMA communities | A U.S. logo + practice handling BAA flow-down |
+| **2** | A small/mid U.S. biller found via LinkedIn, HBMA, or HFMA communities (HBMA is the Healthcare Business Management Association — the trade body for *billing companies* specifically, which makes it the single most concentrated gathering of your buyers) | A U.S. logo + practice handling BAA flow-down |
 | **3** | A specialty-deep practice or small MSO                                | A clean ROI case study                        |
 
 **Three references across these archetypes unlock the broader billing-company channel and the first MSO/marketplace conversations.**
@@ -3469,7 +4089,7 @@ Have all three **ready before partner #2 asks.**
 It assumes the strategic decisions are settled:
 
 - **Path C** (sell to the industry)
-- A **specialty-narrow wedge** that passes the Chapter 16 three-part test — not the contested AR-voice or appeals lanes by default
+- A **specialty-narrow wedge** that passes the Chapter 16 four-part test — not the contested AR-voice or appeals lanes by default
 - **Domain ground-truth plus proprietary data access** as the gate
 - The **month-12 kill criterion**
 
@@ -3486,13 +4106,19 @@ _The Claude/Anthropic API is used as the reference LLM platform (patterns curren
 
 ### The single most important architectural decision
 
-An RCM AI wedge is a **deterministic orchestration shell wrapped around a stochastic core**, with money- and PHI-grade guardrails at every boundary.
+**Level 1.** Your code decides what happens next. The model only advises, at moments you choose.
+
+**Level 2.** The tempting design is an agent that reads a claim, thinks, calls whatever tools it likes, and eventually declares victory. Do not build that. When the thing being automated is money and protected health information, you have to be able to answer "why did this claim get submitted that way?" eighteen months later, to a payer's satisfaction. An open-ended loop cannot answer it — the reasoning is gone and the path was never fixed. So invert the usual agent architecture: a plain, boring state machine owns the flow, and the model gets called at specific states to do specific bounded jobs, like an analyst you consult rather than an employee you delegate to.
+
+**Level 3.** An RCM AI wedge is a **deterministic orchestration shell wrapped around a stochastic core**, with money- and PHI-grade guardrails at every boundary.
 
 > **A finite-state machine owns the control flow. The LLM is invoked only at specific states, as a bounded, tool-using sub-step.**
 
 Everything else in this chapter follows from that sentence. An open-ended agent loop over money and PHI is **unauditable**, and unauditable is unsellable.
 
 ### The reference architecture
+
+_One abbreviation appears in the diagram before it is explained below: **HITL** is "human in the loop" — the review queue where anything the system is not confident enough to do by itself goes to a person. It is the single most important box on this diagram, because in this industry the queue is not a fallback for a system that isn't finished. It is a permanent, priced part of the product, and Chapter 9 showed that its size is what governs your gross margin._
 
 ```
                  ┌──────────────────────────────────────────────────────────┐
@@ -3594,29 +4220,62 @@ The shape (Python; the same exists in every official SDK):
 
 ```python
 import anthropic
+
 client = anthropic.Anthropic()   # BAA + zero-retention terms on the PHI path
 
+MAX_TURNS = 8          # hard cap: an RCM state should never need more
+MAX_TASK_USD = 0.50    # hard cap: kill the task before it kills your margin
+
 # Tools are TYPED and INDIVIDUALLY GATED. Read tools auto-run; write/submit tools
-# require HITL approval. Promote every irreversible action to its own tool.
+# require human approval. Promote every irreversible action to its own tool.
+APPEAL_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "claim_id":      {"type": "string"},
+        "carc":          {"type": "string", "description": "The CARC on the 835, e.g. '197'."},
+        "rarc":          {"type": "string", "description": "RARC if present, else empty."},
+        "policy_cite":   {"type": "string", "description": "Payer policy or LCD/NCD id relied on."},
+        "argument":      {"type": "string", "description": "The appeal argument, <= 300 words."},
+        "confidence":    {"type": "number", "description": "0.0-1.0 self-rated."},
+    },
+    "required": ["claim_id", "carc", "rarc", "policy_cite", "argument", "confidence"],
+    "additionalProperties": False,      # required when strict=True
+}
+
 TOOLS = [
-    {"name": "check_eligibility", "description": "270/271 eligibility for a member+payer.",
-     "input_schema": {...}},
-    {"name": "lookup_payer_rule", "description": "Return the current rule for (payer, CPT).",
-     "input_schema": {...}},
-    {"name": "draft_appeal", "description": "Draft an appeal; must cite a real CARC/RARC + policy.",
-     "strict": True, "input_schema": {...}},
-    {"name": "submit_837", "description": "Submit a corrected claim. IRREVERSIBLE: needs approval.",
-     "input_schema": {...}},
-    {"name": "escalate_to_human", "description": "Route to the HITL queue with reason + context.",
-     "input_schema": {...}},
+    {"name": "check_eligibility",  "description": "270/271 eligibility for a member+payer.",
+     "input_schema": ELIGIBILITY_SCHEMA},
+    {"name": "lookup_payer_rule",  "description": "Return the current rule for (payer, CPT).",
+     "input_schema": PAYER_RULE_SCHEMA},
+    {"name": "draft_appeal",       "description": "Draft an appeal; must cite a real CARC/RARC + policy.",
+     "strict": True, "input_schema": APPEAL_SCHEMA},
+    {"name": "submit_837",         "description": "Submit a corrected claim. IRREVERSIBLE: needs approval.",
+     "input_schema": SUBMIT_SCHEMA},
+    {"name": "post_to_pm",         "description": "Write status back to the PM system. IRREVERSIBLE.",
+     "input_schema": POST_PM_SCHEMA},
+    {"name": "post_payment",       "description": "Post a payment/adjustment. IRREVERSIBLE.",
+     "input_schema": POST_PAYMENT_SCHEMA},
+    {"name": "escalate_to_human",  "description": "Route to the review queue with reason + context.",
+     "input_schema": ESCALATE_SCHEMA},
 ]
-GATED = {"submit_837", "post_to_pm", "post_payment"}   # never auto-execute
+
+# Every gated name MUST exist in TOOLS. Assert it — a typo here means an
+# irreversible tool silently runs unapproved.
+GATED = {"submit_837", "post_to_pm", "post_payment"}
+assert GATED <= {t["name"] for t in TOOLS}, "gated tool missing from TOOLS"
+
 
 def run_state(task):
-    messages = [{"role": "user", "content": render_state_prompt(task)}]   # volatile suffix
-    while True:
+    """One state of the FSM. Returns either a finalized task or a parked one."""
+    messages = task.transcript or [
+        {"role": "user", "content": render_state_prompt(task)}   # volatile suffix
+    ]
+    for turn in range(MAX_TURNS):
+        if task.spend_usd > MAX_TASK_USD:
+            return escalate(task, reason="budget_exceeded")
+
         resp = client.messages.create(
-            model="claude-sonnet-5",              # workhorse; escalate per-step via eval (Chapter 18.5)
+            model="claude-sonnet-5",           # workhorse; escalate per-step via eval (Chapter 12)
             max_tokens=8000,
             thinking={"type": "adaptive"},
             output_config={"effort": "high"},
@@ -3625,19 +4284,122 @@ def run_state(task):
             tools=TOOLS,
             messages=messages,
         )
-        audit.log(task.id, resp)                  # model id, prompt, response, usage, request_id
+        audit.log(task.id, resp)               # model id, prompt, response, usage, request_id
+        task.spend_usd += price(resp.usage)
+
         if resp.stop_reason == "end_turn":
             return finalize(task, resp)
+
         messages.append({"role": "assistant", "content": resp.content})
+
         results = []
         for block in (b for b in resp.content if b.type == "tool_use"):
             if block.name in GATED:
-                enqueue_hitl(task, block)         # human approves before the irreversible action
-                return park(task)                 # state machine resumes on approval
-            out = execute_tool(block.name, block.input)   # typed; validated; logged
+                # Park the ENTIRE transcript, not just the block. Resuming needs it.
+                task.transcript = messages
+                task.pending_tool = {"id": block.id, "name": block.name, "input": block.input}
+                enqueue_hitl(task)
+                return park(task)              # FSM resumes in resume_after_approval()
+
+            out = execute_tool(
+                block.name, block.input,
+                # Same (task, tool_use_id) must never double-execute on retry.
+                idempotency_key=f"{task.id}:{block.id}",
+            )
             results.append({"type": "tool_result", "tool_use_id": block.id, "content": out})
+
         messages.append({"role": "user", "content": results})
+
+    return escalate(task, reason="max_turns_exceeded")
+
+
+def resume_after_approval(task, approved: bool, reviewer: str, note: str = ""):
+    """Called when a human clears (or rejects) the parked irreversible action.
+
+    THIS is the part people get wrong. The model is mid-turn: it emitted a
+    tool_use block and is waiting for the matching tool_result. You must reply
+    with a tool_result carrying the ORIGINAL tool_use_id, or the API rejects
+    the next request. That means the transcript has to survive the park.
+    """
+    pending = task.pending_tool
+    if approved:
+        out = execute_tool(
+            pending["name"], pending["input"],
+            idempotency_key=f"{task.id}:{pending['id']}",
+        )
+        is_error = False
+    else:
+        out = f"Rejected by {reviewer}. {note} Do not retry; propose an alternative."
+        is_error = True
+
+    audit.log(task.id, {"human_decision": approved, "reviewer": reviewer, "note": note})
+
+    task.transcript.append({
+        "role": "user",
+        "content": [{
+            "type": "tool_result",
+            "tool_use_id": pending["id"],       # MUST match the parked tool_use block
+            "content": out,
+            "is_error": is_error,
+        }],
+    })
+    task.pending_tool = None
+    return run_state(task)                      # re-enter the loop with history intact
 ```
+
+**The payer-rules store, as a table.** Chapter 5 said to treat payer rules as versioned data rather than code. Concretely:
+
+```sql
+CREATE TABLE payer_rule (
+  rule_id        BIGSERIAL PRIMARY KEY,
+  payer_id       TEXT NOT NULL,          -- your canonical payer key, not the trading-partner id
+  plan           TEXT,                   -- NULL = applies to all plans for this payer
+  state          CHAR(2),                -- NULL = national
+  specialty      TEXT,                   -- NULL = all specialties
+  rule_type      TEXT NOT NULL,          -- 'modifier_validity' | 'medical_necessity' |
+                                         -- 'timely_filing' | 'attachment_required' | 'carc_action'
+  subject        TEXT NOT NULL,          -- CPT, CARC code, or other key the rule is about
+  predicate      JSONB NOT NULL,         -- the condition, structured
+  action         JSONB NOT NULL,         -- what to do when it matches
+  effective_from DATE NOT NULL,
+  effective_to   DATE,                   -- NULL = still in force
+  source_url     TEXT NOT NULL,          -- the payer bulletin or policy page you read it from
+  confidence     REAL NOT NULL DEFAULT 1.0,
+  UNIQUE (payer_id, plan, state, specialty, rule_type, subject, effective_from)
+);
+```
+
+**The effective-dating is the whole point.** A quarterly payer update becomes an `INSERT` plus an `effective_to` on the old row — a data change, not a redeploy. And when a payer disputes an appeal eighteen months later, `WHERE effective_from <= :dos AND (effective_to IS NULL OR effective_to > :dos)` reconstructs exactly which rule applied when you processed that claim. That reconstruction is your evidence. Without it you are arguing from memory against an organization that has records.
+
+**A deterministic post-validator, to make the pattern concrete.** The model proposes; code disposes. Every model output passes through checks that are ordinary Python, not another prompt:
+
+```python
+def validate_appeal(draft: dict, claim, rules) -> tuple[bool, str]:
+    """Model proposes, code disposes. Returns (ok, reason_if_not)."""
+    # 1. The cited CARC must actually be on the remittance. Hallucinated
+    #    denial reasons are the single most common failure in this workflow.
+    if draft["carc"] not in claim.carc_codes:
+        return False, f"cited CARC {draft['carc']} not present on the 835"
+
+    # 2. The cited policy must exist in the rule store, and must have been in
+    #    force on the date of service.
+    if not rules.exists(draft["policy_cite"], as_of=claim.date_of_service):
+        return False, f"policy {draft['policy_cite']} not in force on {claim.date_of_service}"
+
+    # 3. Appeals filed past the deadline are wasted work AND a credibility hit
+    #    with the payer. Check before drafting, not after.
+    if claim.days_since_denial > rules.appeal_window(claim.payer_id):
+        return False, "outside the payer's appeal window"
+
+    # 4. Below the confidence threshold, a human reads it. The threshold is an
+    #    eval output (Chapter 12), not a guess.
+    if draft["confidence"] < APPEAL_CONFIDENCE_THRESHOLD:
+        return False, "below confidence threshold"
+
+    return True, ""
+```
+
+Note what checks 1 and 2 have in common: both catch the model asserting a fact about the world that you can verify cheaply against data you already hold. **That is the highest-yield category of guardrail in this domain** — not "is the output well-formed," but "is the thing it just claimed actually true."
 
 **Four cost and reliability levers around that loop:**
 
@@ -3650,7 +4412,11 @@ def run_state(task):
 
 ### Guardrails: where reliability actually lives
 
-**Reliability is the product.** Concretely, four layers of _deterministic_ guardrail:
+**Level 1.** The model's answer is a proposal. Code checks it before anything happens.
+
+**Level 2.** New founders in this space tend to spend their effort on making the model smarter. That is the wrong place. In a workflow touching money, the difference between a demo and a product is almost entirely the machinery *around* the model that catches it being confidently wrong — schema checks, cross-references against data you already hold, dollar thresholds, and a human queue for anything uncertain. **Reliability is not a quality of your model. It is a system you build, out of ordinary deterministic code, and it is the actual product.** A competitor with a better model and worse guardrails loses this market.
+
+**Level 3.** Four layers of deterministic guardrail, applied in order to every model output:
 
 **1. Schema validation.** Every model output conforms to a strict JSON schema — code selection, denial category, appeal rationale, confidence. **Reject and retry on mismatch.**
 
@@ -3671,6 +4437,50 @@ def run_state(task):
 - A **PHI-minimization filter** so only minimum-necessary fields reach the model.
 
 **The payer-rules engine powering layer 2 is data, not code.** A versioned, per-payer rule store — CPT/modifier validity, medical-necessity policies, timely-filing windows, required attachments, CARC/RARC→action maps — with **every rule stamped with an effective date**. A quarterly payer update becomes a data change, not a redeploy. And you can reconstruct _"what rule applied when this claim was processed."_
+
+---
+
+### ⚠ The fifth guardrail nobody builds: not all errors are equal
+
+The four layers above treat every model error the same way. **That is a mistake, and the reason is statutory rather than philosophical.**
+
+An error that costs your customer money is a bug. You fix it and apologize.
+
+An error that *pays* your customer money creates an **identified overpayment** under 42 U.S.C. §1320a-7k(d), which starts a **60-day report-and-return clock.** Retention past that clock can be pursued as a *reverse false claim* under the False Claims Act. The two errors are not symmetric, and a system that treats them symmetrically is under-engineered on the side that carries legal exposure.
+
+**Why the False Claims Act reaches you specifically.** Under 31 U.S.C. §3729(b)(1), "knowing" includes acting in **deliberate ignorance** or **reckless disregard** of truth or falsity — and the statute says explicitly that these "require no proof of specific intent to defraud." Sit with that. You do not have to intend to cheat. **Deciding not to look is an independent basis for liability.** For a company shipping automated coding that never instruments its own accuracy, "we never checked" is the allegation, not the defense. Penalties run **$14,308–$28,619 per claim plus treble damages** — per claim, in a business measured in claims per hour.
+
+_(A dating note, in this book's usual spirit: those are the amounts for penalties assessed after July 3, 2025, and **they did not rise for 2026.** DOJ's Federal Register notice of July 15, 2026 states it is making no inflation adjustment this year — the late-2025 appropriations lapse meant BLS never produced the CPI-U the statute requires, and OMB memorandum M-26-11 cancelled the adjustment. Every year since 2016 went up, so anyone who "estimated" a 2026 figure by applying CPI has invented a number that does not exist. And do not quote the "$5,000–$10,000" in the statute itself — that has not been operative since 1999.)_
+
+#### Why modifiers 25 and 59 are the specific danger
+
+Chapter 3 casually suggests appealing "with modifier (e.g. 25/59) if separable." Here is the thing that advice omits.
+
+**Both modifiers exist to bypass automated edits. That is their function.** Modifier 25 asserts that a significant, separately identifiable E/M service happened alongside a procedure. Modifier 59 asserts that a procedure was distinct. Each takes a claim the payer's system was built to deny and makes it pay. So **an AI that appends them programmatically is automating the act of overriding a fraud control** — different in kind from an AI that suggests a diagnosis code.
+
+The audit record, dated properly:
+
+- **Modifier 59** — OIG report OEI-03-02-00771 (November 2005), on **FY2003** data: 40% of code pairs billed with modifier 59 did not meet program requirements ($58.9M). Cite this *with its date or not at all.* It is twenty-year-old data that also excluded code pairs paying $24 or less and excluded E/M codes entirely. The undated "40% of modifier 59 use is improper" you will see quoted is exactly the species of claim this book exists to correct.
+- **Modifier 25** — OIG report A-09-23-03014 (issued May 27, 2025), audit period June 2022–May 2023: for **42% of intravitreal injections**, providers billed a same-day E/M with modifier 25; of 24 sampled E/M services, **22 did not support it**. Recommended recovery up to **$123.9M**. Do not turn 22-of-24 into "92% of modifier 25 use is wrong" — it is a targeted sample inside one procedure family.
+- **Still live:** OIG Work Plan item OAS-26-04-028 (announced March 16, 2026) examines same-day E/M with minor surgery **without** modifier 25, across CY2023–2025. Note the direction — scrutiny runs both ways, which is useful if your product's story is accuracy rather than lift.
+
+#### The controls — OIG already wrote them for you
+
+You do not have to invent this. The 1998 Compliance Program Guidance for Third-Party Medical Billing Companies (63 FR 70138) specifies most of it:
+
+1. **The asymmetry rule.** Hold revenue-*increasing* automation to a materially higher confidence bar than revenue-*decreasing* automation. **Write both thresholds down, with the reasoning.** That document is your best evidence against a reckless-disregard theory: it shows you looked, understood the asymmetry, and calibrated deliberately.
+2. **Statistical self-audit, pre- and post-submission.** OIG's guidance (footnote 54) asks for "a valid statistical sample of claims reviewed annually both before and after billing is submitted... by a qualified expert in the applicable coding process." Do this **per auto-added modifier, as its own stratum, with a published error rate.**
+3. **Human attestation on clinical assertions.** Modifier 25 asserts a clinical fact — that the E/M was significant and separately identifiable. **Software cannot know that.** A named human must assert it, and the attestation must be logged with a name and timestamp. OIG's guidance points the same way: engage a qualified physician to guide coding staff on clinical questions.
+4. **A never-auto list.** Some things do not get a confidence threshold; they get a person. Modifier 25 and 59 additions, any upcoding of an E/M level, any assertion about medical necessity, any appeal making a clinical argument.
+5. **Independence.** OIG asks reviewers to be "objective and independent of line management." Your coding-quality function cannot report to whoever carries the revenue number.
+6. **Counsel-reviewed appeal templates, versioned.** Appeal letters make legal assertions. When a payer or a relator asks who said this, the answer should be a reviewed artifact with a version number, not a model output.
+7. **No upcoding incentive on the decider.** OIG's words: compensation "should not provide any financial incentive to improperly upcode claims." Notice how directly that collides with percentage-of-recovery pricing on a product that touches code selection — see Chapter 9's pricing guardrail. These are the same problem seen from two angles.
+
+**And build the disclosure path before you need it.** If your monitoring detects that a feature systematically added unsupported modifiers, your *customers* now have identified overpayments and a 60-day clock. The FCA reduces damages from treble to "not less than double" only if all known information is furnished within **30 days** of first obtaining it, with full cooperation, before any action or known investigation. **Operationally: the clock starts when your monitoring detects the pattern, not when your lawyers finish arguing about it.** Detection you sit on converts a quality problem into a reverse-false-claims problem for the people who trusted you — and "we knew and told no one" is precisely the fact pattern relators look for.
+
+**The question to take to counsel** (not "is this legal," which buys you a memo that says "it depends"): *"For our automated modifier logic — what confidence threshold and what human attestation do we need before an assertion about the clinical record goes out under a provider's NPI; what is our disclosure obligation to customers when post-deployment sampling shows a systematic revenue-increasing error; and how should our contracts allocate that?"*
+
+_Statutory and regulatory citations here were verified against primary sources in July 2026 (Cornell LII for the U.S. Code and CFR; govinfo.gov for the DOJ penalty notice; OIG.hhs.gov for the reports and guidance). This is orientation for asking counsel the right question — it is not legal advice, and none of it substitutes for a healthcare attorney reviewing your specific design._
 
 ---
 
@@ -3793,7 +4603,7 @@ Wire these counters into the orchestration and audit layers, so you can _prove_ 
 By this point the strategic decisions are locked:
 
 - **Path C** — build a narrow tool, sell it to aligned parts of the industry (Chapter 14).
-- **A specialty-narrow wedge** that passes the three-part test, with underpayment and contractual-variance recovery as a co-equal top-tier candidate (Chapter 16).
+- **A specialty-narrow wedge** that passes the four-part test, with a named cell of the wedge × pricing-model matrix — 835 denial-triage sold to cross-PM fixed-fee billers first, underpayment recovery as the strong second wedge once a partner shares contract data (Chapter 16).
 - **Sell to growing, fixed-fee billing companies** whose incentives align with automation (Chapters 14, 17).
 - **Domain ground-truth plus real data access** as the gate on everything (Chapters 15, 16).
 - **Deterministic orchestration, bounded model steps, four guardrail layers** (Chapter 18).
@@ -3864,9 +4674,9 @@ This makes Phase 0 and early Phase 1 concrete. Run the workstreams in parallel.
 
 #### Weeks 1–2: Foundations
 
-- **Domain ground-truth — the gating step.** Begin structured outreach to U.S.-experienced RCM operators: HFMA, AAHAM, and HBMA chapters, senior AAPC and AHIMA members, ex-RCM-BPO operations leaders, fractional-CRO networks. Offer co-founder equity, not a salary. If this is not secured by roughly month 6, stop.
+- **Domain ground-truth — the gating step.** Begin structured outreach to U.S.-experienced RCM operators: HFMA, AAHAM (the American Association of Healthcare Administrative Management — the certification body for patient-access and revenue-cycle staff), and HBMA chapters, senior AAPC and AHIMA members, ex-RCM-BPO operations leaders, fractional-CRO networks. Offer co-founder equity, not a salary. If this is not secured by roughly month 6, stop.
 - **Design partner #1.** Open conversations with local billing companies serving U.S. providers. Same timezone, real data, and no offshore-trust handicap — you are a local software company to them, not a foreign vendor.
-- **Wedge lock.** Pressure-test your candidate against the Chapter 16 three-part test: labeled data an incumbent lacks, a payer-behavior nuance the generalist gets confidently wrong, and a distribution path the incumbent is not already on. If you cannot name all three, keep searching. Do not build.
+- **Wedge lock.** Pressure-test your candidate against the Chapter 16 four-part test: labeled data an incumbent lacks, a payer-behavior nuance the generalist gets confidently wrong, a distribution path the incumbent is not already on, and a reason the buyer's PM system or clearinghouse will not ship a good-enough version free within twelve months. If you cannot name all four, keep searching. Do not build. **Then name your cell of the wedge × pricing-model matrix in writing** — the wedge and the buyer are one decision.
 - **Compliance kickoff.** Stand up Vanta or Drata. Draft the HIPAA risk analysis and BAA templates. Enable MFA.
 - **Cloud plus skeleton.** Provision the BAA-covered cloud region. Scaffold the Temporal state machine, the Postgres state and audit schema, and the canonical FHIR object from Chapter 18.
 
@@ -3875,7 +4685,13 @@ This makes Phase 0 and early Phase 1 concrete. Run the workstreams in parallel.
 - **Clearinghouse.** Stedi sandbox live. **Begin per-payer EDI and ERA enrollments for the partner's top payers.** This is the long pole. Start it now.
 - **Ingestion and parsing.** X12 parsing for the 835 and 277CA. Document AI for PDFs and EOBs. Normalize everything into the canonical object.
 - **First agent state.** Implement one workflow state end to end — denial triage is the usual choice — with the manual model loop from Chapter 18, structured outputs, prompt caching, and exactly one gated write tool.
-- **Golden set v1.** With the domain co-founder, label roughly 1,000–2,000 adjudicated items. Freeze a held-out test set and do not touch it.
+- **⚠ Lawful data acquisition — do this BEFORE the first file moves.** This step was missing from earlier versions of this plan, and skipping it is the kind of mistake that ends a company rather than delaying it. Your design partner is itself a Business Associate under HIPAA (Chapter 6). Their contracts with their provider clients almost certainly permit subcontractors **for the provision of services** — not for a vendor's product development. Handing you a pile of adjudicated claims so you can train a model is, on the plain reading of most BAAs, outside what they are permitted to do. Three concrete steps, in order:
+  1. **Audit the partner's provider BAAs for subcontractor scope.** Ask to read them. A partner who will not show you is telling you something.
+  2. **Execute a sub-BAA with the partner, scoped to services delivery.** This covers using the data to do the work you were engaged to do.
+  3. **Establish a separate lawful basis for model-improvement use** — de-identification under HIPAA Safe Harbor (strip the 18 identifiers) or Expert Determination (a qualified statistician certifies re-identification risk is very small). De-identified data is out of HIPAA scope, and that is what makes a training corpus defensible.
+
+  Settle this in the **same negotiation** as the derived-intelligence terms in Chapter 13 — both are questions about what you get to keep, and raising them separately means having the awkward conversation twice. Budget counsel time for it; it is not a template you can lift off the internet.
+- **Golden set v1.** With the domain co-founder, label roughly 1,000–2,000 adjudicated items — **from data acquired under the basis established above.** Freeze a held-out test set and do not touch it.
 - **Human-in-the-loop queue v1.** A minimal review UI. VDI for offshore reviewers with zero-local-data controls.
 
 By the end of week 6, one claim shaped like Maria's catheterization denial — CO-197, prior auth on file under a different procedure code — should flow through your system from 835 ingestion to a drafted, human-reviewed corrective action. One claim. End to end. That is the milestone.
@@ -3896,7 +4712,9 @@ By the end of week 6, one claim shaped like Maria's catheterization denial — C
 
 #### The five exit criteria for day 90
 
-You have cleared the first 90 days when all five are true:
+**This is the target you plan to** — the version of day 90 where everything worked. Distinguish it carefully from the *floor* in the kill-switch table later in this chapter, which is a much lower bar and the one that actually triggers a stop. Planning to the target and stopping at the floor are two different decisions, and conflating them is how founders either quit too early or continue far too long.
+
+You have hit the day-90 **target** when all five are true:
 
 1. A committed domain co-founder, or a credible **time-boxed** path to one.
 2. One design partner in production, on one workflow and one specialty, with a labeled golden set and a measured operating point.
@@ -3904,7 +4722,7 @@ You have cleared the first 90 days when all five are true:
 4. The security packet ready and the SOC 2 observation window started.
 5. A paid pilot with a written conversion trigger and an instrumented ROI number.
 
-Four out of five is not a pass. The missing one tells you what to fix.
+Four out of five is not a pass on the target. The missing one tells you what to fix. But missing one or two here is **not** a stop signal — the stop signal is the floor below.
 
 ---
 
@@ -3928,14 +4746,14 @@ Four out of five is not a pass. The missing one tells you what to fix.
 #### Phase 0 — Foundations (months 0–3, _gated_)
 
 - **Secure domain ground-truth and a data-sharing partner.** This is the true gate. A committed U.S. domain co-founder is one high-trust path; an embedded design partner plus a senior domain hire can substitute. **If not secured within roughly 6 months, do not progress past Phase 0.**
-- **Pick a wedge that passes the three-part test** — a specialty-narrow workflow, _not_ the now-contested AR-voice, appeals, or EDI-infrastructure defaults.
+- **Pick a wedge that passes the four-part test** — a specialty-narrow workflow, _not_ the now-contested AR-voice, appeals, or EDI-infrastructure defaults.
 - **Secure a data source.** A design-partner billing company, ideally a local Chennai biller serving U.S. providers. Acquisition of a biller is a later, post-raise move, not a Phase-0 option.
 - **Stand up the compliance program.** HIPAA risk analysis, BAA templates, MFA, SOC 2 Type II kickoff.
 
 #### Phase 1 — Prove the wedge (months 3–9)
 
 - **Build the narrow agent** on the Chapter 18 reference architecture — deterministic orchestration, typed gated tools, guardrails, HITL queue, audit log — with the eval discipline of a golden set and confidence-gated escalation.
-- **Integrate one clearinghouse and one EHR/PM.** Availity for production breadth, Stedi for development and the long tail. Build EDI parsing. **Start per-payer enrollments on day one.**
+- **Integrate one clearinghouse and one EHR/PM.** Availity for production breadth, Stedi for development and the long tail. Build EDI parsing. **Start per-payer enrollments the day the partner signs** — before writing integration code, and carefully: the provider signs the forms, and a careless ERA enrollment can redirect your partner's existing remittance stream (Chapter 5).
 - **Run 2–4 _paid_ 60–90 day pilots at 10–25% of ACV.** Each with a written success metric and auto-conversion trigger, a named pilot-success owner, and a one-week embed before workflow lock. Instrument ROI relentlessly.
 - **Close SOC 2 Type II.** Assemble the full security packet.
 
@@ -3956,17 +4774,23 @@ Four out of five is not a pass. The missing one tells you what to fix.
 
 ### The financing gates
 
-If you do raise, here is the 2026 bar. Note that each gate maps to a roadmap phase — you do not raise on a phase you have not finished.
+**Level 1.** Each round is unlocked by evidence, not by a story or a calendar.
+
+**Level 2.** Investors in this category have been burned enough that "great team, big market, working demo" no longer buys a seed round. Each stage has a specific piece of proof attached to it, and showing up without that proof does not get you a smaller round — it gets you a polite pass. The useful way to read the table below is backwards: find the round you want, look at what it demands, and treat that as the definition of your next milestone. **If you cannot name which gate you are currently working toward, you are not building toward a raise; you are just building.**
+
+**Level 3.** The 2026 bar, by gate. Each maps to a roadmap phase — you do not raise on a phase you have not finished.
 
 | Gate                 | Traction to show                                                                                                                                                                                                               | Round / valuation                                                    | Phase |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ----- |
-| **Pre-seed / angel** | Domain ground-truth + data-sharing partner secured (co-founder, or embedded partner + senior domain hire); 1 signed design-partner biller (paid pilot or LOI); working demo on 1 workflow + 1 specialty; HIPAA program started | $150–500K note, or bootstrap                                         | 0–1   |
-| **Seed**             | $300–500K ARR (3–10 paying billers); >70% gross margin with clear unit economics; SOC 2 Type II in progress; 1–2 hard-ROI case studies                                                                                         | $1–2M at ~$15–25M post — **or skip the institutional seed entirely** | 1–2   |
+| **Pre-seed / angel** | Domain ground-truth + data-sharing partner secured (co-founder, or embedded partner + senior domain hire); 1 signed design-partner biller (paid pilot, or an LOI — a letter of intent, a non-binding written commitment to buy that investors accept as evidence of demand); working demo on 1 workflow + 1 specialty; HIPAA program started | **$250–350K note** (base case), or bootstrap. See the gate table in Chapter 15 — $150–200K funds the demo only, not the month-12 gate | 0–1   |
+| **Seed**             | $300–500K ARR (3–10 paying billers); >70% gross margin with clear unit economics; SOC 2 Type II in progress; 1–2 hard-ROI case studies                                                                                         | **$1.5–3M** at ~$15–25M post — **or skip the institutional seed entirely** | 1–2   |
 | **Series A**         | $2–3M ARR ($5–10M if AI-native framing); NRR >110%; CAC payback <12 months; repeatable sell-to-billers motion; SOC 2 done + HITRUST started; multi-clearinghouse + ≥2 EHR integrations live                                    | $10–20M at $25–50M pre (~$35–70M post)                               | 3     |
 
 **The 2026 reality:** the "raise a seed on a deck and a prototype" era is over. Seed now expects **$300–500K ARR and design-partner validation.** The Series A ARR floor rose to **$2–3M.**
 
 Which leads to a specific conclusion for your situation. Given an India payroll burn under $25K/month — all-in roughly $83–117K/month at scale — the accretive move is to **push straight past the seed gate on revenue** and raise the first institutional round at the Series A bar, preserving ownership. You are one of the few founders structurally able to do that.
+
+_Before you take any of these numbers into a conversation with a funder, read the companion document **`rcm-venture-budget.md`**. It derives every figure here line by line — staff by role and phase, software and infrastructure unit prices, the compliance ladder, the months 9–12 bridge — and opens with a canonical-figures block that governs wherever the two documents might otherwise drift apart._
 
 ---
 
@@ -4024,12 +4848,22 @@ The honesty still holds, though. Either path needs the same two hard things: **r
 
 Set these now, in writing, while you are calm and unattached. Their entire purpose is to be enforced by a version of you who no longer wants to enforce them.
 
-| Checkpoint   | Condition                                           | If not met |
-| ------------ | --------------------------------------------------- | ---------- |
-| **Day 90**   | A data-sharing design partner signed                | **Stop**   |
-| **Month 6**  | Actual data access — real claims, denials, outcomes | **Stop**   |
-| **Month 9**  | A pilot converting to paid                          | **Stop**   |
-| **Month 12** | Two paying, in-production, ROI-documented billers   | **Stop**   |
+This is the **floor** — the bar below which you stop, as distinct from the day-90 target above. A criterion you cannot measure is not a criterion, so each one below names how it is measured and who holds the decision. Fill in the dates before you start; a kill criterion without a calendar date is a wish.
+
+| Checkpoint | Condition (the floor) | How you measure it — no interpretation allowed | Who holds the stop decision |
+| --- | --- | --- | --- |
+| **Day 90** | A **qualified** data-sharing design partner signed | A countersigned agreement + sub-BAA, and a first data extract actually received containing ≥1,000 adjudicated claims with remittance detail in your specialty. An enthusiastic email is not a signature; a signature with no data flowing is not a pass. | Your advisor, not you |
+| **Month 6** | Actual data access **and** a working origination channel | ≥1 extract per month for three consecutive months, **and** ≥8 qualified first meetings booked in month 6 alone. Qualified = right buyer type, right specialty mix, agreed to a second call. | Your advisor |
+| **Month 9** | A pilot converting to paid | A signed order form or a written conversion trigger the customer has acknowledged in writing, with an ROI number computed from *their* data, not your logs. | You + advisor jointly |
+| **Month 12** | Two paying, in-production, ROI-documented billers | Two invoices issued and paid, both customers processing live production volume, both with a written ROI figure they would say out loud on a reference call. | Your advisor |
+
+**Three notes that make this real rather than decorative.**
+
+**Anchor the calendar once, in writing.** "Day 90" means nothing until it is a date. If you start in September 2026, day 90 is early December 2026, month 6 is March 2027, and the month-12 gate falls in September 2027. Write those four dates down on day one.
+
+**Give the decision away.** The entire function of a kill criterion is to be enforced by a future version of you who has stopped agreeing with it. That is why the right-hand column says *advisor* and not *you*. Pick someone with no financial stake, send them this table, and give them explicit permission to hold you to it.
+
+**The month-12 gate governs the bootstrapped path too.** It is tempting to read the kill criteria as applying only to the venture-scale plan — the reasoning being that a profitable niche needs less traction, so the bar should be lower. That reasoning is wrong. Two paying customers by month 12 is a low bar for *any* version of this business. A niche path that cannot clear it is not a slower success; it is the same failure with a longer runway.
 
 Read these as a **timing check, not only a traction check.** The market window is closing at its own pace, independent of your progress. A plan can be factually correct, strategically sound, and still arrive too late.
 
@@ -4080,6 +4914,16 @@ And note the structural trap that the low burn creates: with a sub-$25K/month pa
 
 These are the risks any experienced healthcare-AI investor will raise. Know them, and know your mitigation for each.
 
+> **Read risk #0 first. It was promoted here from a bullet buried at #6, because H1 2026 changed its weight.**
+
+**0. PM-native bundling — now the top structural risk to Path C.** Not incumbent RCM vendors absorbing your feature (that's #6, and it is slower). The sharper threat is the **practice-management system your buyer already pays for** shipping a good-enough version of your product at **zero incremental price**, inside the software they open every morning.
+
+This stopped being hypothetical in mid-2026. athenahealth announced **80+ AI-native RCM features embedded in athenaOne at no additional cost** (June 3, 2026) — denial automation, autonomous coding, prior-auth acceleration, voice AI. Epic announced **"Penny," a first-party revenue-cycle AI agent slated for November 2026**, with a claimed 42%-faster prior auth, alongside its Comet foundation model. Oracle Health's Clinical AI Agent extended into charge capture. Microsoft's Dragon Copilot began hosting partner-built revenue-cycle micro-agents. Salesforce's Agentforce for Health ships prebuilt benefits-verification and prior-auth skills.
+
+Understand precisely why this is worse than ordinary competition. You are not being outcompeted on quality — you are being outcompeted on **friction**. A small biller evaluating you must run a security review, sign a BAA, add a vendor, train staff, and defend a line item. Or they can tick a box in software they already trust. "Good enough, already in the workflow, at zero incremental price" beats "better, separate, and $2K a month" far more often than product people want to believe.
+
+_Mitigation, and it is structural rather than tactical:_ **make the fourth day-one test (Chapter 16) a hard gate on every candidate wedge.** Then bias toward the wedges that survive it — deep specialty rules the PM vendor won't build for 2% of its book; **cross-PM billers**, whose fragmentation no single vendor can solve; contract intelligence needing data the PM system does not hold. And treat **PM-marketplace-native distribution as bundling defense, not just a channel**: building inside the athenahealth or NextGen marketplace early makes you the thing that gets bundled rather than the thing that gets bundled away.
+
 **1. The Olive AI lesson.** Olive raised heavily — around a $4B peak valuation — and wound down in 2023. What undid it was trying to scale broad automation across heterogeneous hospital IT. Every hospital was a custom integration; nothing compounded.
 _Mitigation:_ stay narrow. Nail one workflow completely before broadening. This is why every chapter has pushed you toward a specialty-narrow wedge.
 
@@ -4095,7 +4939,7 @@ _Mitigation:_ design for rapid rule updates and continuous retraining. Treat the
 **5. Integration fragility.** The Change Healthcare outage demonstrated single-clearinghouse risk at national scale. When one pipe broke, a large share of American healthcare stopped getting paid.
 _Mitigation:_ multi-clearinghouse design and resilient connectivity — in Phase 2, once you have one working.
 
-**6. Bundling by incumbents.** Clearinghouses and EHRs absorb commoditizable features as a matter of routine. As of 2026, Waystar, R1, FinThrive, and Commure all ship agentic platforms that could swallow a single-workflow tool as a checkbox.
+**6. Bundling by incumbent RCM vendors.** _(The slower cousin of risk #0 — same mechanism, different actor.)_ Clearinghouses and RCM platforms absorb commoditizable features as a matter of routine. As of 2026, Waystar, R1, FinThrive, and Commure all ship agentic platforms that could swallow a single-workflow tool as a checkbox.
 _Mitigation:_ pick workflows **off their near-term roadmap.** Build proprietary data advantages. Sell to the billers the incumbents do not serve.
 
 **7. Channel consolidation.** Your Path C customers — independent mid-size billing companies — are themselves being rolled up by private equity. Your buyer pool is shrinking while you sell into it.
@@ -4157,7 +5001,7 @@ Here is the summary, stated plainly.
 
 > **Path C: build a narrow AI/automation tool and sell it to _aligned_ parts of the RCM industry.**
 
-Enter through **depth in a specific specialty**, with **underpayment and contractual-variance recovery as a co-equal top-tier wedge** once a partner shares contract data. Sell to **growing, fixed-fee billers** whose incentives align with automation. Not the AR-voice and appeal lanes, which are now fully funded. Not the declining body-shops, and not the build-in-house giants.
+Enter through **depth in a specific specialty**, and commit to one coherent cell of the wedge × pricing-model matrix (Chapter 16). This book's call: **835 denial-triage and auto-correct routing sold to growing, cross-PM fixed-fee billers** as the entry wedge — their incentives align with automation, and their multi-PM fragmentation is a problem no single PM vendor will bundle away. Then **underpayment and contractual-variance recovery as the strong second wedge**, once a partner shares modeled contract data — better economics, harder gate. Not the AR-voice and appeal lanes, which are now fully funded. Not the declining body-shops, and not the build-in-house giants.
 
 Back all of it with domain ground-truth and proprietary data access. A committed U.S. domain co-founder is one high-trust way to get there; a deeply embedded design partner plus a senior domain hire can substitute. **That access, not a job title, is the gate.** And "acquire a biller" is a post-Series-A move.
 
@@ -4217,7 +5061,7 @@ That is the whole plan.
 - **The poisoned-reference cascade is the sharpest near-term danger.** In a small, networked buyer community, one botched high-dollar claim can end your only reference and propagate. Cap dollar thresholds. Over-escalate. Never let one logo be both biggest customer and only reference.
 - **Recovered-dollars wedges are short-volatility.** The payer closes the leak you monetize. Prefer structural leaks over exploitable edits, and track leak half-life as your early warning to add the next wedge.
 - **Market-timing risk is a real kill condition**, not a caveat. The window narrows on its own schedule, independent of your progress.
-- **The verdict:** Path C, specialty-narrow, underpayment/contractual-variance recovery as a co-equal top wedge, sold to growing fixed-fee billers, gated on domain ground-truth and data access.
+- **The verdict:** Path C, specialty-narrow, **one named cell of the wedge × pricing-model matrix** — 835 denial-triage sold to growing cross-PM fixed-fee billers first, underpayment recovery second once contract data lands — gated on domain ground-truth and data access.
 - **The moat is embedded workflow, sanctioned integrations and enrollments, reliability engineering, and niche depth.** Not the model, and not the data.
 - **India cost is runway, not a moat.** Bounded downside, no structural edge.
 
@@ -4240,64 +5084,175 @@ That is the whole plan.
 
 ## Appendix A: Glossary
 
-- **RCM**: Revenue Cycle Management: the end-to-end process of getting a provider paid.
-- **PHI / ePHI**: (electronic) Protected Health Information.
-- **Covered entity**: a provider, health plan, or clearinghouse under HIPAA.
-- **Business Associate / BAA**: a vendor handling PHI on a covered entity's behalf / the required contract.
-- **Clearinghouse**: intermediary routing/validating claims between providers and payers (Availity, Change Healthcare, Waystar).
-- **ICD-10**: diagnosis code set (~74,700 billable codes, FY2026).
-- **CPT / HCPCS**: procedure/service code sets (10,000+ codes).
-- **CDI**: Clinical Documentation Improvement.
-- **HCC**: Hierarchical Condition Categories (risk-adjustment coding).
-- **CARC / RARC**: Claim/Remittance Adjustment Reason Codes (explain payments/denials).
-- **Denial rate**: share of submitted claims initially denied (~11.8% in 2024, per OS Healthcare/Aptarro).
-- **Cost-to-collect**: share of revenue spent to collect it (manual ~3.5–4.0%, automated target ~2.0–2.5%).
-- **Net collection rate**: collectible revenue actually collected (95–98% well-managed; 96–99% top-tier per MGMA).
-- **First-pass acceptance**: share of claims accepted on first submission (98% is an elite benchmark; typical practices 75–85%).
-- **X12 EDI**: HIPAA-mandated electronic data interchange standard (837/835/270/271/276/277/278/834/820).
-- **FHIR**: Fast Healthcare Interoperability Resources (modern API standard; Da Vinci guides for admin use; CMS-0057-F mandates FHIR prior-auth APIs by Jan 2027).
-- **AAPC / AHIMA**: coder certification bodies (CPC/CIC/COC; CCS/CCA/CDIP).
-- **SOC 2 Type II / HITRUST**: security attestation / healthcare-specific certification.
-- **RPA**: Robotic Process Automation (rule-based bots).
-- **Agentic AI**: AI that autonomously executes multi-step workflows within guardrails.
-- **837P / 837I**: professional (→ CMS-1500) vs institutional (→ UB-04) claim formats.
-- **Soft vs hard denial**: correctable/resubmittable vs requires-appeal-or-write-off.
-- **DNFB**: Discharged Not Final Billed: revenue stuck pre-submission (benchmark ~3–4 days of gross revenue, HFMA MAP Key materials).
-- **Candidate-for-billing**: claims ready to drop but not yet submitted.
-- **NCCI edits**: National Correct Coding Initiative procedure-bundling edits.
-- **LCD / NCD**: Local / National Coverage Determinations (Medicare coverage rules).
-- **Peer-to-peer (P2P)**: physician-to-payer-medical-director review for clinical denials.
-- **Global surgical package**: bundling of pre-op, procedure, and 0/10/90-day post-op care into one payment.
-- **Contractual variance / underpayment**: payer pays below the contracted rate (often invisible; Chapter 3).
-- **Downcoding**: payer-initiated reduction of a billed code/level, increasingly algorithmic (Chapter 6).
-- **Propensity-to-pay**: model-scored likelihood a patient pays their balance.
-- **Cost-to-rework**: ~\$25–\$118 to reprocess one denied claim.
-- **Automation rate vs accuracy**: % handled with no human touch vs % of automated items correct; the eval tradeoff (Chapter 18).
-- **WISeR**: CMS's AI/ML-assisted Medicare prior-authorization pilot (2026–2031, six states).
-- **IDR**: Independent Dispute Resolution (No Surprises Act provider–payer arbitration).
-- **NRR / CAC**: Net Revenue Retention / Customer Acquisition Cost.
+_Every entry carries the chapter that teaches it properly, so this doubles as the index the book otherwise lacks. Where a term is easy to misuse, the entry says what people get wrong._
+
+### The money and the paperwork
+
+- **RCM** — Revenue Cycle Management: everything a provider does to turn a clinical visit into collected cash. _Ch 1_
+- **Claim** — the bill, in the payer's required format. Not an invoice: it is a request for adjudication that can be rejected, denied, underpaid, or paid. _Ch 2_
+- **Rejection vs. denial** — a **rejection** bounced before the payer's system accepted it (a format or eligibility problem; no 835, often invisible on AR reports, and the filing clock does *not* stop). A **denial** was accepted, adjudicated, and refused. Different systems, different fixes. People conflate these constantly. _Ch 2, Appendix E_
+- **Soft vs. hard denial** — correctable and resubmittable, vs. requires an appeal or a write-off. _Ch 3_
+- **Charge** — what the provider bills. Set by the charge master, essentially fictional, and identical regardless of payer. _Ch 2_
+- **Allowed amount** — what the contract says the service is actually worth. The number that matters. _Ch 2, Ch 3_
+- **Contractual adjustment** — the gap between charge and allowed amount (CARC group code CO). Never collectible, correctly written off, **not a denial.** _Ch 2_
+- **Patient responsibility** — deductible, coinsurance, and copay (CARC group code PR). What the patient owes after the payer's share. _Ch 2, Ch 4_
+- **Contractual variance / underpayment** — the payer paid below the contracted rate. Usually invisible, because nothing announces it — you only find it by computing what you were owed and comparing. _Ch 3_
+- **Downcoding** — payer-initiated reduction of a billed code or level, increasingly algorithmic. _Ch 6_
+- **Global surgical package** — pre-op, procedure, and a 0/10/90-day post-op window bundled into one payment. The reason surgical billing is modifier-dense. _Ch 4_
+- **Modifier** — a two-character suffix on a procedure code that changes its meaning: separate service, bilateral, professional-vs-technical component, repeat procedure. Modifiers 25 and 59 are among the most-audited elements in U.S. healthcare — programmatically adding them is a genuine legal exposure. _Ch 2, Ch 18_
+
+### The codes
+
+- **ICD-10** — diagnosis codes (~74,700 billable, FY2026). What was wrong with the patient. _Ch 2_
+- **CPT / HCPCS** — procedure and service codes (10,000+). What was done about it. _Ch 2_
+- **CARC / RARC** — Claim / Remittance Adjustment Reason Codes. The payer's machine-readable explanation of every dollar it did and didn't pay. Your product almost certainly reads these. _Ch 3, Appendix E_
+- **NCCI edits** — National Correct Coding Initiative procedure-bundling rules. _Ch 4_
+- **LCD / NCD** — Local / National Coverage Determinations: Medicare's published rules on what it covers. _Ch 4_
+- **HCC** — Hierarchical Condition Categories, used for risk-adjustment coding. _Ch 4_
+- **CDI** — Clinical Documentation Improvement: getting the chart to support the code. _Ch 2_
+
+### The plumbing
+
+- **X12 EDI** — the HIPAA-mandated electronic formats that carry nearly all U.S. healthcare money. _Ch 5, Appendix E_
+- **837P / 837I** — professional (→ CMS-1500 form) vs. institutional (→ UB-04) claim formats. Which one you deal with is a structural fork in your product. _Ch 2, Ch 5_
+- **835** — the electronic remittance advice: the payer's line-by-line explanation of what it paid and why. The single most load-bearing file in this industry. _Ch 5, Appendix E_
+- **270 / 271** — eligibility inquiry and response. **276 / 277** — claim status inquiry and response. **277CA** — claim acknowledgment (accept/reject). **278** — prior authorization. _Ch 5_
+- **TA1 / 999** — interchange and syntax acknowledgments. The two gates before a payer has even looked at your claim. _Appendix E_
+- **Clearinghouse** — the intermediary that routes and validates claims between providers and payers (Availity, Change Healthcare, Waystar, Stedi). _Ch 5_
+- **Enrollment** — the per-payer paperwork that lets you actually transact with that payer. Days to weeks *each*, signed by the provider, and the most common schedule-killer in this domain. _Ch 5_
+- **FHIR** — the modern JSON/REST healthcare API standard. CMS-0057-F mandates FHIR prior-auth APIs by January 2027. _Ch 5_
+- **EHR vs. PM system** — the EHR holds clinical documentation; the practice-management system holds scheduling, billing, and AR. Small practices often run both in one product, which is why "PM system" and "EHR" get used interchangeably and shouldn't be. _Ch 5, Ch 20_
+- **EOB vs. ERA** — Explanation of Benefits (the paper/patient-facing version) vs. Electronic Remittance Advice (the 835). Not interchangeable. _Ch 5_
+
+### The rules
+
+- **PHI / ePHI** — (electronic) Protected Health Information. _Ch 6_
+- **Covered entity** — a provider, health plan, or clearinghouse under HIPAA. _Ch 6_
+- **Business Associate / BAA** — a vendor handling PHI on a covered entity's behalf, and the contract that makes it lawful. **You will be one.** Business Associates are directly liable to HHS, not indirectly through your customer. _Ch 6, Ch 19_
+- **De-identification (Safe Harbor / Expert Determination)** — the two lawful routes to using health data outside HIPAA's scope. The gate on any training corpus. _Ch 19_
+- **Timely filing** — the deadline for submitting a claim, which varies by payer and starts on a date that is not always obvious. Miss it and the money is gone with no appeal. _Ch 3_
+- **Peer-to-peer (P2P)** — physician-to-payer-medical-director review for clinical denials. _Ch 3_
+- **IDR** — Independent Dispute Resolution: No Surprises Act provider–payer arbitration. _Ch 6_
+- **WISeR** — CMS's AI/ML-assisted Medicare prior-authorization pilot (2026–2031, six states). _Ch 6_
+- **SOC 2 Type II / HITRUST** — the security attestation buyers ask for, and the healthcare-specific certification enterprise buyers ask for. _Ch 6, Ch 10_
+- **Prior authorization** — the payer's advance permission to deliver a service. Denied or delayed prior auth is one of the largest single sources of both administrative cost and clinical friction in the system. _Ch 2, Ch 6_
+- **Credentialing** — getting a provider approved to bill a given payer at all. Happens before anything else can, and stale credentialing bounces claims silently. _Ch 2_
+
+### The metrics buyers are judged on
+
+- **Denial rate** — share of submitted claims initially denied (~11.8% in 2024, per Kodiak via OS Healthcare/Aptarro). _Ch 3_
+- **Cost-to-collect** — share of revenue spent collecting it (manual ~3.5–4.0%; automated target ~2.0–2.5%). The number the whole industry is scored on. _Ch 9_
+- **Cost-to-rework** — ~\$25–\$118 to reprocess one denied claim. The number that decides which denials get abandoned. _Ch 9_
+- **Net collection rate** — collectible revenue actually collected (95–98% well-managed; 96–99% top-tier per MGMA). _Ch 9_
+- **First-pass acceptance / clean-claim rate** — share accepted on first submission (98% is elite; typical practices 75–85%). _Ch 9_
+- **Days in AR** — average age of outstanding receivables. The metric a CFO watches weekly. _Ch 9_
+- **DNFB** — Discharged Not Final Billed: revenue stuck before submission (~3–4 days of gross revenue is the HFMA benchmark). _Ch 9_
+- **Propensity-to-pay** — model-scored likelihood a patient pays their balance. _Ch 4_
+
+### Building it
+
+- **RPA** — Robotic Process Automation: rule-based bots that click through interfaces. The previous wave. _Ch 12_
+- **Agentic AI** — systems that autonomously execute multi-step workflows within guardrails. The current wave. _Ch 12_
+- **Automation rate vs. accuracy** — share handled with no human touch vs. share of automated items that are correct. They trade against each other; either alone is meaningless. _Ch 12_
+- **Golden set** — a curated collection of real, correctly-labeled examples you measure every version against. The difference between "seems to work" and knowing your accuracy. _Ch 12, Ch 18_
+- **HITL** — human in the loop: the review queue where anything below the confidence threshold goes. A permanent, priced component, not a temporary crutch. _Ch 18_
+- **VDI / DaaS** — virtual desktop infrastructure: offshore staff see a video stream of a U.S.-hosted machine, so PHI never lands on the local device. Your procurement unlock. _Ch 6_
+
+### Business and strategy
+
+- **Wedge** — the single narrow workflow you automate first. Not a category — one repeated job. _Ch 16_
+- **Design partner** — an early customer who trades data, feedback, and workflow access for a product built around their problem. _Ch 17_
+- **Domain ground-truth** — access to someone who knows what a correct answer looks like in this industry. The gate on everything. _Ch 15_
+- **Payer mix** — the proportion of a practice's revenue from each payer type. Determines whether the underpayment wedge exists at all at a given account. _Ch 4_
+- **BPO** — business process outsourcer: a company that runs an entire back-office function with its own staff. In RCM, usually thousands of people in India or the Philippines. _Ch 8_
+- **MSO / DSO** — management services organization / dental service organization: corporate owners of the business side of many practices. One signature, many sites. _Ch 10_
+- **IDN** — integrated delivery network: a full health system, hospitals plus employed physicians. _Ch 10_
+- **ICP** — ideal customer profile: the precise description of the buyer whose incentives align with yours. _Ch 10_
+- **ACV** — annual contract value: what one customer pays per year. Decides whether a sales motion can pay for itself. _Ch 9_
+- **NRR / CAC** — net revenue retention (do existing customers grow on their own?) and customer acquisition cost (and how long to earn it back?). The two numbers investors gate a Series A on. _Ch 11, Ch 19_
+- **AAPC / AHIMA** — the coder certification bodies (CPC/CIC/COC; CCS/CCA/CDIP). Where you find domain hires. _Ch 15_
+- **HBMA / HFMA / AAHAM** — trade bodies for billing companies, health-system finance, and revenue-cycle staff respectively. HBMA is the most concentrated gathering of your buyers. _Ch 17_
 
 ## Appendix B: Company directory
 
-**Incumbents / platforms:** R1 RCM (Phare OS), Optum/Optum360 (UnitedHealth; owns Change Healthcare), Waystar (acquired Iodine Software), FinThrive, Cognizant, Conifer Health, Ensemble Health Partners, Guidehouse, Experian Health, Oracle Health (Cerner), athenahealth, Veradigm, TruBridge, CareCloud, Huron, Infinx.
+_A list of names is not useful. What matters is **what each company is to you** — a competitor, a customer, a channel, a supplier, or a cautionary tale. That is the last column._
 
-**India-centric RCM BPOs:** Omega Healthcare, Access Healthcare (now part of Smarter Technologies), AGS Health (acquired by Blackstone from EQT, 2025), Sagility, GeBBS, CorroHealth (absorbed Chennai-based Visionary RCM, 2020), Coronis Health (merged with MiraMed, 2021), Medusind, Vee Healthtek.
+**★ = the ten to actually track.** Set up alerts on these and skim the rest.
 
-**AI-native challengers:** AKASA, Adonis, Infinitus, CodaMetrix, Fathom, Nym Health, Arintra, Amperos Health, Thoughtful AI (Smarter Technologies), Candid Health, Sift Healthcare, RapidClaims, Procode AI, Maverick AI, CombineHealth (early-stage end-to-end AI RCM). (Cautionary: Olive AI.)
+### Incumbents and platforms
 
-**Enterprise platforms / consolidators converging on RCM:** Commure, Abridge, Ambience Healthcare, Smarter Technologies (New Mountain).
+| Company | What it sells | Who buys it | **What it is to you** |
+|---|---|---|---|
+| **R1 RCM** (Phare OS) | Full-cycle RCM plus an agentic platform | Health systems | Competitor by capability, but not for your segment. ★ Watch its roadmap — what R1 ships free in 18 months, you cannot sell |
+| **Optum / Optum360** | RCM at national scale; owns Change Healthcare | Everyone | Infrastructure you probably route through *and* a competitor. Also the February 2024 outage lesson |
+| **Waystar** | Clearinghouse + RCM platform; acquired Iodine Software | Providers, billers | ★ Likely a supplier and a bundling threat simultaneously |
+| **athenahealth** | PM/EHR with 80+ bundled AI RCM features (June 2026) | Small and mid practices | ★ **The sharpest bundling threat to Path C** (risk #0), and a marketplace channel. Both at once |
+| **FinThrive** | RCM software | Health systems | Leveraged and under balance-sheet stress — a displacement opportunity |
+| **Oracle Health (Cerner), Veradigm, TruBridge, CareCloud** | EHR/PM platforms | Providers | Integration targets and potential bundlers |
+| **Cognizant, Conifer, Ensemble, Guidehouse, Huron** | Outsourced RCM services | Health systems | Enterprise BPOs. They build rather than buy — de-prioritize as customers |
+| **Experian Health, Infinx** | RCM software and services | Mixed | Infinx's strategic-investment pattern (Maverick AI, Aug 2025) is a plausible exit shape for you |
 
-**Voice & front-door specialists:** Infinitus, SuperDial, VoiceCare AI, LunaBill (voice to billing teams), Assort Health, Hippocratic AI, Tennr, Mandolin, Develop Health.
+### India-centric RCM outsourcers
 
-**Picks-and-shovels / infrastructure (Path C exemplars):** SuperDial (voice to billers), Cair Health (RCM agents to billers/BPOs/EHRs), LunaBill (AR voice to billers), Stedi (X12→JSON / AI clearinghouse), Sohar Health (eligibility API), Availity / Change Healthcare / Waystar (clearinghouses).
+| Company | Note | **What it is to you** |
+|---|---|---|
+| **Omega Healthcare** | 2026 Best in KLAS (ambulatory RCM); embedded SuperDial's voice AI (March 2026) | ★ **Read this one carefully.** It executed the BPO+voice-AI pairing this book predicted — without the startup intermediary you might have been. Evidence about who captures that value |
+| **Access Healthcare** | Now part of Smarter Technologies | Consolidated away |
+| **AGS Health** | Blackstone-owned; SEBI approval for a ~$500M India IPO at ~$3B (June 2026) | The scale outcome for this category |
+| **Sagility, GeBBS, CorroHealth, Coronis, Medusind, Vee Healthtek** | Mid-to-large offshore BPOs | Mostly build-in-house. Not your ICP, but useful comparables for cost structure |
 
-**Payer-side AI (the other combatant; Chapter 6):** Cohere Health, Lyric, Machinify (New Mountain), Evolent.
+### AI-native challengers
 
-**Horizontal AI entering healthcare (Chapter 13):** Anthropic (Claude for Healthcare), OpenAI (ChatGPT Health), Microsoft (Dragon Copilot), AWS (HealthScribe), Google (MedGemma / Gemini on Vertex).
+| Company | Lane | **What it is to you** |
+|---|---|---|
+| **CodaMetrix, Fathom, Nym, Arintra, Maverick** | Autonomous coding | The saturated lane. Chapter 16 says avoid head-on |
+| **Infinitus** | Payer-call voice AI (8M-call graph) | The data moat you cannot match in voice |
+| **SuperDial** ★ | Voice AI **sold to billers** | **The closest model for Path C.** Study its positioning, pricing, and the Omega partnership |
+| **Cair Health** ★ | RCM agents sold to billers/BPOs/EHRs | Same lane as you. Study it |
+| **LunaBill** | AR voice to billing teams | Same lane |
+| **Amperos Health** | Denial appeals ($16M raised) | The appeals lane, now funded |
+| **AKASA, Adonis, Candid Health, Sift, RapidClaims, Procode AI, CombineHealth** | Various | First-wave vintages; notably none raised in 2026. Capital moved to agentic entrants and PE platforms |
+| **Olive AI** | — | ★ **The cautionary tale.** ~$4B peak, wound down 2023, killed by breadth across heterogeneous hospital IT. Re-read Chapter 20 risk #1 before you broaden |
+
+### Underpayment and contract intelligence — the lane this book points you toward
+
+| Company | **What it is to you** |
+|---|---|
+| **Rivet** ★, **MD Clarity** | The direct comparison. "How is this different from Rivet?" is the first question you will be asked |
+| **Aspirion ContractIQ** | Enterprise-tier; sets buyer expectations |
+| **Anomaly Insights** ($34M, May 2026), **Turquoise Health** ($40M, March 2026) | ★ Capital arriving in your lane from the data side |
+| **Serif Health, Payerset** | Transparency-in-Coverage data infrastructure — potential **suppliers**, not competitors |
+
+### Consolidators, payer-side, and horizontal AI
+
+| Group | Companies | **What it is to you** |
+|---|---|---|
+| **Consolidators converging on RCM** | Commure, Abridge, Ambience, Smarter Technologies (New Mountain), Innovaccer | Acquirers as much as competitors. A strategic exit here is a legitimate good ending |
+| **Payer-side AI** | Cohere Health, Lyric, Machinify, Evolent, Anterior | ★ **The other combatant.** Every dollar they save a payer is a dollar of work created on your side. Their capability sets your demand |
+| **Voice / front-door** | VoiceCare AI, Assort Health, Hippocratic AI, Tennr, Mandolin, Develop Health, Prosper AI | The contested voice lane. Enter only with an unfair advantage |
+| **Horizontal AI entering healthcare** | Anthropic, OpenAI, Microsoft, AWS, Google | ★ Your **suppliers**, and the reason Chapter 13's stress test exists. Assume the model layer is free and commoditized, then ask what still has your name on it |
 
 ## Appendix C: The July 2026 fact-audit, market refresh, and reviewer's assessment
 
-_This appendix is reproduced from the source research report. It documents how the July 2026 revision was produced, what changed in the market in the weeks after the report was drafted, and an independent reviewer's assessment of the strategy — including the places where the report's own logic, read adversarially, points somewhere different than its recommendations. Read it after Chapter 20. It is the most useful adversarial check in the book, and several of its findings should change how you read the wedge and ICP recommendations._
+_This appendix documents how the July 2026 revision was produced, what changed in the market in the weeks after the report was drafted, and an independent reviewer's assessment of the strategy — including the places where the report's own logic, read adversarially, points somewhere different than its recommendations. Read it after Chapter 20. It is the most useful adversarial check in the book._
+
+### What the audit changed, and what it didn't
+
+This appendix used to sit here as a silent rebuttal: it argued with the body of the book, and the body never answered. That has been fixed. Here is the current state of each finding, so you can read the appendix as a record of how the argument moved rather than as a contradiction you have to referee.
+
+| Finding | Status | Where it landed |
+|---|---|---|
+| **1. The "undercut the BPO" math was benchmarked against the wrong labor pool** | **Absorbed** | Chapter 9's unit economics now state plainly that a $1.25–1.50 agent *matches* rather than undercuts offshore labor, and Chapter 12's voice-cost section was rewritten to say the same thing instead of the opposite |
+| **2. The wedge and the ICP are misaligned** | **Absorbed — and it changed the recommendation** | Chapter 16 now carries the wedge × pricing-model matrix and commits to one cell; Chapters 15, 19, and 20 were rewritten to match. This was the highest-value edit in the audit |
+| **3. The underpayment wedge has an unpriced data-access dependency** | **Absorbed** | Underpayment is now the *strong second wedge*, not a co-equal first, throughout. Chapter 3 adds the professional-segment math and the Transparency-in-Coverage substitute |
+| **4. PM-native bundling deserves first-class risk status and a fourth wedge test** | **Absorbed** | It is now risk #0 in Chapter 20 and the fourth test in Chapter 16 |
+| **5. The golden-set plan needs a lawful-data-acquisition step** | **Absorbed** | Chapter 19's Weeks 3–6 now gates any PHI movement on a BAA scope audit, a sub-BAA, and a de-identification basis |
+| Secondary: numeric kill criteria with an accountable owner | **Absorbed** | Chapter 19's kill-switch table now names the measurement and who holds the stop decision |
+| Secondary: 15–20 structured discovery interviews before Phase 0 | **Open — and still the largest epistemic hole** | The book's ACV and willingness-to-pay figures rest on desk research, not on customer conversations. Nothing in a revision can close that; only you can, by making the calls |
+| Secondary: FCA-grade controls on automated appeals | **Absorbed** | Chapter 18's guardrails |
+| Secondary: drop "expected-value-maximizing" unless the decision table is written | **Open by choice** | The phrasing stands as rhetoric. If you want it to be a decision, write the table — probabilities, payoffs, and your own opportunity cost |
+
+**Two things worth noticing about that list.** First, the audit found six outright factual errors in ~702 claims, and five of the six were company facts in the fast-moving AI-vendor landscape — not errors in market structure, regulation, or strategic logic. That tells you which parts of this book to re-verify before quoting them, and which parts to trust. Second, the findings that mattered most were not factual at all. They were places where two individually-sound recommendations did not compose. **That failure mode is invisible to fact-checking and is the one to watch for in your own plan.**
 
 ### C.1 How this revision was produced (and how much of the report survived)
 
@@ -4349,7 +5304,9 @@ _What follows is the reviewer's independent judgment, informed by an adversarial
 
 ## Appendix D: References
 
-_Globally numbered [1]…[202]. Grouped by report area. Each entry: Publisher: descriptor. URL. Compiled June 2026; descriptors corrected and updated in the July 2026 fact-audit (see Appendix C.1) — where a descriptor now differs from what the linked page said at compile time, the descriptor reflects the verified fact._
+_Globally numbered [1]…[242]. Grouped by report area. Each entry: Publisher: descriptor. URL. Entries [1]–[202] were compiled June 2026, with descriptors corrected in the July 2026 fact-audit (see Appendix C.1) — where a descriptor now differs from what the linked page said at compile time, the descriptor reflects the verified fact._
+
+_Entries **[203]–[242]** were added in the same revision that introduced the expected-payment arithmetic (Chapter 3), the payer taxonomy (Chapter 4), the legal guardrails (Chapters 9 and 18), and Appendix E. They are **primary sources** — statute, regulation, agency guidance, and the X12 implementation guides — rather than the industry-analysis and vendor sources that dominate [1]–[202]. Two retrieval notes, in the spirit of the audit that produced Appendix C: **CMS.gov blocked automated retrieval**, so CMS material marked ⚠ below was obtained via proxy and cross-checked against independently-sourced values — **re-pull it from cms.gov before shipping any code-level number in a product.** Statutory and CFR text was taken from Cornell LII, which reproduces official text faithfully; re-pull from eCFR if your sourcing standard requires the government host._
 
 **Market & competitive landscape** _(Chapters 7, 8, 11)_
 
@@ -4570,5 +5527,329 @@ _Globally numbered [1]…[202]. Grouped by report area. Each entry: Publisher: d
 [200] HBMA (Healthcare Business Management Association): the billing-company trade association — chapters/events as a sourcing channel for design partners and domain hires (replaces RevGenius, a B2B-SaaS sales community misidentified as an RCM channel in the original). https://www.hbma.org/
 [201] Newfront: billing/technology E&O insurance as a revenue gate (the article publishes no cost figures; the ~\$3–15K+/yr range is a market planning estimate per TechInsurance / Pro Insurance Group 2026 data). https://www.newfront.com/blog/the-importance-of-billing-errors-and-omissions-insurance-in-healthcare
 [202] Becker's Payer Issues: Kaiser sues liability insurers over a \$556M MA settlement (coverage-exclusion cautionary). https://www.beckerspayer.com/legal/kaiser-sues-liability-insurers-over-556m-medicare-advantage-settlement/
+
+---
+
+**Expected-payment arithmetic: the Medicare Physician Fee Schedule** _(Chapter 3)_
+
+[203] 42 U.S.C. §1395w-4(b)(1): the MPFS formula — payment equals the sum of work, practice-expense, and malpractice RVUs each multiplied by its own geographic index, times the conversion factor. https://www.law.cornell.edu/uscode/text/42/1395w-4
+[204] 42 U.S.C. §1395w-4(a)(1): **the "lesser of" rule** — Medicare pays the lesser of the actual charge or the fee-schedule amount. The statutory basis for the silent charge-master cap. https://www.law.cornell.edu/uscode/text/42/1395w-4
+[205] ⚠ CMS: Physician Fee Schedule Relative Value Files — the free quarterly RVU/GPCI data (RVU26A January, 26B April, 26C July, 26D October). Code-level values in Chapter 3 are from the **RVU26C** release. https://www.cms.gov/medicare/payment/fee-schedules/physician/pfs-relative-value-files
+[206] ⚠ CMS: CY2026 Physician Fee Schedule final rule (CMS-1832-F) — **two conversion factors for the first time**, \$33.5675 (qualifying APM) and \$33.4009 (non-qualifying), and the facility practice-expense reallocation. Values independently cross-checked against the CONV FACTOR field of the CMS production RVU files. https://www.federalregister.gov/public-inspection
+[207] Social Security Act §1848(d)(20) (MACRA): the statutory requirement for separate qualifying-APM and non-qualifying conversion factors from 2026. https://www.ssa.gov/OP_Home/ssact/title18/1848.htm
+[208] Public Law 118-158 (American Relief Act, 2025): **contains no physician fee schedule update** — §3206 extends only the work geographic index floor. The commonly-cited "2.5% 2025 update" was stripped before passage; CY2025 ran at \$32.3465. https://www.govinfo.gov/app/details/PLAW-118publ158
+[209] Public Law 119-21 §71202 (One Big Beautiful Bill Act): the temporary CY2026-only payment increase under SSA §1848(t) — a different law and a different year from [208], and the reason proposed CY2027 factors are lower. https://www.govinfo.gov/app/collection/plaw
+[210] ⚠ CMS: Medicare Claims Processing Manual, Pub. 100-04 — the MPFS payment formula as stated by CMS. _(Note: the worked example in the manual's own §20.1 transposes two geographic indices; the formula is correct, that illustration is not.)_ https://www.cms.gov/regulations-and-guidance/guidance/manuals/internet-only-manuals-ioms
+[211] ⚠ CMS: multiple-procedure payment reduction indicators — 50% standard surgical, 50% imaging technical / **5% imaging professional (since 2017)**, 25% diagnostic cardiovascular, 20% ophthalmology. The "MPPR is 50%" shorthand is wrong for most of these. https://www.cms.gov/medicare/payment/fee-schedules/physician
+[212] American Medical Association: CPT is AMA-copyrighted. RVU *values* are free to use; publishing CPT *descriptors* in a product requires a license. https://www.ama-assn.org/practice-management/cpt
+
+**Price transparency as an expected-rate substitute** _(Chapter 3)_
+
+[213] Transparency in Coverage final rule, 85 FR 72158 — the requirement that health plans publish machine-readable in-network negotiated rates. https://www.federalregister.gov/documents/2020/11/12/2020-24591/transparency-in-coverage
+[214] CMS: price-transparency-guide — the published JSON schema, table-of-contents index pattern, `negotiated_type` values, and the `provider_references` mechanism. https://github.com/CMSgov/price-transparency-guide
+[215] CMS: Hospital Price Transparency — **a separate rule with separate files** from [213]. The two are routinely conflated. https://www.cms.gov/priorities/key-initiatives/hospital-price-transparency
+
+**Timely filing and claim-status semantics** _(Chapters 3, Appendix E)_
+
+[216] Affordable Care Act §6404: the Medicare fee-for-service timely-filing limit of one calendar year from date of service. https://www.govinfo.gov/app/details/PLAW-111publ148
+[217] ⚠ CMS: a timely-filing denial "does not constitute an 'initial determination'" and is therefore **not subject to appeal** — the reason CO-29 is a terminal loss rather than an appealable one. https://www.cms.gov/regulations-and-guidance/guidance/manuals/internet-only-manuals-ioms
+[218] ⚠ CMS: return-to-provider submissions are purged after ~60 days with "no subsequent audit trail," are "not considered claims under Medicare regulation," and are "not considered filed for purposes of determining timely filing" — the phantom-receivable mechanism in Appendix E.3. https://www.cms.gov/regulations-and-guidance/guidance/manuals/internet-only-manuals-ioms
+
+**The payer taxonomy and ERISA** _(Chapter 4)_
+
+[219] 29 CFR §2560.503-1: the ERISA claims procedure. Plan decision deadlines (72 hours urgent / 15 days pre-service / 30 days post-service) and — the correction that matters — **(h)(3)(i) requires group health plans to allow at least 180 days to appeal**, not the 60 days of the general rule in (h)(2)(i). https://www.law.cornell.edu/cfr/text/29/2560.503-1
+[220] _FMC Corp. v. Holliday_, 498 U.S. 52 (1990): ERISA's deemer clause — insured plans remain reachable through the insurer; **self-funded plans do not.** Why state prompt-pay and external-review levers vanish. https://supreme.justia.com/cases/federal/us/498/52/
+[221] KFF: 2025 Employer Health Benefits Survey — **67% of covered workers** (27% at firms of 10–199, 80% at 200+) are in self-funded plans; level-funded reported separately. Note this is covered *workers*, not employers. https://www.kff.org/health-costs/report/2025-employer-health-benefits-survey/
+[222] 42 CFR §422.214: Medicare Advantage out-of-network payment pinned to the Original Medicare amount — why "does MA have underpayment surface?" has two different answers. https://www.law.cornell.edu/cfr/text/42/422.214
+[223] 42 CFR Part 422 Subpart M: the Medicare Advantage grievance and appeal process — separate from the fee-for-service ladder. https://www.law.cornell.edu/cfr/text/42/part-422/subpart-M
+
+**Percentage pricing: anti-kickback and fee-splitting** _(Chapter 9)_
+
+[224] 42 U.S.C. §1320a-7b(b): the federal Anti-Kickback Statute. An intent statute — a percentage is not inherently unlawful; it is evidence of incentive. https://www.law.cornell.edu/uscode/text/42/1320a-7b
+[225] 42 CFR §1001.952(d): the personal services and management contracts safe harbor **as amended effective January 2021** — requires the compensation *methodology* to be set in advance, consistent with fair market value, and not determined by volume or value of referrals. The pre-2020 "aggregate compensation fixed in advance" language is obsolete; memos still quoting it are at least five years stale. https://www.law.cornell.edu/cfr/text/42/1001.952
+[226] HHS OIG: Compliance Program Guidance for Third-Party Medical Billing Companies, 63 FR 70138 (Dec. 18, 1998). Footnote 40 contains **two distinct concerns** — kickback risk conditioned on *marketing* services, and upcoding risk that is not so conditioned. Also the source of the statistical self-audit, reviewer-independence, and no-upcoding-incentive controls in Chapter 18. https://oig.hhs.gov/documents/compliance-guidance/
+[227] HHS OIG: Advisory Opinion 98-4 (April 15, 1998). Concluded an arrangement "may constitute prohibited remuneration"; **did not find a violation**, and expressly declined to determine intent. The reviewed arrangement bundled marketing and mandatory referral obligations — a different animal from billing software. https://oig.hhs.gov/documents/advisory-opinions/
+[228] California Business & Professions Code §650(b): **expressly permits** percentage-of-gross-revenue compensation for services other than patient referral, subject to a value test — the counter-example to "percentage pricing is a fee-splitting problem everywhere." https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=650
+[229] New York Education Law §6531: prohibits fee splitting with narrow enumerated exceptions and **contains no billing-company exception**. The difficulty is the *absence* of a carve-out. _(The widely-repeated claim that New York "expressly prohibits" percentage billing-company compensation traces to regulatory interpretation this book could not verify — have counsel produce the actual guidance.)_ https://www.nysenate.gov/legislation/laws/EDN/6531
+[230] 42 CFR §424.80: Medicare payment to a billing agent is permitted only where compensation is "not related in any way to the dollar amounts billed or collected" — a constraint on cash-flow design, not on ordinary provider-pays-biller structures. https://www.law.cornell.edu/cfr/text/42/424.80
+
+**False Claims Act exposure on automated coding** _(Chapter 18)_
+
+[231] 31 U.S.C. §3729: the False Claims Act. §3729(b)(1) defines "knowing" to include **deliberate ignorance and reckless disregard**, and states these "require no proof of specific intent to defraud." §3729(a)(2) reduces treble to not-less-than-double damages only on disclosure within 30 days of first obtaining the information. https://www.law.cornell.edu/uscode/text/31/3729
+[232] 28 CFR §85.5: civil penalty amounts — **\$14,308 to \$28,619 per claim** for penalties assessed after July 3, 2025. https://www.law.cornell.edu/cfr/text/28/85.5
+[233] U.S. Department of Justice, Federal Register notice of July 15, 2026: **"not making any adjustments to civil money penalties under the Inflation Adjustment Act in 2026."** The 2025 appropriations lapse meant BLS never produced the required October 2025 CPI-U; OMB memorandum M-26-11 (April 17, 2026) cancelled the adjustment. Any "2026 FCA penalty" derived by applying CPI is an invented number. https://www.govinfo.gov/app/collection/fr
+[234] 42 U.S.C. §1320a-7k(d): the **60-day report-and-return clock** on identified overpayments, and the basis for reverse-false-claims liability. Why a revenue-increasing automation error is not symmetric with a revenue-decreasing one. https://www.law.cornell.edu/uscode/text/42/1320a-7k
+[235] HHS OIG: OEI-03-02-00771 (November 2005) — 40% of code pairs billed with **modifier 59** did not meet program requirements. **FY2003 data**; excluded code pairs paying ≤\$24 and excluded E/M codes. Cite with its date or not at all. https://oig.hhs.gov/oei/reports/oei-03-02-00771.pdf
+[236] HHS OIG: A-09-23-03014 (issued May 27, 2025) — **modifier 25** on same-day E/M with intravitreal injections; 22 of 24 sampled services did not support the modifier; recommended recovery up to \$123.9M. A targeted sample in one procedure family, not a national error rate. Related: OIG Work Plan item OAS-26-04-028 (March 16, 2026), examining same-day E/M *without* modifier 25 — scrutiny runs both directions. https://oig.hhs.gov/reports-and-publications/all-reports-and-publications/
+
+**X12 implementation guides and EDI operating rules** _(Chapter 5, Appendix E)_
+
+[237] X12: ASC X12N 005010X222A1 — the 837P professional claim technical report (TR3). The normative source for the loop structure, CLM/SV1 element definitions, and the SV106 "not used" constraint. https://x12.org/products/technical-reports
+[238] X12: ASC X12N 005010X221A1 (835 remittance advice), 005010X214 (277CA claim acknowledgment), and 005010X231 (TA1/999 acknowledgments) — the four transactions of the acknowledgment ladder in Appendix E.3. https://x12.org/products/technical-reports
+[239] X12: claim status category codes — **A3** is "rejected and **has not been entered into the adjudication system**"; **A1** receipt explicitly "does not mean that the claim has been accepted for adjudication." The normative basis for reject-is-not-denial. https://x12.org/codes
+[240] X12: claim adjustment group codes — **exactly four** in the 5010 835 (CO, PR, PI, OA). **`CR` is not a valid group code**, despite appearing in most industry training material; reversals are expressed structurally as CLP02=22. https://x12.org/codes
+[241] ⚠ CMS / CGS: 837P EDI Companion Guide — delimiters declared positionally in the ISA (do not hard-code `:`), and edit X222.351.2400.SV106.010 rejecting a diagnosis pointer placed in SV106. https://www.cgsmedicare.com/
+[242] CAQH CORE: EFT and ERA reassociation operating rules — the three-field match (ACH effective date ↔ BPR16, amount ↔ BPR02, addenda payment-related-information ↔ TRN), the ±3-business-day delivery window at 90% conformance, and the NACHA CCD+ addenda requirement. Also documents payers omitting the trace number in practice. https://www.caqh.org/hipaa/core-operating-rules
+
+---
+
+## Appendix E: The Artifacts
+
+_The book has been describing these files for twenty chapters. Here they are._
+
+Everything below is **synthetic**. Names, identifiers, and account numbers are fabricated; the NPIs begin with 9, which is not currently issued, so they cannot collide with a real provider. **This is not PHI and must never be replaced with real PHI in a document you share.**
+
+Why this appendix exists: Chapter 18 asks you to normalize inbound X12 into a canonical object, and until now the book had never shown you what inbound X12 looks like. You cannot design a parser for a format you have only read *about*. Read this once before you write any ingestion code, and come back to it when a field name stops making sense.
+
+---
+
+### E.1 — An 837P, annotated: Maria's cardiac catheterization
+
+**Level 1.** A claim is a text file of asterisk-separated lines, each starting with a two-or-three letter tag.
+
+**Level 2.** It is four nested boxes: an *envelope* (this file, from us, to you), a *hierarchy* (this billing provider → this subscriber → this patient), a *claim* (one visit), and *lines* (one per billable thing). Everything else is bookkeeping. Every "X12 is impossibly complex" complaint is really a complaint about the **code lists**, not the structure — and the code lists are just lookup tables.
+
+**Level 3.** Here is Maria's catheterization as an 837P — the professional claim format (005010X222A1).
+
+```
+ISA*00*          *00*          *ZZ*NCARDBILL01    *ZZ*MERIDIANHP01   *260615*1430*^*00501*000000101*1*T*:~
+GS*HC*NCARDBILL01*MERIDIANHP01*20260615*1430*101*X*005010X222A1~
+ST*837*0001*005010X222A1~
+BHT*0019*00*NCC20260615A*20260615*1430*CH~
+NM1*41*2*LAKESIDE CARDIOLOGY BILLING*****46*NCARDBILL01~
+PER*IC*BILLING OFFICE*TE*5555550142~
+NM1*40*2*MERIDIAN HEALTH PLAN*****46*MERIDIANHP01~
+HL*1**20*1~
+PRV*BI*PXC*207RC0000X~
+NM1*85*2*LAKESIDE CARDIOLOGY ASSOCIATES*****XX*9234567890~
+N3*100 SAMPLE MEDICAL PKWY*SUITE 400~
+N4*ANYTOWN*OH*430011234~
+REF*EI*123456789~
+HL*2*1*22*0~
+SBR*P*18*GRP0009988******CI~
+NM1*IL*1*ALVAREZ*MARIA*Q***MI*MHP987654321~
+N3*742 EXAMPLE LANE~
+N4*ANYTOWN*OH*430011234~
+DMG*D8*19681104*F~
+NM1*PR*2*MERIDIAN HEALTH PLAN*****PI*MERIDIANHP01~
+CLM*LCC-2026-0000871*2450***22:B:1*Y*A*Y*Y~
+DTP*431*D8*20260602~
+REF*G1*PA20260601XYZ~
+HI*ABK:I2510*ABF:R079~
+NM1*82*1*STONE*ALAN*B***XX*9122334455~
+PRV*PE*PXC*207RC0000X~
+LX*1~
+SV1*HC:93458:26*2450*UN*1***1:2~
+DTP*472*D8*20260615~
+REF*6R*L1~
+SE*30*0001~
+GE*1*101~
+IEA*1*000000101~
+```
+
+#### The lines that carry the money
+
+| Segment | What it is | Why you care |
+|---|---|---|
+| `ISA` | Interchange header. Fixed width — 105 characters, no exceptions | **Read the delimiters out of it positionally.** ISA11 declares the repetition separator; ISA16 declares the composite separator; the character right after ISA16 is the segment terminator |
+| `NM1*85` + `REF*EI` | Billing provider name (`XX` = NPI) and Tax ID | Who is asking to be paid |
+| `NM1*IL` | The subscriber — Maria (`MI` = member ID) | Who the coverage belongs to |
+| `SBR` | `P` = this payer is primary; `18` = patient is the subscriber; `CI` in **SBR09** = commercial | The claim filing indicator drives which rule set applies |
+| `CLM` | **The claim.** CLM01 = your control number; CLM02 = total charge; CLM05 = place of service composite | CLM02 **must equal the sum of every SV102.** It is a checksum, not a display field |
+| `REF*G1` | **The prior authorization number** | Remember this one. It is the field that produced Maria's denial |
+| `HI` | Diagnoses. `ABK` = principal ICD-10, `ABF` = additional | Codes go in **without the decimal**: I25.10 → `I2510` |
+| `SV1` | **The money line.** SV101 = composite of CPT + up to four modifiers; SV102 = charge; SV107 = diagnosis pointers | SV107's `1:2` are *ordinals into HI*, not the codes themselves |
+
+**Now the payoff sentence.** Every CO-16 "missing or invalid information" denial you will ever chase is **a field in this picture that was blank, malformed, or inconsistent with another field.** CO-16 is not a mystery; it is a pointer. Build your parser so that when CO-16 arrives you can answer *which field* — that capability alone is a product.
+
+#### Three specific traps, because they will cost you a week each
+
+**1. Count the asterisks in `SV1`.** Between SV104 and SV107 there are **three**. Sample files circulating on the internet — and in at least one state Medicaid companion guide — write `SV1*HC:99213*40*UN*1**1~` with two, which lands the diagnosis pointer in **SV106**. SV106 is marked NOT USED in the 837P, and CMS edit `X222.351.2400.SV106.010` rejects it at the 999 with `IK403 = I10: "Implementation 'Not Used' Element Present."` If you copied your SV1 builder from a blog post, check this today.
+
+**2. Do not hard-code the delimiters.** Conventional is `*` element, `:` composite, `~` terminator — but conventional is not mandatory, and X12 declares them per interchange inside the ISA. Medicare FFS files from at least one MAC use `>` as the composite separator. Hard-code `:` and you will mis-parse CLM05 and SV101 with **no clean error** — you get garbage that looks like data.
+
+**3. CLM01 is truncated on the way back.** You may send up to 38 characters, but Medicare stores and returns only the **first 20**. Design your account numbers so the first 20 characters are unique, or you will not be able to match the 835 to the claim you sent.
+
+_Structure and edit citations verified against the CMS/CGS 837P companion guide and the X12 005010X222A1 TR3 in July 2026._
+
+---
+
+### E.2 — The matching 835, annotated: what came back
+
+Maria's claim came back partially paid, with one line denied. Here is the remittance.
+
+**The single most important thing to understand about an 835:** it is **not a payment.** It is a *letter about* a payment. The money moved separately, over a different network, on a different day, into a different department of your own company. Your job is to marry the letter back to the cash — and the industry has a name for failing at it.
+
+```
+ISA*00*          *00*          *ZZ*MERIDIANHP01   *ZZ*NCARDBILL01    *260710*1430*^*00501*000012345*0*P*:~
+GS*HP*MERIDIANHP01*NCARDBILL01*20260710*1430*12345*X*005010X221A1~
+ST*835*0001~
+BPR*I*126.40*C*ACH*CCP*01*999999999*DA*9999999999*1999999999**01*999999998*DA*8888888888*20260713~
+TRN*1*0000123456789*1999999999~
+DTM*405*20260710~
+N1*PR*MERIDIAN HEALTH PLAN*XV*99999~
+N1*PE*LAKESIDE CARDIOLOGY ASSOCIATES*XX*9234567890~
+REF*TJ*123456789~
+LX*1~
+CLP*LCC-2026-0000871*1*1525.00*126.40*31.60*12*2026189000123*11~
+NM1*QC*1*ALVAREZ*MARIA****MI*MHP987654321~
+DTM*050*20260615~
+SVC*HC:99214*250*112**1~
+DTM*472*20260612~
+CAS*CO*45*110~
+CAS*PR*2*28~
+REF*6R*LINE001~
+AMT*B6*140~
+SVC*HC:93000*75*14.40**1~
+DTM*472*20260612~
+CAS*CO*45*57~
+CAS*PR*2*3.60~
+REF*6R*LINE002~
+AMT*B6*18~
+SVC*HC:93306*1200*0**1~
+DTM*472*20260612~
+CAS*CO*197*1200~
+REF*6R*LINE003~
+AMT*B6*0~
+SE*29*0001~
+GE*1*12345~
+IEA*1*000012345~
+```
+
+#### Reading it top to bottom
+
+**`BPR` — the financial header.** BPR01 is the field to read first. `I` means **Remittance Information Only — this file moves zero dollars.** The cash went out over ACH separately. BPR02 (`126.40`) must equal the deposit. BPR16 (`20260713`) is the EFT effective date. BPR12–15 identify *your* bank.
+
+> ⚠️ **BPR04 can legitimately be `NON`** — a zero-dollar remittance, typically an all-denials file. **If your posting engine filters on `BPR02 > 0`, you are silently discarding your denial feed.** This is a common and expensive bug, and it fails in the direction where nobody notices.
+
+**`TRN` — the trace number, and the reconciliation problem it exists to solve.** The money lands in your *treasury* department. The explanation lands in your *billing* department. Two teams, two systems, two arrival days, no shared key — unless someone carries one across. TRN is that key, and federal rule requires the payer to stuff the whole TRN segment into Field 3 of the ACH addenda record so the same number rides on both.
+
+The full match is **three fields, not one**: ACH effective date ↔ BPR16, ACH amount ↔ BPR02, ACH addenda payment-related-information ↔ TRN. Match on all three and reassociation automates. Match on the trace number alone and it breaks the first time a payer reformats one.
+
+Three things go wrong routinely, and none are your software's fault: the payer omits the trace number; the payer puts it in the ACH *Trace Number* field instead of the addenda field, where **NACHA rules require the originating bank to overwrite it** (destroyed in transit, by design, unrecoverable); or **your own bank never delivers the addenda record to you because nobody asked for it.** That last one is the single most common reason a practice cannot auto-post EFTs, and it is fixed with a phone call rather than a project.
+
+Timing: the operating rule permits the 835 to arrive up to three business days *before* or *after* the deposit, at only 90% conformance measured monthly. **A fully compliant payer can leave you sitting on unexplained cash for a week, ten percent of the time, forever.** Build for it.
+
+**`CLP` — the claim-level verdict.**
+
+| Element | Value | Meaning |
+|---|---|---|
+| CLP01 | `LCC-2026-0000871` | **Your** control number, echoed from CLM01 |
+| CLP02 | `1` | Claim status — processed as primary |
+| CLP03 | `1525.00` | Total charge |
+| CLP04 | `126.40` | Paid |
+| CLP05 | `31.60` | Patient responsibility |
+| CLP07 | `2026189000123` | **Their** claim control number — the ICN |
+
+**Burn CLP01 vs. CLP07 into your data model.** You *post* against CLP01. You *appeal* against CLP07. Systems that drop CLP07 at posting produce billing teams who cannot open an appeal without phoning the payer to look the claim up again.
+
+> ⚠️ **The correction that will save you from publishing a wrong denial rate: `CLP02 = 4` does not mean "denied."** X12 answered this directly — code 4 applies when the patient/subscriber is not recognized and the claim was not forwarded. "Processed" does not mean "paid." A claim denied for medical necessity comes back `CLP02=1` with `CLP04=0`. **Our specimen has an entire line denied and still reports `CLP02=1`.** Build a denial metric on `CLP02=4` and it will read near zero, and you will believe you have no denial problem. **You measure denials by walking the CAS segments.**
+
+**`CAS` — the segment that decides who eats the money.** One group code, then up to **six** repeating triplets of reason, amount, quantity. There are exactly four group codes:
+
+| Code | Name | Who eats it |
+|---|---|---|
+| **CO** | Contractual Obligation | **You do** — and correctly. A contract or regulation says so. Not billable to the patient, and **not a denial** |
+| **PR** | Patient Responsibility | **The patient does.** Deductible, coinsurance, copay |
+| **PI** | Payor Initiated Reduction | **You do — but not because you agreed to.** The plan reduced payment on its own initiative. **This is the one to work, not write off** |
+| **OA** | Other Adjustment | Only when nothing else applies. Usually a COB or routing artifact |
+
+> ⚠️ **Two corrections here, both of which cost real money.**
+>
+> **First: almost every training deck in this industry teaches five group codes, adding `CR` for "Correction and Reversal." `CR` is not valid in the 5010 835.** X12's current list has exactly four. Reversals are expressed structurally as `CLP02=22`, not through a group code.
+>
+> **Second: parsers routinely read CAS02/CAS03 and stop.** Five more reason/amount pairs can be sitting in the same segment. They vanish, the claim will not balance, and the gap gets written off as a rounding plug. **That is real money leaving through a parsing shortcut.**
+
+#### Now map the CAS lines back to Chapter 3's table
+
+| Line | Segment | Chapter 3 says | What actually happened |
+|---|---|---|---|
+| 99214 office visit | `CAS*CO*45*110` | CO-45 — charge exceeds fee schedule | Billed $250, contract allows $140. **The $110 gap is a contractual adjustment, correctly written off, and is not a denial.** Counting these as denials is how organizations report fictional denial rates |
+| 99214 office visit | `CAS*PR*2*28` | PR-2 — coinsurance | $28 moves to Maria. This is the patient-responsibility balance Chapter 4 is about |
+| 93000 EKG | `CAS*CO*45*57` | CO-45 | Same story, smaller number |
+| **93306 echo** | **`CAS*CO*197*1200`** | **CO-197 — precertification/authorization absent** | **This is Maria's denial.** $1,200 paid nothing. And the fix is upstream: `REF*G1` on the 837 carried an auth obtained for a different procedure code |
+
+**That single line — `CAS*CO*197*1200` — is the whole book in nine characters.** A human reads it, opens a payer portal, finds the prior auth, discovers the code mismatch, corrects it, and refiles. That is the ~$25–118 of cost-to-rework in Chapter 9, the labor Chapter 8's BPO sells, and the workflow this book's recommended wedge automates. Everything else is context.
+
+---
+
+### E.3 — The acknowledgment ladder: four gates before anyone adjudicates
+
+Chapter 2 says Maria's claim hit "two rejections" and never explains what a rejection *is* versus a denial. Here is the answer, and it is the distinction that separates people who understand revenue cycle from people who have merely worked in it.
+
+**A claim passes four independent gates before adjudication, and the money moves on a fifth track entirely.**
+
+| Gate | Transaction | What it checks | Who fixes a failure | Does the claim exist at the payer? | Timely-filing clock |
+|---|---|---|---|---|---|
+| **1. Envelope** | **TA1** | The ISA/IEA envelope only — IDs, control numbers, separators | **Engineering.** Correct and resubmit the entire interchange | **No** — nothing was read | **Still running** |
+| **2. Syntax** | **997** (legacy) | Raw X12 conformance. Superseded | Engineering | No | Still running |
+| **3. Implementation guide** | **999** | Conformance to the TR3 — situational rules, code lists, lengths. Strictly stronger than the 997 | **Engineering** | **No** | **Still running** |
+| **4. Payer front end** | **277CA** | Payer business edits, claim by claim: member found, provider enrolled, data internally consistent | **Billing** | **NO — and this is the one that hurts** | **STILL RUNNING** |
+| **5. Adjudication** | **835** | Benefits, medical policy, pricing, patient liability | Billing / denials | **Yes** — it has an ICN | **Stopped** |
+| Money | **EFT (ACH CCD+)** | Nothing. It is just cash | **Treasury**, plus your bank | n/a | n/a |
+
+#### A 277CA reject is not a denial
+
+X12 wrote the answer into the code description. Status category **A3**: *"Acknowledgement/Returned as unprocessable claim — The claim/encounter has been rejected and **has not been entered into the adjudication system**."* Compare A1: *"The claim/encounter has been received. **This does not mean that the claim has been accepted for adjudication.**"* **Receipt is not safety.**
+
+Follow the consequence. No adjudication → no adjudication result → **no 835 will ever be produced.** Payers say so plainly: Texas Medicaid warns that a rejected claim leaves *"no record of the transaction or of the claim"*; BCBSNC generates an 835 only for claims with a paid or denied record on file. CMS is blunter still about its own front-end gate — rejected submissions sit in temporary storage for ~60 days and are then purged, with *"no subsequent audit trail,"* because *"they are not considered claims under Medicare regulation."*
+
+And the clock never stopped. CMS: submissions not accepted *"will not be considered filed for purposes of determining timely filing."* The receipt date that actually stops the clock attaches only **after** the gate is passed.
+
+**Then it converts into an unappealable loss.** CMS again: *"When a claim is denied for having been filed after the timely filing period, such denial does not constitute an 'initial determination'. As such, the determination that a claim was not filed timely is not subject to appeal."*
+
+> **That is the whole trap. A 277CA reject you did not work becomes a CARC 29 you cannot appeal. There is no adjudicator to persuade, because there was never a claim.**
+
+#### The phantom receivable — and why the usual framing gets it backwards
+
+You will hear "rejected claims don't show up on your AR." **That is backwards, and the backwards version is less useful.**
+
+The problem is the opposite: **the claim *is* on your AR, and it looks perfectly healthy.** Your practice-management system booked the receivable when you submitted. The payer has no record of it. Many PM systems do not ingest 277CAs at all — and the 277CA is **not a HIPAA-mandated transaction**, so no payer is federally obliged to send you one.
+
+So the claim ages quietly through 30, 60, 90 days looking like a normal outstanding receivable. When someone finally calls, the payer says "no claim found," staff log it as a payer system error, and the real cause — a reject nobody read four months ago — is now past filing *and* past the purge window.
+
+**One more terminology trap, and it is nasty:** Medicare uses "rejection" in two incompatible senses. A *front-end* reject is not a claim, produces no remittance, and carries no appeal rights. A *post-acceptance* rejection **is** on the remittance and can be corrected and resubmitted. So when someone tells you "it rejected," that sentence carries no information. **The only question that resolves it: did it produce an 835?**
+
+#### What this means for what you build
+
+1. **Instrument all five gates, not just the 835.** Most shops monitor remittances and nothing else. Everything upstream fails silently *by design.*
+2. **Route by gate.** TA1 and 999 failures are engineering tickets; 277CA failures are billing tickets. One shared queue guarantees the engineering ones sit unworked — and a TA1 rejection means an entire *file* of claims is gone.
+3. **Reconcile submitted-claim counts against 277CA-accepted counts, daily.** The gap is your phantom-receivable balance. **This is the single highest-yield report nobody runs, and it is a defensible product on its own.**
+4. **Work 277CA rejects in days, not weeks.** It is the only category where delay converts a fixable problem into an unappealable one.
+
+_Verified against the X12 005010X214 and 005010X231 TR3s, CMS Internet-Only Manual guidance, and published payer companion guides in July 2026._
+
+---
+
+### E.4 — The denial letter and the appeal packet
+
+Chapter 3 teaches the appeals ladder. Line 24 of this book honestly says the *persuasion* — what argument actually wins with which payer — is tacit knowledge you cannot get from a document. That remains true. **But the mechanical half is entirely teachable, and it is the half you automate.**
+
+#### What arrives
+
+A denial reaches you twice, in two different registers. The **835** carries the machine-readable verdict (`CAS*CO*197*1200`). A **letter** — PDF, portal download, or paper — carries the human-readable version: patient and member ID, claim number (the ICN, matching CLP07), dates of service, the denied code, a narrative reason, the plan's citation for it, and, in the fine print, **the appeal deadline and the address or portal to use.**
+
+Those two artifacts disagree more often than you would expect, usually because the letter's narrative is a template that does not match the specific CARC. **Parse both. Treat the 835 as authoritative for amounts and the letter as authoritative for deadlines and the appeal path.**
+
+#### The six components of an appeal packet, and where each comes from
+
+| # | Component | Source system | Automatable? |
+|---|---|---|---|
+| 1 | **Cover letter** — patient, member ID, ICN, dates of service, the code being appealed, and one sentence stating what you want | Your system, from the 835 + letter | **Yes.** This is templated and should never be hand-typed |
+| 2 | **The clinical record** — the note supporting what was billed | EHR | **Retrieval yes, selection needs care.** Sending the wrong encounter is worse than sending nothing |
+| 3 | **The policy citation** — the payer's own medical policy, LCD/NCD, or contract language you are relying on | Your payer-rules store (Chapter 18) | **Yes, if your rule store carries source URLs and effective dates** — which is exactly why the schema in Chapter 18 has both |
+| 4 | **The argument** — why the record satisfies the policy | Human, or model-drafted and human-approved | **Draft yes, send no.** See the FCA guardrail in Chapter 18 |
+| 5 | **Supporting documentation** — the prior auth, the referral, the itemized bill, prior EOBs | Various | **Yes.** Mostly retrieval and assembly, which is unglamorous and reliably valuable |
+| 6 | **Proof of timely filing** — submission logs, clearinghouse acknowledgments, the 277CA acceptance | Your own system | **Yes — and keep it whether or not you are appealing.** It is the only defense against a wrongly-issued CARC 29 |
+
+**Notice the distribution.** Five of six components are retrieval, assembly, formatting, and citation lookup — deterministic work that a system does faster and more consistently than a person. **One component is judgment, and it is the one that carries legal weight.** That split is the shape of a correctly-scoped product in this space: automate the five, put a named human on the sixth, and log the attestation.
+
+#### Maria's appeal, concretely
+
+Her `CO-197` was not a clinical dispute at all. The prior authorization existed; it referenced a different procedure code than the one billed. So the packet is: cover letter citing ICN `2026189000123` and the denied CPT 93306; a copy of auth `PA20260601XYZ` showing it covers the procedure actually performed; the cath lab note; and one paragraph explaining the code mismatch. **No clinical argument, no medical-necessity judgment, no FCA exposure.**
+
+**That is the shape of the wedge this book recommends.** Not every denial is a persuasion problem. A large share are administrative mismatches with a documentary answer, and those are the ones to automate first — high volume, low judgment, unambiguous evidence. **Leave the medical-necessity appeals to the humans until you have earned the right to help with them.**
+
+---
 
 _This report synthesizes publicly available information as of July 2026 (originally compiled June 2026; fact-audited and refreshed July 20, 2026 — see Appendix C) and is intended as strategic analysis, not legal, financial, or investment advice. Market-size figures vary by source and definition; treat them as directional. Funding and deal figures are as reported and may change. Verify all regulatory and compliance specifics with qualified U.S. healthcare counsel before acting._
